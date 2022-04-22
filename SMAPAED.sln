@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMAPAED", "SMAPAED\SMAPAED.csproj", "{07D8DBCB-FEA4-4EC4-A34A-0ADC84322DAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D8DBCB-FEA4-4EC4-A34A-0ADC84322DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D8DBCB-FEA4-4EC4-A34A-0ADC84322DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D8DBCB-FEA4-4EC4-A34A-0ADC84322DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D8DBCB-FEA4-4EC4-A34A-0ADC84322DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC230634-F18D-4766-BA78-477C294EC129}
+	EndGlobalSection
+EndGlobal
