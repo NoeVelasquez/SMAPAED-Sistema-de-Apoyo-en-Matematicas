@@ -9,20 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AgentObjects;
 using DoubleAgentCtl;
-//using static SMAPAED.ConexionMySQLyForm;
+using static SMAPAED.ConexionMySQLyForm;
 
 namespace SMAPAED
 {
-    public partial class Form1 : Form
+    public partial class Inicio : Form
     {
         private AgentObjects.IAgentCtlCharacter Avatar;
         ConexionMySQLyForm cn = new ConexionMySQLyForm();
-        public Form1()
+        public Inicio()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Inicio_Load(object sender, EventArgs e)
         {
             ControlAg.Characters.Load("Robby", "Robby.acs");
             Avatar = (IAgentCtlCharacter)ControlAg.Characters["Robby"];
