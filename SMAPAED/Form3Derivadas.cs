@@ -28,8 +28,9 @@ namespace SMAPAED
             ControlAgEvaD.Characters.Load("Athena", "Athena.acs");
             Avatar = (IAgentCtlCharacter)ControlAgEvaD.Characters["Athena"];
             Avatar.Show(0);
-            Avatar.MoveTo(565, 284, 1);
-            Avatar.Speak("hola Bienvenido al sistema de apoyo para Matematicas");
+            Avatar.MoveTo(756, 34, 1);
+            Avatar.Speak("y ahora de Derivadas");
+            Avatar.Hide(50);
         }
 
 

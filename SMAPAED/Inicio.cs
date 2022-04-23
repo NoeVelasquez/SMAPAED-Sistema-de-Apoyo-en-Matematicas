@@ -27,8 +27,9 @@ namespace SMAPAED
             ControlAg.Characters.Load("Robby", "Robby.acs");
             Avatar = (IAgentCtlCharacter)ControlAg.Characters["Robby"];
             Avatar.Show(0);
-            Avatar.MoveTo(565, 284, 1);
+            Avatar.MoveTo(459, 35, 1);
             Avatar.Speak("hola Bienvenido al sistema de apoyo para Matematicas");
+            Avatar.Hide(50);
         }
 
         private void BtnIngresar_Click(object sender, EventArgs e)
@@ -44,6 +45,11 @@ namespace SMAPAED
             {
                 MessageBox.Show("Usuario No Existe :( ");
             }
+        }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

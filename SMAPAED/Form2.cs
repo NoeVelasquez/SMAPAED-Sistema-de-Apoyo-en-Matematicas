@@ -25,8 +25,9 @@ namespace SMAPAED
             ControlAgEVA.Characters.Load("Athena", "Athena.acs");
             Avatar = (IAgentCtlCharacter)ControlAgEVA.Characters["Athena"];
             Avatar.Show(0);
-            Avatar.MoveTo(565, 284, 1);
-            Avatar.Speak("Primeramente debe de realizar el test antes de ingresar");
+            Avatar.MoveTo(690,7, 1);
+            Avatar.Speak("Primeramente debe de realizar el test de funciones");
+            Avatar.Hide(50);
         }
         public struct Datos
         {

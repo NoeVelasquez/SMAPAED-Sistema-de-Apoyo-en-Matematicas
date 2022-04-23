@@ -76,7 +76,7 @@
             // ControlAgEvaD
             // 
             this.ControlAgEvaD.Enabled = true;
-            this.ControlAgEvaD.Location = new System.Drawing.Point(767, 2);
+            this.ControlAgEvaD.Location = new System.Drawing.Point(756, 34);
             this.ControlAgEvaD.Name = "ControlAgEvaD";
             this.ControlAgEvaD.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgEvaD.OcxState")));
             this.ControlAgEvaD.Size = new System.Drawing.Size(32, 32);
@@ -427,6 +427,7 @@
             // LblNotaFun
             // 
             this.LblNotaFun.AutoSize = true;
+            this.LblNotaFun.BackColor = System.Drawing.Color.Gainsboro;
             this.LblNotaFun.Font = new System.Drawing.Font("Lucida Fax", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblNotaFun.Location = new System.Drawing.Point(448, 396);
             this.LblNotaFun.Name = "LblNotaFun";
