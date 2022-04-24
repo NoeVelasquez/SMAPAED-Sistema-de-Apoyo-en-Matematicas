@@ -118,6 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnCerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        5AAAAOQBXaJ52AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAALNSURBVFhHzVY9
+        bxNBEB0+REAKdEggOiToQKKDijTIXicgpQhJfgA0gEQKREPDhyCKKKAgiSHpIAhoqYE0cYQoEEg0FEGO
+        kO/OmBDngnESWGb21nZub2zfnW3Bk55ub3d25t3t7uxAWBRA7LEgOYx8hHyLdJBrmtTGvsRDfA7l4cxu
+        Pa115CF1GB1Po+NVpAxJsp1y4NQh7SY6FmFgVw7EXXS0vslxVK7ZkBxbgJ6d2m04kHILxEfGYVxm8pDY
+        r903hgPiGE6gNeUcxSb+iUXkUR2Gh/fl7Q9eIYlwILVPh/OD1gmN3puT2k0bxDvaXzpsDXrD+SdsFXL5
+        /H25cnU6FIuXxqXdddrvg2EOEtd1WA/eUQvu9sLxyzIqlvpv+HzU4YpvKfQ5Dxh+P3lFOd3IOtIdfd6Q
+        65+yyvbH8GjAD0f8C+MquM5wbJKpCCi/+RAYM1maea1swwpAuipjYoPSK2cQW0BxJC3dW0+ltS3F2tYo
+        BkkA5XZmMJqAnxMvle2SuCY3FizVLj1+1UxEmgTQxcINRhJgd/erTWttEbJwYkT+WV5Vc0tPGorIkIC8
+        0VllFAEmfSKezUprey9nZ5OAstFZpSmgeOEBHonfqi8q3LEXAf/IX/+FgH++BO3bhBg0xiZUZRQ3GEmA
+        7xh+sVU7xDGcpD8wZHRWGUVAIBHdnGmaiHKQHMAaoKcbX1xzkBhXADfO0KXY6j7AlyljULEioBOXES29
+        Ck7QlRCV1z6jDl7HZRt6D+rwHqh6DRhSQXLuHlt8cCxexIJkR5/fB887OmwNuiTLGIad4NxnEF06rB9U
+        paBB1pjQTn79Bn0HdDgeVDpT9cpMbpX4YakjOkxjYIG614bELOMkLufqluP1QOtE1StOZnNESNJFd7vu
+        mocBKacCEh1FEUK26cBRawVexhSD6HgSk8g8Pm0kfSER24l5XLoJFHu2muGaAuAv55gQR5JbzdwAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
@@ -222,7 +241,7 @@
   <data name="BtnFunciones.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        qgAAAKoBBgpwTwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAQeSURBVEhLYyAH
+        qQAAAKkBq7NRIgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAQeSURBVEhLYyAH
         8IlKeMmoGV9X0DJ7pqBh8lRMVuWmoLhMO1CKC6KCAiCjarTEyjfj+4Ttr/7PPfYbjOcc/fU/s3XFLxEp
         hRtAJRIQlWSAjt3f5eIb1/2AGTx9/6f//Vufwi1qWX7lv4ikwlmgUkaIDhKBqqHLq6kHIYYFZzS/E5VS
         uCAup7ZLxcD+Xc+WF2Bxn4Sqj8zM7F5QLSQBVXPv9F8gQ+oXnvkvLC6/HirOwMrJaWbqlfpjztHf/1tX
@@ -252,25 +271,6 @@
         AAAAAAMAAQAAAAsA//8DAAAAAAALAP//CAACAAAAAAADADIAAAALAAAACAAKAAAAZgB1AGwAbAAAAAsA
         AAALAAAACwD//wsA//8LAAAACAACAAAAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAALAAAAwAcAAGEC
         AAAL
-</value>
-  </data>
-  <data name="BtnCerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        5QAAAOUBj+WbPAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAALNSURBVFhHzVY9
-        bxNBEB0+REAKdEggOiToQKKDijTIXicgpQhJfgA0gEQKREPDhyCKKKAgiSHpIAhoqYE0cYQoEEg0FEGO
-        kO/OmBDngnESWGb21nZub2zfnW3Bk55ub3d25t3t7uxAWBRA7LEgOYx8hHyLdJBrmtTGvsRDfA7l4cxu
-        Pa115CF1GB1Po+NVpAxJsp1y4NQh7SY6FmFgVw7EXXS0vslxVK7ZkBxbgJ6d2m04kHILxEfGYVxm8pDY
-        r903hgPiGE6gNeUcxSb+iUXkUR2Gh/fl7Q9eIYlwILVPh/OD1gmN3puT2k0bxDvaXzpsDXrD+SdsFXL5
-        /H25cnU6FIuXxqXdddrvg2EOEtd1WA/eUQvu9sLxyzIqlvpv+HzU4YpvKfQ5Dxh+P3lFOd3IOtIdfd6Q
-        65+yyvbH8GjAD0f8C+MquM5wbJKpCCi/+RAYM1maea1swwpAuipjYoPSK2cQW0BxJC3dW0+ltS3F2tYo
-        BkkA5XZmMJqAnxMvle2SuCY3FizVLj1+1UxEmgTQxcINRhJgd/erTWttEbJwYkT+WV5Vc0tPGorIkIC8
-        0VllFAEmfSKezUprey9nZ5OAstFZpSmgeOEBHonfqi8q3LEXAf/IX/+FgH++BO3bhBg0xiZUZRQ3GEmA
-        7xh+sVU7xDGcpD8wZHRWGUVAIBHdnGmaiHKQHMAaoKcbX1xzkBhXADfO0KXY6j7AlyljULEioBOXES29
-        Ck7QlRCV1z6jDl7HZRt6D+rwHqh6DRhSQXLuHlt8cCxexIJkR5/fB887OmwNuiTLGIad4NxnEF06rB9U
-        paBB1pjQTn79Bn0HdDgeVDpT9cpMbpX4YakjOkxjYIG614bELOMkLufqluP1QOtE1StOZnNESNJFd7vu
-        mocBKacCEh1FEUK26cBRawVexhSD6HgSk8g8Pm0kfSER24l5XLoJFHu2muGaAuAv55gQR5JbzdwAAAAA
-        SUVORK5CYII=
 </value>
   </data>
 </root>

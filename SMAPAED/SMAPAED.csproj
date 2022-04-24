@@ -92,6 +92,12 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
+    <Compile Include="Funciones\ExamenDominio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\ExamenDominio.Designer.cs">
+      <DependentUpon>ExamenDominio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones\Ejercicio2Dom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Funciones\ExamenDominio.resx">
+      <DependentUpon>ExamenDominio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Funciones\Ejercicio2Dom.resx">
       <DependentUpon>Ejercicio2Dom.cs</DependentUpon>
     </EmbeddedResource>

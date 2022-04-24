@@ -211,7 +211,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.flowLayoutPanel11);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(72, 265);
+            this.panel1.Location = new System.Drawing.Point(72, 269);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(110, 88);
             this.panel1.TabIndex = 18;
@@ -362,7 +362,7 @@
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 234);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 238);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
             this.flowLayoutPanel5.Size = new System.Drawing.Size(5, 32);
             this.flowLayoutPanel5.TabIndex = 10;
@@ -515,7 +515,7 @@
             this.button5.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(3, 234);
+            this.button5.Location = new System.Drawing.Point(3, 238);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(179, 32);
             this.button5.TabIndex = 9;
@@ -557,7 +557,7 @@
             this.BtnDominio.Name = "BtnDominio";
             this.BtnDominio.Size = new System.Drawing.Size(182, 32);
             this.BtnDominio.TabIndex = 5;
-            this.BtnDominio.Text = "Exponencial";
+            this.BtnDominio.Text = "Dominios";
             this.BtnDominio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnDominio.UseVisualStyleBackColor = false;
             this.BtnDominio.Click += new System.EventHandler(this.BtnDominio_Click);

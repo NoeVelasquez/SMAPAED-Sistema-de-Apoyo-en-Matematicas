@@ -45,6 +45,7 @@ namespace SMAPAED
         private void BtnExaDom_Click(object sender, EventArgs e)
         {
             SubmenuDominio.Visible = false;
+            AbrirEjercicioDom(new ExamenDominio());
         }
         private void AbrirIntroFuncion(object FormHijo)
         {
@@ -87,6 +88,22 @@ namespace SMAPAED
             }
 
             Form fh = FormHijo1 as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
+            fh.Show();
+
+        }
+        private void AbrirExamenDom(object FormHijo2)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+
+            }
+
+            Form fh = FormHijo2 as Form;
             fh.TopLevel = false;
             fh.Dock = DockStyle.Fill;
             this.PanelContenedor.Controls.Add(fh);
