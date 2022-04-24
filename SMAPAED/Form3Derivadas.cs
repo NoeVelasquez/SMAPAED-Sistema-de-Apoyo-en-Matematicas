@@ -33,7 +33,6 @@ namespace SMAPAED
             Avatar.Hide(50);
         }
 
-
         private void BtnVerificarDev_Click(object sender, EventArgs e)
         {
             int correctod = 0;
@@ -73,8 +72,8 @@ namespace SMAPAED
             {
                 MessageBox.Show("Pasas a Derivadas");
                 this.Hide();
-                Menu MenFun = new Menu();
-                MenFun.Show();
+                //Menu MenFun = new Menu();
+                //MenFun.Show();
             }
             else
             {

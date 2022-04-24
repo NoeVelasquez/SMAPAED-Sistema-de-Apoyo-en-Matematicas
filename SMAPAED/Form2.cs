@@ -68,7 +68,7 @@ namespace SMAPAED
             
             Datos info;
             info.datoFuncion = correcto;
-            if (correcto >= 2)
+            if (correcto <= 2)
             {
                 MessageBox.Show("Pasas al examen de derivadas");
                 this.Hide();

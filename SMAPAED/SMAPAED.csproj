@@ -110,6 +110,18 @@
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Funciones\IntroFuncion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\IntroFuncion.Designer.cs">
+      <DependentUpon>IntroFuncion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\IntroFunTeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\IntroFunTeo.Designer.cs">
+      <DependentUpon>IntroFunTeo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,8 +136,17 @@
     <EmbeddedResource Include="Form3Derivadas.resx">
       <DependentUpon>Form3Derivadas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\IntroFunTeo.resx">
+      <DependentUpon>IntroFunTeo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\IntroFuncion.resx">
+      <DependentUpon>IntroFuncion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -186,6 +207,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
