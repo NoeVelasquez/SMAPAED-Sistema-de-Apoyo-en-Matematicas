@@ -77,8 +77,13 @@ namespace SMAPAED
             }
             else
             {
+                this.Hide();
                 Menu MenFun = new Menu();
                 MenFun.Show();
+                Avatar.Show(0);
+                Avatar.MoveTo(690, 7, 1);
+                Avatar.Speak("Debemos de repasar sobre Funciones Vamos al Menu");
+                Avatar.Hide(50);
             }
             
         }

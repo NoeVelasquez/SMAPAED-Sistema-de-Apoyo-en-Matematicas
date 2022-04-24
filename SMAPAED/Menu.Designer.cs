@@ -64,13 +64,16 @@
             this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
             this.button8 = new System.Windows.Forms.Button();
             this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Video1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.BarraLateral.SuspendLayout();
             this.SubmenuDominio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PanelContenedor.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Video1)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTitulo
@@ -332,11 +335,13 @@
             // PanelContenedor
             // 
             this.PanelContenedor.BackColor = System.Drawing.Color.RosyBrown;
+            this.PanelContenedor.Controls.Add(this.Video1);
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenedor.Location = new System.Drawing.Point(140, 35);
             this.PanelContenedor.Name = "PanelContenedor";
             this.PanelContenedor.Size = new System.Drawing.Size(859, 510);
             this.PanelContenedor.TabIndex = 2;
+            this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
             // 
             // panel1
             // 
@@ -524,6 +529,15 @@
             this.flowLayoutPanel15.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel15.TabIndex = 17;
             // 
+            // Video1
+            // 
+            this.Video1.Enabled = true;
+            this.Video1.Location = new System.Drawing.Point(6, 6);
+            this.Video1.Name = "Video1";
+            this.Video1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Video1.OcxState")));
+            this.Video1.Size = new System.Drawing.Size(850, 501);
+            this.Video1.TabIndex = 0;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -539,8 +553,10 @@
             this.BarraLateral.ResumeLayout(false);
             this.SubmenuDominio.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.PanelContenedor.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Video1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -582,5 +598,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
+        private AxWMPLib.AxWindowsMediaPlayer Video1;
     }
 }

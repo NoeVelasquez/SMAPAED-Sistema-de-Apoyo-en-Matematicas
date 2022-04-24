@@ -16,7 +16,7 @@ namespace SMAPAED
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Inicio());
         }
     }
 }

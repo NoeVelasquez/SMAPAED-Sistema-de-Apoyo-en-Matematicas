@@ -22,10 +22,6 @@ namespace SMAPAED
             Application.Exit();
         }
 
-        private void button3_Click()
-        {
-
-        }
 
         private void BtnDominio_Click(object sender, EventArgs e)
         {
@@ -49,7 +45,11 @@ namespace SMAPAED
         private void AbrirIntroFuncion(object FormHijo)
         {
             if(this.PanelContenedor.Controls.Count>0)
+            {
                 this.PanelContenedor.Controls.RemoveAt(0);
+                
+            }
+           
             Form fh = FormHijo as Form;
             fh.TopLevel=false;
             fh.Dock=DockStyle.Fill;
@@ -62,6 +62,15 @@ namespace SMAPAED
         private void BtnFunciones_Click(object sender, EventArgs e)
         {
             AbrirIntroFuncion(new IntroFuncion());
+        }
+
+        private void PanelContenedor_Paint(object sender, PaintEventArgs e)
+        {   
+            string Text = ("C:/Users/noemi/Source/Repos/NoeVelasquez/SMAPAED-Sistema-de-Apoyo-en-Matematicas/SMAPAED/Videos/Funciones_ La MEJOR EXPLICACIÓN INFORMAL - Por Lic. María Inés Baragatti - UNLP.mp4");
+            
+            Video1.URL = Text;
+            Video1.Ctlcontrols.play();
+            Video1.Ctlcontrols.stop();
         }
     }
 }
