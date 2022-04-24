@@ -82,8 +82,10 @@ C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Inicio.resources
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Menu.resources
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.IntroFuncion.resources
-C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.IntroFunTeo.resources
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\bin\Debug\Interop.WMPLib.dll
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\Interop.WMPLib.dll
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.DominioVideo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Funciones.EjercicioDom.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Ejercicio2Dom.resources

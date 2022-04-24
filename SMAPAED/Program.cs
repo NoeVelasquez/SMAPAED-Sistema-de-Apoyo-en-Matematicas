@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SMAPAED.Funciones;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace SMAPAED
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+            Application.Run(new Menu());
         }
     }
 }

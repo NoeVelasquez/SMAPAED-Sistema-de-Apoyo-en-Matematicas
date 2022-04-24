@@ -92,6 +92,12 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
+    <Compile Include="Funciones\Ejercicio2Dom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Ejercicio2Dom.Designer.cs">
+      <DependentUpon>Ejercicio2Dom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,12 @@
     </Compile>
     <Compile Include="Form3Derivadas.Designer.cs">
       <DependentUpon>Form3Derivadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\EjercicioDom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\EjercicioDom.Designer.cs">
+      <DependentUpon>EjercicioDom.cs</DependentUpon>
     </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
@@ -116,11 +128,11 @@
     <Compile Include="Funciones\IntroFuncion.Designer.cs">
       <DependentUpon>IntroFuncion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funciones\IntroFunTeo.cs">
+    <Compile Include="Funciones\DominioVideo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones\IntroFunTeo.Designer.cs">
-      <DependentUpon>IntroFunTeo.cs</DependentUpon>
+    <Compile Include="Funciones\DominioVideo.Designer.cs">
+      <DependentUpon>DominioVideo.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -130,14 +142,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Funciones\Ejercicio2Dom.resx">
+      <DependentUpon>Ejercicio2Dom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3Derivadas.resx">
       <DependentUpon>Form3Derivadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Funciones\IntroFunTeo.resx">
-      <DependentUpon>IntroFunTeo.cs</DependentUpon>
+    <EmbeddedResource Include="Funciones\DominioVideo.resx">
+      <DependentUpon>DominioVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\EjercicioDom.resx">
+      <DependentUpon>EjercicioDom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -156,6 +174,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -227,6 +246,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\FExponencial\funcion-exponencial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\FExponencial\funcion-logaritmica-inversa.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
