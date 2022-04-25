@@ -92,6 +92,12 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
+    <Compile Include="Funciones\IntroFun\ExamenTipFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\IntroFun\ExamenTipFun.Designer.cs">
+      <DependentUpon>ExamenTipFun.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones\Dominio\ExamenDominio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     <Compile Include="Funciones\IntroFun\TiposFun.Designer.cs">
       <DependentUpon>TiposFun.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Funciones\IntroFun\ExamenTipFun.resx">
+      <DependentUpon>ExamenTipFun.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Funciones\Dominio\ExamenDominio.resx">
       <DependentUpon>ExamenDominio.cs</DependentUpon>
     </EmbeddedResource>

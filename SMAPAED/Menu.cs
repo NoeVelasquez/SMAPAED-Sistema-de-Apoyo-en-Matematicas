@@ -79,6 +79,22 @@ namespace SMAPAED
             fh.Show();
 
         }
+        private void AbrirExamFun(object FormHijo)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+
+            }
+
+            Form fh = FormHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
+            fh.Show();
+
+        }
         private void AbrirDominioVideo(object FormHijo)
         {
             if (this.PanelContenedor.Controls.Count > 0)
@@ -194,6 +210,11 @@ namespace SMAPAED
         private void BtnTipFun_Click(object sender, EventArgs e)
         {
             AbrirTipoFun(new TiposFun());
+        }
+
+        private void BtnExamFun_Click(object sender, EventArgs e)
+        {
+            AbrirExamFun(new ExamenTipFun());
         }
     }
 }
