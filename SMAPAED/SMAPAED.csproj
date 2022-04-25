@@ -92,16 +92,16 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
-    <Compile Include="Funciones\ExamenDominio.cs">
+    <Compile Include="Funciones\Dominio\ExamenDominio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones\ExamenDominio.Designer.cs">
+    <Compile Include="Funciones\Dominio\ExamenDominio.Designer.cs">
       <DependentUpon>ExamenDominio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funciones\Ejercicio2Dom.cs">
+    <Compile Include="Funciones\Dominio\Ejercicio2Dom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones\Ejercicio2Dom.Designer.cs">
+    <Compile Include="Funciones\Dominio\Ejercicio2Dom.Designer.cs">
       <DependentUpon>Ejercicio2Dom.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
@@ -116,10 +116,10 @@
     <Compile Include="Form3Derivadas.Designer.cs">
       <DependentUpon>Form3Derivadas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funciones\EjercicioDom.cs">
+    <Compile Include="Funciones\Dominio\EjercicioDom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones\EjercicioDom.Designer.cs">
+    <Compile Include="Funciones\Dominio\EjercicioDom.Designer.cs">
       <DependentUpon>EjercicioDom.cs</DependentUpon>
     </Compile>
     <Compile Include="Inicio.cs">
@@ -134,10 +134,10 @@
     <Compile Include="Funciones\IntroFuncion.Designer.cs">
       <DependentUpon>IntroFuncion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funciones\DominioVideo.cs">
+    <Compile Include="Funciones\Dominio\DominioVideo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Funciones\DominioVideo.Designer.cs">
+    <Compile Include="Funciones\Dominio\DominioVideo.Designer.cs">
       <DependentUpon>DominioVideo.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
@@ -148,10 +148,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Funciones\ExamenDominio.resx">
+    <Compile Include="Funciones\IntroFun\TiposFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\IntroFun\TiposFun.Designer.cs">
+      <DependentUpon>TiposFun.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Funciones\Dominio\ExamenDominio.resx">
       <DependentUpon>ExamenDominio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Funciones\Ejercicio2Dom.resx">
+    <EmbeddedResource Include="Funciones\Dominio\Ejercicio2Dom.resx">
       <DependentUpon>Ejercicio2Dom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
@@ -160,10 +166,10 @@
     <EmbeddedResource Include="Form3Derivadas.resx">
       <DependentUpon>Form3Derivadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Funciones\DominioVideo.resx">
+    <EmbeddedResource Include="Funciones\Dominio\DominioVideo.resx">
       <DependentUpon>DominioVideo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Funciones\EjercicioDom.resx">
+    <EmbeddedResource Include="Funciones\Dominio\EjercicioDom.resx">
       <DependentUpon>EjercicioDom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
@@ -185,6 +191,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Funciones\IntroFun\TiposFun.resx">
+      <DependentUpon>TiposFun.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

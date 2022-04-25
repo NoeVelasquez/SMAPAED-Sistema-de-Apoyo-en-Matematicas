@@ -44,7 +44,7 @@ namespace SMAPAED
 
         private void BtnExaDom_Click(object sender, EventArgs e)
         {
-            SubmenuDominio.Visible = false;
+            SubmenuDominio.Visible = true;
             AbrirEjercicioDom(new ExamenDominio());
         }
         private void AbrirIntroFuncion(object FormHijo)
@@ -60,6 +60,22 @@ namespace SMAPAED
             fh.Dock=DockStyle.Fill;
             this.PanelContenedor.Controls.Add(fh);
             this.PanelContenedor.Tag=fh;
+            fh.Show();
+
+        }
+        private void AbrirTipoFun(object FormHijo)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+
+            }
+
+            Form fh = FormHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
             fh.Show();
 
         }
@@ -113,7 +129,7 @@ namespace SMAPAED
         }
         private void BtnFunciones_Click(object sender, EventArgs e)
         {
-            AbrirIntroFuncion(new IntroFuncion());
+            SubmenuFunc.Visible = true;
         }
 
         public void PanelContenedor_Paint(object sender, PaintEventArgs e)
@@ -168,6 +184,16 @@ namespace SMAPAED
         private void BtnEj3Dom_Click(object sender, EventArgs e)
         {
             AbrirEjercicio2Dom(new Ejercicio2Dom());
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            AbrirIntroFuncion(new IntroFuncion());
+        }
+
+        private void BtnTipFun_Click(object sender, EventArgs e)
+        {
+            AbrirTipoFun(new TiposFun());
         }
     }
 }

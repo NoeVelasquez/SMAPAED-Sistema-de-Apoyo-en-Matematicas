@@ -39,7 +39,7 @@ namespace SMAPAED
         /*N1:funciones y tipos de funciones
          * N2: dominio y rango
          * N3:Funcion exponencial
-         * N4 Funcion Inversa
+         * N4 Funcion Trigonometrica
          * N5:Funcion Logaritmica*/
         private void BtnEntregarEx1_Click(object sender, EventArgs e)
         {
@@ -86,7 +86,7 @@ namespace SMAPAED
             }
             else if (NotaFinal > 61 && NotaFinal < 71)
             {
-                MessageBox.Show("Felicidades tiene " + NotaFinal + "puede ingresar a Funcion Inversa");
+                MessageBox.Show("Felicidades tiene " + NotaFinal + "puede ingresar a Funcion Trigonometrica");
             }
             else if(NotaFinal > 71)
             {

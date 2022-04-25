@@ -30,7 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.BarraLateral = new System.Windows.Forms.Panel();
+            this.SubmenuFunc = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnExamFun = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnIntFun = new System.Windows.Forms.Button();
+            this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnTipFun = new System.Windows.Forms.Button();
+            this.SubSubmenuEj34 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnEj3Dom = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
             this.button6 = new System.Windows.Forms.Button();
@@ -47,38 +59,34 @@
             this.button3 = new System.Windows.Forms.Button();
             this.SubmenuDominio = new System.Windows.Forms.Panel();
             this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnExaDom = new System.Windows.Forms.Button();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnEjDom = new System.Windows.Forms.Button();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.PanelContenedor = new System.Windows.Forms.Panel();
-            this.Video1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnViDom = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SubSubmenuEj34 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnEj3Dom = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.button5 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.button4 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnDominio = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnFunciones = new System.Windows.Forms.Button();
-            this.BtnCerrar = new System.Windows.Forms.PictureBox();
+            this.PanelContenedor = new System.Windows.Forms.Panel();
+            this.Video1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.BarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.BarraLateral.SuspendLayout();
+            this.SubmenuFunc.SuspendLayout();
+            this.SubSubmenuEj34.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SubmenuDominio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.PanelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Video1)).BeginInit();
-            this.SubSubmenuEj34.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTitulo
@@ -92,9 +100,32 @@
             this.BarraTitulo.Size = new System.Drawing.Size(1184, 35);
             this.BarraTitulo.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(167, 1);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(754, 31);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Sistema de Apoyo en Matematicas Area de Funciones\r\n";
+            // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.BackgroundImage")));
+            this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnCerrar.Location = new System.Drawing.Point(1149, 0);
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(32, 32);
+            this.BtnCerrar.TabIndex = 0;
+            this.BtnCerrar.TabStop = false;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            // 
             // BarraLateral
             // 
             this.BarraLateral.BackColor = System.Drawing.Color.DarkRed;
+            this.BarraLateral.Controls.Add(this.SubmenuFunc);
             this.BarraLateral.Controls.Add(this.SubSubmenuEj34);
             this.BarraLateral.Controls.Add(this.panel2);
             this.BarraLateral.Controls.Add(this.panel1);
@@ -111,8 +142,138 @@
             this.BarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.BarraLateral.Location = new System.Drawing.Point(0, 35);
             this.BarraLateral.Name = "BarraLateral";
-            this.BarraLateral.Size = new System.Drawing.Size(182, 516);
+            this.BarraLateral.Size = new System.Drawing.Size(182, 613);
             this.BarraLateral.TabIndex = 1;
+            // 
+            // SubmenuFunc
+            // 
+            this.SubmenuFunc.Controls.Add(this.flowLayoutPanel16);
+            this.SubmenuFunc.Controls.Add(this.BtnExamFun);
+            this.SubmenuFunc.Controls.Add(this.flowLayoutPanel2);
+            this.SubmenuFunc.Controls.Add(this.BtnIntFun);
+            this.SubmenuFunc.Controls.Add(this.flowLayoutPanel19);
+            this.SubmenuFunc.Controls.Add(this.BtnTipFun);
+            this.SubmenuFunc.Location = new System.Drawing.Point(12, 106);
+            this.SubmenuFunc.Name = "SubmenuFunc";
+            this.SubmenuFunc.Size = new System.Drawing.Size(171, 92);
+            this.SubmenuFunc.TabIndex = 18;
+            this.SubmenuFunc.Visible = false;
+            // 
+            // flowLayoutPanel16
+            // 
+            this.flowLayoutPanel16.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel16.Location = new System.Drawing.Point(-1, 63);
+            this.flowLayoutPanel16.Name = "flowLayoutPanel16";
+            this.flowLayoutPanel16.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel16.TabIndex = 23;
+            // 
+            // BtnExamFun
+            // 
+            this.BtnExamFun.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnExamFun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnExamFun.FlatAppearance.BorderSize = 0;
+            this.BtnExamFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnExamFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExamFun.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExamFun.ForeColor = System.Drawing.Color.White;
+            this.BtnExamFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExamFun.Location = new System.Drawing.Point(-1, 63);
+            this.BtnExamFun.Name = "BtnExamFun";
+            this.BtnExamFun.Size = new System.Drawing.Size(165, 24);
+            this.BtnExamFun.TabIndex = 22;
+            this.BtnExamFun.Text = "Examen";
+            this.BtnExamFun.UseVisualStyleBackColor = false;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(1, 3);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel2.TabIndex = 21;
+            // 
+            // BtnIntFun
+            // 
+            this.BtnIntFun.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnIntFun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnIntFun.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnIntFun.FlatAppearance.BorderSize = 0;
+            this.BtnIntFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnIntFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnIntFun.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIntFun.ForeColor = System.Drawing.Color.White;
+            this.BtnIntFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnIntFun.Location = new System.Drawing.Point(1, 3);
+            this.BtnIntFun.Name = "BtnIntFun";
+            this.BtnIntFun.Size = new System.Drawing.Size(164, 32);
+            this.BtnIntFun.TabIndex = 20;
+            this.BtnIntFun.Text = "Que son Funciones";
+            this.BtnIntFun.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.BtnIntFun.UseVisualStyleBackColor = false;
+            this.BtnIntFun.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // flowLayoutPanel19
+            // 
+            this.flowLayoutPanel19.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel19.Location = new System.Drawing.Point(0, 33);
+            this.flowLayoutPanel19.Name = "flowLayoutPanel19";
+            this.flowLayoutPanel19.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel19.TabIndex = 13;
+            // 
+            // BtnTipFun
+            // 
+            this.BtnTipFun.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnTipFun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnTipFun.FlatAppearance.BorderSize = 0;
+            this.BtnTipFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnTipFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnTipFun.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTipFun.ForeColor = System.Drawing.Color.White;
+            this.BtnTipFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnTipFun.Location = new System.Drawing.Point(0, 33);
+            this.BtnTipFun.Name = "BtnTipFun";
+            this.BtnTipFun.Size = new System.Drawing.Size(165, 24);
+            this.BtnTipFun.TabIndex = 12;
+            this.BtnTipFun.Text = "Tipos de Funciones";
+            this.BtnTipFun.UseVisualStyleBackColor = false;
+            this.BtnTipFun.Click += new System.EventHandler(this.BtnTipFun_Click);
+            // 
+            // SubSubmenuEj34
+            // 
+            this.SubSubmenuEj34.Controls.Add(this.flowLayoutPanel18);
+            this.SubSubmenuEj34.Controls.Add(this.BtnEj3Dom);
+            this.SubSubmenuEj34.Location = new System.Drawing.Point(128, 297);
+            this.SubSubmenuEj34.Name = "SubSubmenuEj34";
+            this.SubSubmenuEj34.Size = new System.Drawing.Size(54, 34);
+            this.SubSubmenuEj34.TabIndex = 18;
+            this.SubSubmenuEj34.Visible = false;
+            // 
+            // flowLayoutPanel18
+            // 
+            this.flowLayoutPanel18.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel18.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel18.Name = "flowLayoutPanel18";
+            this.flowLayoutPanel18.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel18.TabIndex = 13;
+            // 
+            // BtnEj3Dom
+            // 
+            this.BtnEj3Dom.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEj3Dom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEj3Dom.FlatAppearance.BorderSize = 0;
+            this.BtnEj3Dom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEj3Dom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEj3Dom.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Dom.ForeColor = System.Drawing.Color.White;
+            this.BtnEj3Dom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEj3Dom.Location = new System.Drawing.Point(0, 0);
+            this.BtnEj3Dom.Name = "BtnEj3Dom";
+            this.BtnEj3Dom.Size = new System.Drawing.Size(71, 24);
+            this.BtnEj3Dom.TabIndex = 12;
+            this.BtnEj3Dom.Text = "Ej 3-4";
+            this.BtnEj3Dom.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEj3Dom.UseVisualStyleBackColor = false;
+            this.BtnEj3Dom.Click += new System.EventHandler(this.BtnEj3Dom_Click);
             // 
             // panel2
             // 
@@ -122,7 +283,7 @@
             this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.flowLayoutPanel14);
             this.panel2.Controls.Add(this.button8);
-            this.panel2.Location = new System.Drawing.Point(72, 397);
+            this.panel2.Location = new System.Drawing.Point(72, 519);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(110, 88);
             this.panel2.TabIndex = 19;
@@ -211,7 +372,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.flowLayoutPanel11);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(72, 269);
+            this.panel1.Location = new System.Drawing.Point(72, 391);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(110, 88);
             this.panel1.TabIndex = 18;
@@ -301,7 +462,7 @@
             this.SubmenuDominio.Controls.Add(this.BtnEjDom);
             this.SubmenuDominio.Controls.Add(this.flowLayoutPanel6);
             this.SubmenuDominio.Controls.Add(this.BtnViDom);
-            this.SubmenuDominio.Location = new System.Drawing.Point(12, 153);
+            this.SubmenuDominio.Location = new System.Drawing.Point(12, 267);
             this.SubmenuDominio.Name = "SubmenuDominio";
             this.SubmenuDominio.Size = new System.Drawing.Size(110, 88);
             this.SubmenuDominio.TabIndex = 11;
@@ -314,6 +475,14 @@
             this.flowLayoutPanel15.Name = "flowLayoutPanel15";
             this.flowLayoutPanel15.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel15.TabIndex = 17;
+            // 
+            // flowLayoutPanel8
+            // 
+            this.flowLayoutPanel8.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 60);
+            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel8.TabIndex = 17;
             // 
             // BtnExaDom
             // 
@@ -359,66 +528,6 @@
             this.BtnEjDom.UseVisualStyleBackColor = false;
             this.BtnEjDom.Click += new System.EventHandler(this.BtnEjDom_Click);
             // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 238);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(5, 32);
-            this.flowLayoutPanel5.TabIndex = 10;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 359);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(5, 32);
-            this.flowLayoutPanel4.TabIndex = 8;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 115);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(5, 32);
-            this.flowLayoutPanel3.TabIndex = 6;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 77);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(5, 32);
-            this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // PanelContenedor
-            // 
-            this.PanelContenedor.BackColor = System.Drawing.Color.RosyBrown;
-            this.PanelContenedor.Controls.Add(this.Video1);
-            this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(182, 35);
-            this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(1002, 516);
-            this.PanelContenedor.TabIndex = 2;
-            this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
-            // 
-            // Video1
-            // 
-            this.Video1.Enabled = true;
-            this.Video1.Location = new System.Drawing.Point(23, 12);
-            this.Video1.Name = "Video1";
-            this.Video1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Video1.OcxState")));
-            this.Video1.Size = new System.Drawing.Size(935, 501);
-            this.Video1.TabIndex = 0;
-            // 
-            // flowLayoutPanel8
-            // 
-            this.flowLayoutPanel8.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(0, 60);
-            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel8.TabIndex = 17;
-            // 
             // flowLayoutPanel6
             // 
             this.flowLayoutPanel6.BackColor = System.Drawing.Color.LightCoral;
@@ -445,54 +554,6 @@
             this.BtnViDom.UseVisualStyleBackColor = false;
             this.BtnViDom.Click += new System.EventHandler(this.BtnViDom_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(167, 1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(754, 31);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Sistema de Apoyo en Matematicas Area de Funciones\r\n";
-            // 
-            // SubSubmenuEj34
-            // 
-            this.SubSubmenuEj34.Controls.Add(this.flowLayoutPanel18);
-            this.SubSubmenuEj34.Controls.Add(this.BtnEj3Dom);
-            this.SubSubmenuEj34.Location = new System.Drawing.Point(128, 183);
-            this.SubSubmenuEj34.Name = "SubSubmenuEj34";
-            this.SubSubmenuEj34.Size = new System.Drawing.Size(54, 34);
-            this.SubSubmenuEj34.TabIndex = 18;
-            this.SubSubmenuEj34.Visible = false;
-            // 
-            // flowLayoutPanel18
-            // 
-            this.flowLayoutPanel18.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel18.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel18.Name = "flowLayoutPanel18";
-            this.flowLayoutPanel18.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel18.TabIndex = 13;
-            // 
-            // BtnEj3Dom
-            // 
-            this.BtnEj3Dom.BackColor = System.Drawing.Color.DarkRed;
-            this.BtnEj3Dom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BtnEj3Dom.FlatAppearance.BorderSize = 0;
-            this.BtnEj3Dom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.BtnEj3Dom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Dom.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEj3Dom.ForeColor = System.Drawing.Color.White;
-            this.BtnEj3Dom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEj3Dom.Location = new System.Drawing.Point(0, 0);
-            this.BtnEj3Dom.Name = "BtnEj3Dom";
-            this.BtnEj3Dom.Size = new System.Drawing.Size(71, 24);
-            this.BtnEj3Dom.TabIndex = 12;
-            this.BtnEj3Dom.Text = "Ej 3-4";
-            this.BtnEj3Dom.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEj3Dom.UseVisualStyleBackColor = false;
-            this.BtnEj3Dom.Click += new System.EventHandler(this.BtnEj3Dom_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
@@ -503,6 +564,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 360);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(5, 32);
+            this.flowLayoutPanel5.TabIndex = 10;
             // 
             // button5
             // 
@@ -515,13 +584,21 @@
             this.button5.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(3, 238);
+            this.button5.Location = new System.Drawing.Point(3, 360);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(179, 32);
             this.button5.TabIndex = 9;
             this.button5.Text = "Introduccion";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = false;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 481);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(5, 32);
+            this.flowLayoutPanel4.TabIndex = 8;
             // 
             // button4
             // 
@@ -534,13 +611,21 @@
             this.button4.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 359);
+            this.button4.Location = new System.Drawing.Point(0, 481);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(182, 32);
             this.button4.TabIndex = 7;
             this.button4.Text = "Introduccion";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = false;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 229);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(5, 32);
+            this.flowLayoutPanel3.TabIndex = 6;
             // 
             // BtnDominio
             // 
@@ -553,7 +638,7 @@
             this.BtnDominio.Font = new System.Drawing.Font("Lucida Calligraphy", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDominio.ForeColor = System.Drawing.Color.White;
             this.BtnDominio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnDominio.Location = new System.Drawing.Point(0, 115);
+            this.BtnDominio.Location = new System.Drawing.Point(0, 229);
             this.BtnDominio.Name = "BtnDominio";
             this.BtnDominio.Size = new System.Drawing.Size(182, 32);
             this.BtnDominio.TabIndex = 5;
@@ -561,6 +646,14 @@
             this.BtnDominio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnDominio.UseVisualStyleBackColor = false;
             this.BtnDominio.Click += new System.EventHandler(this.BtnDominio_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 77);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(5, 32);
+            this.flowLayoutPanel1.TabIndex = 2;
             // 
             // BtnFunciones
             // 
@@ -583,22 +676,31 @@
             this.BtnFunciones.UseVisualStyleBackColor = false;
             this.BtnFunciones.Click += new System.EventHandler(this.BtnFunciones_Click);
             // 
-            // BtnCerrar
+            // PanelContenedor
             // 
-            this.BtnCerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.BackgroundImage")));
-            this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCerrar.Location = new System.Drawing.Point(1149, 0);
-            this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(32, 32);
-            this.BtnCerrar.TabIndex = 0;
-            this.BtnCerrar.TabStop = false;
-            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            this.PanelContenedor.BackColor = System.Drawing.Color.RosyBrown;
+            this.PanelContenedor.Controls.Add(this.Video1);
+            this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelContenedor.Location = new System.Drawing.Point(182, 35);
+            this.PanelContenedor.Name = "PanelContenedor";
+            this.PanelContenedor.Size = new System.Drawing.Size(1002, 613);
+            this.PanelContenedor.TabIndex = 2;
+            this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
+            // 
+            // Video1
+            // 
+            this.Video1.Enabled = true;
+            this.Video1.Location = new System.Drawing.Point(23, 12);
+            this.Video1.Name = "Video1";
+            this.Video1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Video1.OcxState")));
+            this.Video1.Size = new System.Drawing.Size(935, 501);
+            this.Video1.TabIndex = 0;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 551);
+            this.ClientSize = new System.Drawing.Size(1184, 648);
             this.Controls.Add(this.PanelContenedor);
             this.Controls.Add(this.BarraLateral);
             this.Controls.Add(this.BarraTitulo);
@@ -607,15 +709,16 @@
             this.Load += new System.EventHandler(this.Menu_Load);
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             this.BarraLateral.ResumeLayout(false);
+            this.SubmenuFunc.ResumeLayout(false);
+            this.SubSubmenuEj34.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.SubmenuDominio.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.PanelContenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Video1)).EndInit();
-            this.SubSubmenuEj34.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -662,5 +765,12 @@
         private System.Windows.Forms.Panel SubSubmenuEj34;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel18;
         private System.Windows.Forms.Button BtnEj3Dom;
+        private System.Windows.Forms.Panel SubmenuFunc;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel19;
+        private System.Windows.Forms.Button BtnTipFun;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button BtnIntFun;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
+        private System.Windows.Forms.Button BtnExamFun;
     }
 }
