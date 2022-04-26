@@ -32,6 +32,14 @@
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.BarraLateral = new System.Windows.Forms.Panel();
+            this.SubMenuLog = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnExaLoga = new System.Windows.Forms.Button();
+            this.flowLayoutPanel20 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnEjLoga = new System.Windows.Forms.Button();
+            this.flowLayoutPanel21 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnVidLoga = new System.Windows.Forms.Button();
+            this.flowLayoutPanel22 = new System.Windows.Forms.FlowLayoutPanel();
             this.SubmenuFunc = new System.Windows.Forms.Panel();
             this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnExamFun = new System.Windows.Forms.Button();
@@ -42,20 +50,20 @@
             this.SubSubmenuEj34 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnEj3Dom = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.SubMenuTrigo = new System.Windows.Forms.Panel();
             this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button6 = new System.Windows.Forms.Button();
+            this.BtnExaTrigo = new System.Windows.Forms.Button();
             this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.BtnEjTrigo = new System.Windows.Forms.Button();
             this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnVidTrigo = new System.Windows.Forms.Button();
+            this.SubmenuExpo = new System.Windows.Forms.Panel();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnExaExpo = new System.Windows.Forms.Button();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BtnEjExpo = new System.Windows.Forms.Button();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnVideoExpo = new System.Windows.Forms.Button();
             this.SubmenuDominio = new System.Windows.Forms.Panel();
             this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
@@ -70,33 +78,37 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.PanelContenedor = new System.Windows.Forms.Panel();
             this.Video1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SubSubmenuEj3Expo = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel23 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnEje3Expo = new System.Windows.Forms.Button();
+            this.SubSubmenuEj3Trigo = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel24 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnEj3Trigo = new System.Windows.Forms.Button();
+            this.SubMenuEj3Log = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnEj3Loga = new System.Windows.Forms.Button();
+            this.BtnLogaritmico = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtnTrigonometrica = new System.Windows.Forms.Button();
             this.BtnDominio = new System.Windows.Forms.Button();
             this.BtnFunciones = new System.Windows.Forms.Button();
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel20 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel21 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel22 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button12 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BarraTitulo.SuspendLayout();
             this.BarraLateral.SuspendLayout();
+            this.SubMenuLog.SuspendLayout();
             this.SubmenuFunc.SuspendLayout();
             this.SubSubmenuEj34.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.SubMenuTrigo.SuspendLayout();
+            this.SubmenuExpo.SuspendLayout();
             this.SubmenuDominio.SuspendLayout();
             this.PanelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Video1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SubSubmenuEj3Expo.SuspendLayout();
+            this.SubSubmenuEj3Trigo.SuspendLayout();
+            this.SubMenuEj3Log.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
-            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTitulo
@@ -125,18 +137,21 @@
             // BarraLateral
             // 
             this.BarraLateral.BackColor = System.Drawing.Color.DarkRed;
-            this.BarraLateral.Controls.Add(this.panel3);
+            this.BarraLateral.Controls.Add(this.SubMenuEj3Log);
+            this.BarraLateral.Controls.Add(this.SubSubmenuEj3Trigo);
+            this.BarraLateral.Controls.Add(this.SubSubmenuEj3Expo);
+            this.BarraLateral.Controls.Add(this.SubMenuLog);
             this.BarraLateral.Controls.Add(this.flowLayoutPanel22);
-            this.BarraLateral.Controls.Add(this.button12);
+            this.BarraLateral.Controls.Add(this.BtnLogaritmico);
             this.BarraLateral.Controls.Add(this.SubmenuFunc);
             this.BarraLateral.Controls.Add(this.SubSubmenuEj34);
-            this.BarraLateral.Controls.Add(this.panel2);
-            this.BarraLateral.Controls.Add(this.panel1);
+            this.BarraLateral.Controls.Add(this.SubMenuTrigo);
+            this.BarraLateral.Controls.Add(this.SubmenuExpo);
             this.BarraLateral.Controls.Add(this.SubmenuDominio);
             this.BarraLateral.Controls.Add(this.flowLayoutPanel5);
             this.BarraLateral.Controls.Add(this.button5);
             this.BarraLateral.Controls.Add(this.flowLayoutPanel4);
-            this.BarraLateral.Controls.Add(this.button4);
+            this.BarraLateral.Controls.Add(this.BtnTrigonometrica);
             this.BarraLateral.Controls.Add(this.flowLayoutPanel3);
             this.BarraLateral.Controls.Add(this.BtnDominio);
             this.BarraLateral.Controls.Add(this.flowLayoutPanel1);
@@ -146,6 +161,107 @@
             this.BarraLateral.Name = "BarraLateral";
             this.BarraLateral.Size = new System.Drawing.Size(182, 627);
             this.BarraLateral.TabIndex = 1;
+            this.BarraLateral.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraLateral_Paint);
+            // 
+            // SubMenuLog
+            // 
+            this.SubMenuLog.Controls.Add(this.flowLayoutPanel17);
+            this.SubMenuLog.Controls.Add(this.BtnExaLoga);
+            this.SubMenuLog.Controls.Add(this.flowLayoutPanel20);
+            this.SubMenuLog.Controls.Add(this.BtnEjLoga);
+            this.SubMenuLog.Controls.Add(this.flowLayoutPanel21);
+            this.SubMenuLog.Controls.Add(this.BtnVidLoga);
+            this.SubMenuLog.Location = new System.Drawing.Point(14, 539);
+            this.SubMenuLog.Name = "SubMenuLog";
+            this.SubMenuLog.Size = new System.Drawing.Size(110, 88);
+            this.SubMenuLog.TabIndex = 22;
+            this.SubMenuLog.Visible = false;
+            // 
+            // flowLayoutPanel17
+            // 
+            this.flowLayoutPanel17.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel17.Location = new System.Drawing.Point(0, 60);
+            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
+            this.flowLayoutPanel17.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel17.TabIndex = 17;
+            // 
+            // BtnExaLoga
+            // 
+            this.BtnExaLoga.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnExaLoga.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnExaLoga.FlatAppearance.BorderSize = 0;
+            this.BtnExaLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnExaLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExaLoga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaLoga.ForeColor = System.Drawing.Color.White;
+            this.BtnExaLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExaLoga.Location = new System.Drawing.Point(0, 60);
+            this.BtnExaLoga.Name = "BtnExaLoga";
+            this.BtnExaLoga.Size = new System.Drawing.Size(110, 24);
+            this.BtnExaLoga.TabIndex = 16;
+            this.BtnExaLoga.Text = "Examen";
+            this.BtnExaLoga.UseVisualStyleBackColor = false;
+            this.BtnExaLoga.Click += new System.EventHandler(this.BtnExaLoga_Click);
+            // 
+            // flowLayoutPanel20
+            // 
+            this.flowLayoutPanel20.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel20.Location = new System.Drawing.Point(0, 30);
+            this.flowLayoutPanel20.Name = "flowLayoutPanel20";
+            this.flowLayoutPanel20.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel20.TabIndex = 15;
+            // 
+            // BtnEjLoga
+            // 
+            this.BtnEjLoga.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEjLoga.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEjLoga.FlatAppearance.BorderSize = 0;
+            this.BtnEjLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEjLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEjLoga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjLoga.ForeColor = System.Drawing.Color.White;
+            this.BtnEjLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEjLoga.Location = new System.Drawing.Point(0, 30);
+            this.BtnEjLoga.Name = "BtnEjLoga";
+            this.BtnEjLoga.Size = new System.Drawing.Size(110, 24);
+            this.BtnEjLoga.TabIndex = 14;
+            this.BtnEjLoga.Text = "Ejercicios";
+            this.BtnEjLoga.UseVisualStyleBackColor = false;
+            this.BtnEjLoga.Click += new System.EventHandler(this.BtnEjLoga_Click);
+            // 
+            // flowLayoutPanel21
+            // 
+            this.flowLayoutPanel21.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel21.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel21.Name = "flowLayoutPanel21";
+            this.flowLayoutPanel21.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel21.TabIndex = 13;
+            // 
+            // BtnVidLoga
+            // 
+            this.BtnVidLoga.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnVidLoga.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnVidLoga.FlatAppearance.BorderSize = 0;
+            this.BtnVidLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnVidLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVidLoga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVidLoga.ForeColor = System.Drawing.Color.White;
+            this.BtnVidLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnVidLoga.Location = new System.Drawing.Point(0, 0);
+            this.BtnVidLoga.Name = "BtnVidLoga";
+            this.BtnVidLoga.Size = new System.Drawing.Size(110, 24);
+            this.BtnVidLoga.TabIndex = 12;
+            this.BtnVidLoga.Text = "Video";
+            this.BtnVidLoga.UseVisualStyleBackColor = false;
+            this.BtnVidLoga.Click += new System.EventHandler(this.BtnVidLoga_Click);
+            // 
+            // flowLayoutPanel22
+            // 
+            this.flowLayoutPanel22.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel22.Location = new System.Drawing.Point(0, 506);
+            this.flowLayoutPanel22.Name = "flowLayoutPanel22";
+            this.flowLayoutPanel22.Size = new System.Drawing.Size(5, 32);
+            this.flowLayoutPanel22.TabIndex = 21;
             // 
             // SubmenuFunc
             // 
@@ -278,19 +394,20 @@
             this.BtnEj3Dom.UseVisualStyleBackColor = false;
             this.BtnEj3Dom.Click += new System.EventHandler(this.BtnEj3Dom_Click);
             // 
-            // panel2
+            // SubMenuTrigo
             // 
-            this.panel2.Controls.Add(this.flowLayoutPanel12);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.flowLayoutPanel13);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.flowLayoutPanel14);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Location = new System.Drawing.Point(73, 419);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(110, 88);
-            this.panel2.TabIndex = 19;
-            this.panel2.Visible = false;
+            this.SubMenuTrigo.Controls.Add(this.flowLayoutPanel12);
+            this.SubMenuTrigo.Controls.Add(this.BtnExaTrigo);
+            this.SubMenuTrigo.Controls.Add(this.flowLayoutPanel13);
+            this.SubMenuTrigo.Controls.Add(this.BtnEjTrigo);
+            this.SubMenuTrigo.Controls.Add(this.flowLayoutPanel14);
+            this.SubMenuTrigo.Controls.Add(this.BtnVidTrigo);
+            this.SubMenuTrigo.Location = new System.Drawing.Point(13, 419);
+            this.SubMenuTrigo.Name = "SubMenuTrigo";
+            this.SubMenuTrigo.Size = new System.Drawing.Size(110, 88);
+            this.SubMenuTrigo.TabIndex = 19;
+            this.SubMenuTrigo.Visible = false;
+            this.SubMenuTrigo.Paint += new System.Windows.Forms.PaintEventHandler(this.SubMenuTrigo_Paint);
             // 
             // flowLayoutPanel12
             // 
@@ -300,22 +417,23 @@
             this.flowLayoutPanel12.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel12.TabIndex = 17;
             // 
-            // button6
+            // BtnExaTrigo
             // 
-            this.button6.BackColor = System.Drawing.Color.DarkRed;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 60);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(110, 24);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "Examen";
-            this.button6.UseVisualStyleBackColor = false;
+            this.BtnExaTrigo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnExaTrigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnExaTrigo.FlatAppearance.BorderSize = 0;
+            this.BtnExaTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnExaTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExaTrigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaTrigo.ForeColor = System.Drawing.Color.White;
+            this.BtnExaTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExaTrigo.Location = new System.Drawing.Point(0, 60);
+            this.BtnExaTrigo.Name = "BtnExaTrigo";
+            this.BtnExaTrigo.Size = new System.Drawing.Size(110, 24);
+            this.BtnExaTrigo.TabIndex = 16;
+            this.BtnExaTrigo.Text = "Examen";
+            this.BtnExaTrigo.UseVisualStyleBackColor = false;
+            this.BtnExaTrigo.Click += new System.EventHandler(this.BtnExaTrigo_Click);
             // 
             // flowLayoutPanel13
             // 
@@ -325,22 +443,23 @@
             this.flowLayoutPanel13.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel13.TabIndex = 15;
             // 
-            // button7
+            // BtnEjTrigo
             // 
-            this.button7.BackColor = System.Drawing.Color.DarkRed;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 30);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(110, 24);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "Ejercicios";
-            this.button7.UseVisualStyleBackColor = false;
+            this.BtnEjTrigo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEjTrigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEjTrigo.FlatAppearance.BorderSize = 0;
+            this.BtnEjTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEjTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEjTrigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjTrigo.ForeColor = System.Drawing.Color.White;
+            this.BtnEjTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEjTrigo.Location = new System.Drawing.Point(0, 30);
+            this.BtnEjTrigo.Name = "BtnEjTrigo";
+            this.BtnEjTrigo.Size = new System.Drawing.Size(110, 24);
+            this.BtnEjTrigo.TabIndex = 14;
+            this.BtnEjTrigo.Text = "Ejercicios";
+            this.BtnEjTrigo.UseVisualStyleBackColor = false;
+            this.BtnEjTrigo.Click += new System.EventHandler(this.BtnEjTrigo_Click);
             // 
             // flowLayoutPanel14
             // 
@@ -350,36 +469,37 @@
             this.flowLayoutPanel14.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel14.TabIndex = 13;
             // 
-            // button8
+            // BtnVidTrigo
             // 
-            this.button8.BackColor = System.Drawing.Color.DarkRed;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(110, 24);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "Video";
-            this.button8.UseVisualStyleBackColor = false;
+            this.BtnVidTrigo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnVidTrigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnVidTrigo.FlatAppearance.BorderSize = 0;
+            this.BtnVidTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnVidTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVidTrigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVidTrigo.ForeColor = System.Drawing.Color.White;
+            this.BtnVidTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnVidTrigo.Location = new System.Drawing.Point(0, 0);
+            this.BtnVidTrigo.Name = "BtnVidTrigo";
+            this.BtnVidTrigo.Size = new System.Drawing.Size(110, 24);
+            this.BtnVidTrigo.TabIndex = 12;
+            this.BtnVidTrigo.Text = "Video";
+            this.BtnVidTrigo.UseVisualStyleBackColor = false;
+            this.BtnVidTrigo.Click += new System.EventHandler(this.BtnVidTrigo_Click);
             // 
-            // panel1
+            // SubmenuExpo
             // 
-            this.panel1.Controls.Add(this.flowLayoutPanel9);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.flowLayoutPanel10);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.flowLayoutPanel11);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(73, 293);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(110, 88);
-            this.panel1.TabIndex = 18;
-            this.panel1.Visible = false;
+            this.SubmenuExpo.Controls.Add(this.flowLayoutPanel9);
+            this.SubmenuExpo.Controls.Add(this.BtnExaExpo);
+            this.SubmenuExpo.Controls.Add(this.flowLayoutPanel10);
+            this.SubmenuExpo.Controls.Add(this.BtnEjExpo);
+            this.SubmenuExpo.Controls.Add(this.flowLayoutPanel11);
+            this.SubmenuExpo.Controls.Add(this.BtnVideoExpo);
+            this.SubmenuExpo.Location = new System.Drawing.Point(14, 287);
+            this.SubmenuExpo.Name = "SubmenuExpo";
+            this.SubmenuExpo.Size = new System.Drawing.Size(110, 88);
+            this.SubmenuExpo.TabIndex = 18;
+            this.SubmenuExpo.Visible = false;
             // 
             // flowLayoutPanel9
             // 
@@ -389,22 +509,23 @@
             this.flowLayoutPanel9.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel9.TabIndex = 17;
             // 
-            // button1
+            // BtnExaExpo
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkRed;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 60);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 24);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Examen";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnExaExpo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnExaExpo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnExaExpo.FlatAppearance.BorderSize = 0;
+            this.BtnExaExpo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnExaExpo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExaExpo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaExpo.ForeColor = System.Drawing.Color.White;
+            this.BtnExaExpo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExaExpo.Location = new System.Drawing.Point(0, 60);
+            this.BtnExaExpo.Name = "BtnExaExpo";
+            this.BtnExaExpo.Size = new System.Drawing.Size(110, 24);
+            this.BtnExaExpo.TabIndex = 16;
+            this.BtnExaExpo.Text = "Examen";
+            this.BtnExaExpo.UseVisualStyleBackColor = false;
+            this.BtnExaExpo.Click += new System.EventHandler(this.BtnExaExpo_Click);
             // 
             // flowLayoutPanel10
             // 
@@ -414,22 +535,23 @@
             this.flowLayoutPanel10.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel10.TabIndex = 15;
             // 
-            // button2
+            // BtnEjExpo
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkRed;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 30);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 24);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Ejercicios";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BtnEjExpo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEjExpo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEjExpo.FlatAppearance.BorderSize = 0;
+            this.BtnEjExpo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEjExpo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEjExpo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjExpo.ForeColor = System.Drawing.Color.White;
+            this.BtnEjExpo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEjExpo.Location = new System.Drawing.Point(0, 30);
+            this.BtnEjExpo.Name = "BtnEjExpo";
+            this.BtnEjExpo.Size = new System.Drawing.Size(110, 24);
+            this.BtnEjExpo.TabIndex = 14;
+            this.BtnEjExpo.Text = "Ejercicios";
+            this.BtnEjExpo.UseVisualStyleBackColor = false;
+            this.BtnEjExpo.Click += new System.EventHandler(this.BtnEjExpo_Click);
             // 
             // flowLayoutPanel11
             // 
@@ -439,22 +561,23 @@
             this.flowLayoutPanel11.Size = new System.Drawing.Size(5, 24);
             this.flowLayoutPanel11.TabIndex = 13;
             // 
-            // button3
+            // BtnVideoExpo
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkRed;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 24);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Video";
-            this.button3.UseVisualStyleBackColor = false;
+            this.BtnVideoExpo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnVideoExpo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnVideoExpo.FlatAppearance.BorderSize = 0;
+            this.BtnVideoExpo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnVideoExpo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVideoExpo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVideoExpo.ForeColor = System.Drawing.Color.White;
+            this.BtnVideoExpo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnVideoExpo.Location = new System.Drawing.Point(0, 0);
+            this.BtnVideoExpo.Name = "BtnVideoExpo";
+            this.BtnVideoExpo.Size = new System.Drawing.Size(110, 24);
+            this.BtnVideoExpo.TabIndex = 12;
+            this.BtnVideoExpo.Text = "Video";
+            this.BtnVideoExpo.UseVisualStyleBackColor = false;
+            this.BtnVideoExpo.Click += new System.EventHandler(this.button3_Click);
             // 
             // SubmenuDominio
             // 
@@ -609,16 +732,137 @@
             this.Video1.Size = new System.Drawing.Size(935, 501);
             this.Video1.TabIndex = 0;
             // 
-            // pictureBox1
+            // SubSubmenuEj3Expo
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 44);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.SubSubmenuEj3Expo.Controls.Add(this.flowLayoutPanel23);
+            this.SubSubmenuEj3Expo.Controls.Add(this.BtnEje3Expo);
+            this.SubSubmenuEj3Expo.Location = new System.Drawing.Point(130, 317);
+            this.SubSubmenuEj3Expo.Name = "SubSubmenuEj3Expo";
+            this.SubSubmenuEj3Expo.Size = new System.Drawing.Size(54, 34);
+            this.SubSubmenuEj3Expo.TabIndex = 19;
+            this.SubSubmenuEj3Expo.Visible = false;
+            this.SubSubmenuEj3Expo.Paint += new System.Windows.Forms.PaintEventHandler(this.SubSubmenuEj3Expo_Paint);
+            // 
+            // flowLayoutPanel23
+            // 
+            this.flowLayoutPanel23.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel23.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel23.Name = "flowLayoutPanel23";
+            this.flowLayoutPanel23.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel23.TabIndex = 13;
+            // 
+            // BtnEje3Expo
+            // 
+            this.BtnEje3Expo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEje3Expo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEje3Expo.FlatAppearance.BorderSize = 0;
+            this.BtnEje3Expo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEje3Expo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEje3Expo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEje3Expo.ForeColor = System.Drawing.Color.White;
+            this.BtnEje3Expo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEje3Expo.Location = new System.Drawing.Point(0, 0);
+            this.BtnEje3Expo.Name = "BtnEje3Expo";
+            this.BtnEje3Expo.Size = new System.Drawing.Size(71, 24);
+            this.BtnEje3Expo.TabIndex = 12;
+            this.BtnEje3Expo.Text = "Ej 3-4";
+            this.BtnEje3Expo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEje3Expo.UseVisualStyleBackColor = false;
+            this.BtnEje3Expo.Click += new System.EventHandler(this.BtnEje3Expo_Click);
+            // 
+            // SubSubmenuEj3Trigo
+            // 
+            this.SubSubmenuEj3Trigo.Controls.Add(this.flowLayoutPanel24);
+            this.SubSubmenuEj3Trigo.Controls.Add(this.BtnEj3Trigo);
+            this.SubSubmenuEj3Trigo.Location = new System.Drawing.Point(123, 449);
+            this.SubSubmenuEj3Trigo.Name = "SubSubmenuEj3Trigo";
+            this.SubSubmenuEj3Trigo.Size = new System.Drawing.Size(54, 34);
+            this.SubSubmenuEj3Trigo.TabIndex = 20;
+            this.SubSubmenuEj3Trigo.Visible = false;
+            // 
+            // flowLayoutPanel24
+            // 
+            this.flowLayoutPanel24.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel24.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel24.Name = "flowLayoutPanel24";
+            this.flowLayoutPanel24.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel24.TabIndex = 13;
+            // 
+            // BtnEj3Trigo
+            // 
+            this.BtnEj3Trigo.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEj3Trigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEj3Trigo.FlatAppearance.BorderSize = 0;
+            this.BtnEj3Trigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEj3Trigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEj3Trigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Trigo.ForeColor = System.Drawing.Color.White;
+            this.BtnEj3Trigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEj3Trigo.Location = new System.Drawing.Point(0, 0);
+            this.BtnEj3Trigo.Name = "BtnEj3Trigo";
+            this.BtnEj3Trigo.Size = new System.Drawing.Size(71, 24);
+            this.BtnEj3Trigo.TabIndex = 12;
+            this.BtnEj3Trigo.Text = "Ej 3-4";
+            this.BtnEj3Trigo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEj3Trigo.UseVisualStyleBackColor = false;
+            this.BtnEj3Trigo.Click += new System.EventHandler(this.BtnEj3Trigo_Click);
+            // 
+            // SubMenuEj3Log
+            // 
+            this.SubMenuEj3Log.Controls.Add(this.flowLayoutPanel25);
+            this.SubMenuEj3Log.Controls.Add(this.BtnEj3Loga);
+            this.SubMenuEj3Log.Location = new System.Drawing.Point(128, 574);
+            this.SubMenuEj3Log.Name = "SubMenuEj3Log";
+            this.SubMenuEj3Log.Size = new System.Drawing.Size(54, 34);
+            this.SubMenuEj3Log.TabIndex = 20;
+            this.SubMenuEj3Log.Visible = false;
+            // 
+            // flowLayoutPanel25
+            // 
+            this.flowLayoutPanel25.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel25.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel25.Name = "flowLayoutPanel25";
+            this.flowLayoutPanel25.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel25.TabIndex = 13;
+            // 
+            // BtnEj3Loga
+            // 
+            this.BtnEj3Loga.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnEj3Loga.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnEj3Loga.FlatAppearance.BorderSize = 0;
+            this.BtnEj3Loga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnEj3Loga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEj3Loga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Loga.ForeColor = System.Drawing.Color.White;
+            this.BtnEj3Loga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEj3Loga.Location = new System.Drawing.Point(0, 0);
+            this.BtnEj3Loga.Name = "BtnEj3Loga";
+            this.BtnEj3Loga.Size = new System.Drawing.Size(71, 24);
+            this.BtnEj3Loga.TabIndex = 12;
+            this.BtnEj3Loga.Text = "Ej 3-4";
+            this.BtnEj3Loga.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEj3Loga.UseVisualStyleBackColor = false;
+            this.BtnEj3Loga.Click += new System.EventHandler(this.BtnEj3Loga_Click);
+            // 
+            // BtnLogaritmico
+            // 
+            this.BtnLogaritmico.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnLogaritmico.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnLogaritmico.BackgroundImage")));
+            this.BtnLogaritmico.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnLogaritmico.FlatAppearance.BorderSize = 0;
+            this.BtnLogaritmico.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnLogaritmico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnLogaritmico.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLogaritmico.ForeColor = System.Drawing.Color.White;
+            this.BtnLogaritmico.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnLogaritmico.Location = new System.Drawing.Point(0, 506);
+            this.BtnLogaritmico.Name = "BtnLogaritmico";
+            this.BtnLogaritmico.Size = new System.Drawing.Size(182, 32);
+            this.BtnLogaritmico.TabIndex = 20;
+            this.BtnLogaritmico.Text = "Logaritmicas";
+            this.BtnLogaritmico.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnLogaritmico.UseVisualStyleBackColor = false;
+            this.BtnLogaritmico.Click += new System.EventHandler(this.BtnLogaritmico_Click);
             // 
             // button5
             // 
@@ -638,25 +882,27 @@
             this.button5.Text = "Exponencial";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button4
+            // BtnTrigonometrica
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkRed;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(1, 381);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(182, 32);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Trigonometrica";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = false;
+            this.BtnTrigonometrica.BackColor = System.Drawing.Color.DarkRed;
+            this.BtnTrigonometrica.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnTrigonometrica.BackgroundImage")));
+            this.BtnTrigonometrica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BtnTrigonometrica.FlatAppearance.BorderSize = 0;
+            this.BtnTrigonometrica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.BtnTrigonometrica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnTrigonometrica.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTrigonometrica.ForeColor = System.Drawing.Color.White;
+            this.BtnTrigonometrica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnTrigonometrica.Location = new System.Drawing.Point(1, 381);
+            this.BtnTrigonometrica.Name = "BtnTrigonometrica";
+            this.BtnTrigonometrica.Size = new System.Drawing.Size(182, 32);
+            this.BtnTrigonometrica.TabIndex = 7;
+            this.BtnTrigonometrica.Text = "Trigonometrica";
+            this.BtnTrigonometrica.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnTrigonometrica.UseVisualStyleBackColor = false;
+            this.BtnTrigonometrica.Click += new System.EventHandler(this.BtnTrigonometrica_Click);
             // 
             // BtnDominio
             // 
@@ -711,121 +957,16 @@
             this.BtnCerrar.TabStop = false;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
-            // panel3
+            // pictureBox1
             // 
-            this.panel3.Controls.Add(this.flowLayoutPanel17);
-            this.panel3.Controls.Add(this.button9);
-            this.panel3.Controls.Add(this.flowLayoutPanel20);
-            this.panel3.Controls.Add(this.button10);
-            this.panel3.Controls.Add(this.flowLayoutPanel21);
-            this.panel3.Controls.Add(this.button11);
-            this.panel3.Location = new System.Drawing.Point(72, 544);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(110, 88);
-            this.panel3.TabIndex = 22;
-            this.panel3.Visible = false;
-            // 
-            // flowLayoutPanel17
-            // 
-            this.flowLayoutPanel17.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel17.Location = new System.Drawing.Point(0, 60);
-            this.flowLayoutPanel17.Name = "flowLayoutPanel17";
-            this.flowLayoutPanel17.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel17.TabIndex = 17;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.DarkRed;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(0, 60);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(110, 24);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "Examen";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // flowLayoutPanel20
-            // 
-            this.flowLayoutPanel20.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel20.Location = new System.Drawing.Point(0, 30);
-            this.flowLayoutPanel20.Name = "flowLayoutPanel20";
-            this.flowLayoutPanel20.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel20.TabIndex = 15;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.DarkRed;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(0, 30);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(110, 24);
-            this.button10.TabIndex = 14;
-            this.button10.Text = "Ejercicios";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // flowLayoutPanel21
-            // 
-            this.flowLayoutPanel21.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel21.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel21.Name = "flowLayoutPanel21";
-            this.flowLayoutPanel21.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel21.TabIndex = 13;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.DarkRed;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(0, 0);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(110, 24);
-            this.button11.TabIndex = 12;
-            this.button11.Text = "Video";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // flowLayoutPanel22
-            // 
-            this.flowLayoutPanel22.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel22.Location = new System.Drawing.Point(0, 506);
-            this.flowLayoutPanel22.Name = "flowLayoutPanel22";
-            this.flowLayoutPanel22.Size = new System.Drawing.Size(5, 32);
-            this.flowLayoutPanel22.TabIndex = 21;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.DarkRed;
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(0, 506);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(182, 32);
-            this.button12.TabIndex = 20;
-            this.button12.Text = "Logaritmicas";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button12.UseVisualStyleBackColor = false;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(13, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(130, 44);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Menu
             // 
@@ -842,16 +983,19 @@
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
             this.BarraLateral.ResumeLayout(false);
+            this.SubMenuLog.ResumeLayout(false);
             this.SubmenuFunc.ResumeLayout(false);
             this.SubSubmenuEj34.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
+            this.SubMenuTrigo.ResumeLayout(false);
+            this.SubmenuExpo.ResumeLayout(false);
             this.SubmenuDominio.ResumeLayout(false);
             this.PanelContenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Video1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.SubSubmenuEj3Expo.ResumeLayout(false);
+            this.SubSubmenuEj3Trigo.ResumeLayout(false);
+            this.SubMenuEj3Log.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
-            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -868,27 +1012,27 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnTrigonometrica;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button BtnDominio;
         private System.Windows.Forms.Panel SubmenuDominio;
         private System.Windows.Forms.Button BtnExaDom;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel7;
         private System.Windows.Forms.Button BtnEjDom;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel SubMenuTrigo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button BtnExaTrigo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button BtnEjTrigo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button BtnVidTrigo;
+        private System.Windows.Forms.Panel SubmenuExpo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnExaExpo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnEjExpo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BtnVideoExpo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
         private AxWMPLib.AxWindowsMediaPlayer Video1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
@@ -905,14 +1049,23 @@
         private System.Windows.Forms.Button BtnIntFun;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
         private System.Windows.Forms.Button BtnExamFun;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel SubMenuLog;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel17;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button BtnExaLoga;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel20;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button BtnEjLoga;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel21;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button BtnVidLoga;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel22;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button BtnLogaritmico;
+        private System.Windows.Forms.Panel SubMenuEj3Log;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel25;
+        private System.Windows.Forms.Button BtnEj3Loga;
+        private System.Windows.Forms.Panel SubSubmenuEj3Trigo;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel24;
+        private System.Windows.Forms.Button BtnEj3Trigo;
+        private System.Windows.Forms.Panel SubSubmenuEj3Expo;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel23;
+        private System.Windows.Forms.Button BtnEje3Expo;
     }
 }

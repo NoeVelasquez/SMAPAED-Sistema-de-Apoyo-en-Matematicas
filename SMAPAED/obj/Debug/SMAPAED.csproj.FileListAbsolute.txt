@@ -92,3 +92,15 @@ C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.ExamenDominio.resources
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.TiposFun.resources
 C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.ExamenTipFun.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.VideoExpo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Ejer2Expo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.EjerExpo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.ExamenExponencial.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.EjercicioTrigo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.VideoTrigo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Ejericcio2Trigo.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.ExamenTrigonometricas.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.Ejercicio2Logar.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.EjercicioLogar.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.ExamenLogaritmicos.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.VideoLogar.resources

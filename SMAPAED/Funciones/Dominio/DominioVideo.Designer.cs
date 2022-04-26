@@ -48,6 +48,7 @@
             this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
             this.ControlAgTED.Size = new System.Drawing.Size(32, 32);
             this.ControlAgTED.TabIndex = 1;
+            this.ControlAgTED.ActivateInput += new AxDoubleAgentCtl._DaCtlEvents2_ActivateInputEventHandler(this.ControlAgTED_ActivateInput);
             // 
             // webBrowser1
             // 
@@ -56,6 +57,7 @@
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(590, 340);
             this.webBrowser1.TabIndex = 2;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // DomVid2
             // 

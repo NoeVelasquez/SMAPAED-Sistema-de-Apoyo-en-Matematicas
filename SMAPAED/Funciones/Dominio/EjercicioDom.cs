@@ -59,5 +59,30 @@ namespace SMAPAED.Funciones
             Ejercicio2Dom IrTED = new Ejercicio2Dom();
             IrTED.Show();
         }
+
+        private void Ejemplo1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SolucionEj1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SolucionEj2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

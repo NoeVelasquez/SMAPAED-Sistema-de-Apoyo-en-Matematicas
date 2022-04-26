@@ -37,9 +37,26 @@ namespace SMAPAED
             //txtLink.Text.Split('=')[1]
             this.webBrowser1.DocumentText = string.Format(html, text);
             //webBrowser1.Navigate($https://youtu.be/Ll7xfe3HoZE);,
-            Avatar.Speak("La función exponencial es aquella que a cada valor real {x} le asigna la potencia a elevado a la X con a mayor cero y a distinto a 1. Esta función se expresa");
+            Avatar.Speak("Pensad por ejemplo en la función 1 sobre x " +
+                "donde la x puede tomar cualquier valor. " +
+                "¿Se puede calcular la función cuando tomamos el valor x = 0? " +
+                " Si tienes dudas, coge la calculadora e intenta calcularlo. " +
+                "Esta regla es muy importante en matemáticas: no se puede " +
+                "dividir por cero.Se aplicarán otras, como por ejemplo, " +
+                "que no se puede calcular la raíz cuadrada de un número " +
+                "negativo(siempre que no vayamos a trabajar con números " +
+                "complejos, pero es alejarnos de nuestro objetivo). ");
             Avatar.Hide(50);
         }
 
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+        private void ControlAgTED_ActivateInput(object sender, AxDoubleAgentCtl._DaCtlEvents2_ActivateInputEvent e)
+        {
+
+        }
     }
 }

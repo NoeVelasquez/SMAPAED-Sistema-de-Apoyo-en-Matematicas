@@ -38,5 +38,25 @@ namespace SMAPAED
         {
             SolucionEj2.Visible = true;
         }
+
+        private void Ejemplo1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SolucionEj1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SolucionEj2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -92,6 +92,60 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
+    <Compile Include="Funciones\Logaritmicos\Ejercicio2Logar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\Ejercicio2Logar.Designer.cs">
+      <DependentUpon>Ejercicio2Logar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\EjercicioLogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\EjercicioLogar.Designer.cs">
+      <DependentUpon>EjercicioLogar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\ExamenLogaritmicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\ExamenLogaritmicos.Designer.cs">
+      <DependentUpon>ExamenLogaritmicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\EjercicioTrigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\EjercicioTrigo.Designer.cs">
+      <DependentUpon>EjercicioTrigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\Ejericcio2Trigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\Ejericcio2Trigo.Designer.cs">
+      <DependentUpon>Ejericcio2Trigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\ExamenTrigonometricas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\ExamenTrigonometricas.Designer.cs">
+      <DependentUpon>ExamenTrigonometricas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\Ejer2Expo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\Ejer2Expo.Designer.cs">
+      <DependentUpon>Ejer2Expo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\EjerExpo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\EjerExpo.Designer.cs">
+      <DependentUpon>EjerExpo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\ExamenExponencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\ExamenExponencial.Designer.cs">
+      <DependentUpon>ExamenExponencial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones\IntroFun\ExamenTipFun.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +214,36 @@
     <Compile Include="Funciones\IntroFun\TiposFun.Designer.cs">
       <DependentUpon>TiposFun.cs</DependentUpon>
     </Compile>
+    <Compile Include="Funciones\Exponencial\VideoExpo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Exponencial\VideoExpo.Designer.cs">
+      <DependentUpon>VideoExpo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\VideoTrigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Trigonometricas\VideoTrigo.Designer.cs">
+      <DependentUpon>VideoTrigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\VideoLogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones\Logaritmicos\VideoLogar.Designer.cs">
+      <DependentUpon>VideoLogar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Funciones\Exponencial\Ejer2Expo.resx">
+      <DependentUpon>Ejer2Expo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Exponencial\EjerExpo.resx">
+      <DependentUpon>EjerExpo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Exponencial\ExamenExponencial.resx">
+      <DependentUpon>ExamenExponencial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Exponencial\VideoExpo.resx">
+      <DependentUpon>VideoExpo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Funciones\IntroFun\ExamenTipFun.resx">
       <DependentUpon>ExamenTipFun.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +264,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Funciones\Dominio\EjercicioDom.resx">
       <DependentUpon>EjercicioDom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Logaritmicos\Ejercicio2Logar.resx">
+      <DependentUpon>Ejercicio2Logar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Logaritmicos\EjercicioLogar.resx">
+      <DependentUpon>EjercicioLogar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Logaritmicos\ExamenLogaritmicos.resx">
+      <DependentUpon>ExamenLogaritmicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Logaritmicos\VideoLogar.resx">
+      <DependentUpon>VideoLogar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Trigonometricas\EjercicioTrigo.resx">
+      <DependentUpon>EjercicioTrigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Trigonometricas\Ejericcio2Trigo.resx">
+      <DependentUpon>Ejericcio2Trigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Trigonometricas\ExamenTrigonometricas.resx">
+      <DependentUpon>ExamenTrigonometricas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones\Trigonometricas\VideoTrigo.resx">
+      <DependentUpon>VideoTrigo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>

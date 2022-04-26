@@ -17,13 +17,13 @@ namespace SMAPAED
         {
             InitializeComponent();
         }
-
+    
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-
+        /*Menu de Dominio*/
         private void BtnDominio_Click(object sender, EventArgs e)
         {
             SubmenuDominio.Visible=true;
@@ -47,6 +47,7 @@ namespace SMAPAED
             SubmenuDominio.Visible = true;
             AbrirEjercicioDom(new ExamenDominio());
         }
+        /*AREA PARA INTRO A FUNCIONES*/
         private void AbrirIntroFuncion(object FormHijo)
         {
             if(this.PanelContenedor.Controls.Count>0)
@@ -95,6 +96,7 @@ namespace SMAPAED
             fh.Show();
 
         }
+        /* AREA PARA DOMINIOS*/
         private void AbrirDominioVideo(object FormHijo)
         {
             if (this.PanelContenedor.Controls.Count > 0)
@@ -201,7 +203,7 @@ namespace SMAPAED
         {
             AbrirEjercicio2Dom(new Ejercicio2Dom());
         }
-
+        /*MENU DE INTRODUCCION A FUNCIONES*/
         private void button9_Click(object sender, EventArgs e)
         {
             AbrirIntroFuncion(new IntroFuncion());
@@ -215,6 +217,155 @@ namespace SMAPAED
         private void BtnExamFun_Click(object sender, EventArgs e)
         {
             AbrirExamFun(new ExamenTipFun());
+        }
+        /*MENU DE EXPONENCIAL*/
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SubmenuExpo.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SubmenuExpo.Visible = false;
+            AbrirMenuExponencial(new VideoExpo());
+        }
+
+        private void BtnEjExpo_Click(object sender, EventArgs e)
+        {
+            SubSubmenuEj3Expo.Visible = true;
+            AbrirMenuExponencial(new EjerExpo());
+        }
+
+        private void BtnEje3Expo_Click(object sender, EventArgs e)
+        {
+            
+            AbrirMenuExponencial(new Ejer2Expo());
+        }
+
+        private void BtnExaExpo_Click(object sender, EventArgs e)
+        {
+            SubmenuExpo.Visible = true;
+            AbrirMenuExponencial(new ExamenExponencial());
+        }
+        private void AbrirMenuExponencial(object FormHijo)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+
+            }
+
+            Form fh = FormHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
+            fh.Show();
+
+        }
+        /*MENU DE Trigonometrica*/
+        private void BtnTrigonometrica_Click(object sender, EventArgs e)
+        {
+            SubMenuTrigo.Visible = true;
+        }
+
+        private void BtnVidTrigo_Click(object sender, EventArgs e)
+        {
+            SubMenuTrigo.Visible = false;
+            AbrirMenuTrigonometrico(new VideoTrigo());
+        }
+
+        private void BtnEjTrigo_Click(object sender, EventArgs e)
+        {
+            SubSubmenuEj3Trigo.Visible = true;
+            AbrirMenuTrigonometrico(new EjercicioTrigo());
+        }
+
+        private void BtnEj3Trigo_Click(object sender, EventArgs e)
+        {
+            AbrirMenuTrigonometrico(new Ejericcio2Trigo());
+        }
+
+        private void BtnExaTrigo_Click(object sender, EventArgs e)
+        {
+            SubMenuTrigo.Visible = true;
+            AbrirMenuTrigonometrico(new ExamenTrigonometricas());
+        }
+        private void AbrirMenuTrigonometrico(object FormHijo)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+
+            }
+
+            Form fh = FormHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
+            fh.Show();
+
+        }
+
+        private void BarraLateral_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SubSubmenuEj3Expo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        /*MENU DE Logaritmicas*/
+        private void BtnLogaritmico_Click(object sender, EventArgs e)
+        {
+            SubMenuLog.Visible = true;
+        }
+
+        private void BtnVidLoga_Click(object sender, EventArgs e)
+        {
+            SubMenuLog.Visible = false;
+            AbrirMenuLogaritmico(new VideoLogar());
+        }
+
+        private void BtnEjLoga_Click(object sender, EventArgs e)
+        {
+            SubMenuEj3Log.Visible = true;
+            AbrirMenuLogaritmico(new EjercicioLogar());
+        }
+
+        private void BtnEj3Loga_Click(object sender, EventArgs e)
+        {
+            SubMenuLog.Visible = true;
+            AbrirMenuLogaritmico(new Ejercicio2Logar());
+        }
+
+        private void SubMenuTrigo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnExaLoga_Click(object sender, EventArgs e)
+        {
+            SubMenuTrigo.Visible = true;
+            AbrirMenuLogaritmico(new ExamenLogaritmicos());
+        }
+        private void AbrirMenuLogaritmico(object FormHijo)
+        {
+            if (this.PanelContenedor.Controls.Count > 0)
+            {
+                this.PanelContenedor.Controls.RemoveAt(0);
+
+            }
+
+            Form fh = FormHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.PanelContenedor.Controls.Add(fh);
+            this.PanelContenedor.Tag = fh;
+            fh.Show();
+
         }
     }
 }
