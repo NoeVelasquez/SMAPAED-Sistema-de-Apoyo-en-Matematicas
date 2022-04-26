@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AgentObjects;
 using DoubleAgentCtl;
-using static SMAPAED.Menu;
+using static SMAPAED.MenuFunciones;
 
 
 namespace SMAPAED.Funciones

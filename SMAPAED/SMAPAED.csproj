@@ -92,6 +92,90 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
+    <Compile Include="Derivadas\Definicion\DefinicionVideoDer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Definicion\DefinicionVideoDer.Designer.cs">
+      <DependentUpon>DefinicionVideoDer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Definicion\ExamenDefDerivadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Definicion\ExamenDefDerivadas.Designer.cs">
+      <DependentUpon>ExamenDefDerivadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\EjercicioRegCadDer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\EjercicioRegCadDer.Designer.cs">
+      <DependentUpon>EjercicioRegCadDer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\Ejericicio3RegCadDer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\Ejericicio3RegCadDer.Designer.cs">
+      <DependentUpon>Ejericicio3RegCadDer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\ExamenRegCadDer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\ExamenRegCadDer.Designer.cs">
+      <DependentUpon>ExamenRegCadDer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\Ejercicio3DerImplicita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\Ejercicio3DerImplicita.Designer.cs">
+      <DependentUpon>Ejercicio3DerImplicita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\EjercicioDerImplicita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\EjercicioDerImplicita.Designer.cs">
+      <DependentUpon>EjercicioDerImplicita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\ExamenDerImplicita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\ExamenDerImplicita.Designer.cs">
+      <DependentUpon>ExamenDerImplicita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\Ejercici3OrdenSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\Ejercici3OrdenSup.Designer.cs">
+      <DependentUpon>Ejercici3OrdenSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\EjerciciOrdenSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\EjerciciOrdenSup.Designer.cs">
+      <DependentUpon>EjerciciOrdenSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\ExamenOrdenSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\ExamenOrdenSup.Designer.cs">
+      <DependentUpon>ExamenOrdenSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\Ejercicio3TayyHop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\Ejercicio3TayyHop.Designer.cs">
+      <DependentUpon>Ejercicio3TayyHop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\EjercicioTayyHop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\EjercicioTayyHop.Designer.cs">
+      <DependentUpon>EjercicioTayyHop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\ExamenTayyHop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\ExamenTayyHop.Designer.cs">
+      <DependentUpon>ExamenTayyHop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Funciones\Logaritmicos\Ejercicio2Logar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,11 +284,17 @@
     <Compile Include="Funciones\Dominio\DominioVideo.Designer.cs">
       <DependentUpon>DominioVideo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="MenuDerivadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="MenuDerivadas.Designer.cs">
+      <DependentUpon>MenuDerivadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuFunciones.Designer.cs">
+      <DependentUpon>MenuFunciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -231,6 +321,36 @@
     </Compile>
     <Compile Include="Funciones\Logaritmicos\VideoLogar.Designer.cs">
       <DependentUpon>VideoLogar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Definicion\TeoriaDefDerivadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Definicion\TeoriaDefDerivadas.Designer.cs">
+      <DependentUpon>TeoriaDefDerivadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\VidReglaCadDerivadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Regla deCadena\VidReglaCadDerivadas.Designer.cs">
+      <DependentUpon>VidReglaCadDerivadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\VidDerImplicita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Derivada Implicita\VidDerImplicita.Designer.cs">
+      <DependentUpon>VidDerImplicita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\VideOrdenSuperior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Orden Superior\VideOrdenSuperior.Designer.cs">
+      <DependentUpon>VideOrdenSuperior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\VideoTayyHop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Taylor y L%27Hopital\VideoTayyHop.Designer.cs">
+      <DependentUpon>VideoTayyHop.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Funciones\Exponencial\Ejer2Expo.resx">
       <DependentUpon>Ejer2Expo.cs</DependentUpon>
@@ -295,8 +415,11 @@
     <EmbeddedResource Include="Funciones\IntroFuncion.resx">
       <DependentUpon>IntroFuncion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="MenuDerivadas.resx">
+      <DependentUpon>MenuDerivadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuFunciones.resx">
+      <DependentUpon>MenuFunciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -388,5 +511,6 @@
   <ItemGroup>
     <None Include="Img\FExponencial\funcion-logaritmica-inversa.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

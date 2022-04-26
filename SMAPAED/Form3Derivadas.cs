@@ -72,8 +72,8 @@ namespace SMAPAED
             {
                 MessageBox.Show("Pasas a Derivadas");
                 this.Hide();
-                //Menu MenFun = new Menu();
-                //MenFun.Show();
+                MenuDerivadas MenDev = new MenuDerivadas();
+                MenDev.Show();
             }
             else
             {

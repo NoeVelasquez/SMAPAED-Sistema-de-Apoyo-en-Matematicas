@@ -78,7 +78,7 @@ namespace SMAPAED
             else
             {
                 this.Hide();
-                Menu MenFun = new Menu();
+                MenuFunciones MenFun = new MenuFunciones();
                 MenFun.Show();
                 Avatar.Show(0);
                 Avatar.MoveTo(690, 7, 1);

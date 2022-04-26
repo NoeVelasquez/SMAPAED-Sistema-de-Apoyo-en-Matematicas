@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace SMAPAED
 {
-    public partial class Menu : Form
+    public partial class MenuFunciones : Form
     {
-        public Menu()
+        public MenuFunciones()
         {
             InitializeComponent();
         }
