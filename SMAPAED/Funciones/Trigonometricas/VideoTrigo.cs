@@ -26,17 +26,22 @@ namespace SMAPAED
             Avatar = (IAgentCtlCharacter)ControlAgTED.Characters["Robby"];
             Avatar.Show(0);
             Avatar.MoveTo(690, 7, 1);
-            Avatar.Speak("Podemos ver el video de dominios");
+            Avatar.Speak("Podemos ver el video de Funciones Trigonometricas");
 
 
             string html = ("<html> <head>");
             html += ("<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>");
-            html += ("<iframe width='560' height='315' src='https://www.youtube.com/embed/WdfWMMrsCLo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            html += ("<iframe width='800' height='500'  src='https://www.youtube.com/embed/WdfWMMrsCLo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
             html += (" </body>  </html> ");
             string text = "https://www.youtube.com/embed/WdfWMMrsCLo";
             //txtLink.Text.Split('=')[1]
             this.webBrowser1.DocumentText = string.Format(html, text);
-            Avatar.Speak("La función exponencial es aquella que a cada valor real {x} le asigna la potencia a elevado a la X con a mayor cero y a distinto a 1. Esta función se expresa");
+            Avatar.Speak("son funciones de un ángulo o de una cantidad " +
+                "abstracta usada en trigonometría. Estas funciones incluyen " +
+                "al seno, coseno, tangente, cosecante, secante y cotangente. " +
+                "Las funciones trigonométricas tienen una gran variedad de " +
+                "aplicaciones en diferentes áreas como ingeniería, ciencia, " +
+                "arquitectura y construcción.");
             Avatar.Hide(50);
         }
     }

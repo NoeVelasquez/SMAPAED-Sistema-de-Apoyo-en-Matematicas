@@ -31,7 +31,7 @@ namespace SMAPAED
 
             string html = ("<html> <head>");
             html += ("<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>");
-            html += ("<iframe width='560' height='315' src='https://www.youtube.com/embed/-lljTI2YQJs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            html += ("<iframe width='800' height='500'  src='https://www.youtube.com/embed/-lljTI2YQJs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
             html += (" </body>  </html> ");
             string text = "https://www.youtube.com/embed/-lljTI2YQJs";
             //txtLink.Text.Split('=')[1]

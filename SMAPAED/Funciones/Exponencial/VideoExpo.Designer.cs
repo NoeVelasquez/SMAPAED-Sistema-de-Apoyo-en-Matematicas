@@ -36,16 +36,16 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(30, 23);
+            this.webBrowser1.Location = new System.Drawing.Point(69, 50);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(590, 340);
+            this.webBrowser1.Size = new System.Drawing.Size(847, 529);
             this.webBrowser1.TabIndex = 4;
             // 
             // ControlAgTED
             // 
             this.ControlAgTED.Enabled = true;
-            this.ControlAgTED.Location = new System.Drawing.Point(765, 78);
+            this.ControlAgTED.Location = new System.Drawing.Point(756, 12);
             this.ControlAgTED.Name = "ControlAgTED";
             this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
             this.ControlAgTED.Size = new System.Drawing.Size(32, 32);
@@ -55,9 +55,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1018, 666);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.ControlAgTED);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VideoExpo";
             this.Text = "VideoExpo";
             this.Load += new System.EventHandler(this.VideoExpo_Load);
