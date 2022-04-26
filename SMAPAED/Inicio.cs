@@ -26,6 +26,7 @@ namespace SMAPAED
         {
             ControlAg.Characters.Load("Robby", "Robby.acs");
             Avatar = (IAgentCtlCharacter)ControlAg.Characters["Robby"];
+            //Avatar.Characters.Character('MyAgent').LanguageID:=$409;
             Avatar.Show(0);
             Avatar.MoveTo(459, 35, 1);
             Avatar.Speak("hola Bienvenido al sistema de apoyo para Matematicas");
