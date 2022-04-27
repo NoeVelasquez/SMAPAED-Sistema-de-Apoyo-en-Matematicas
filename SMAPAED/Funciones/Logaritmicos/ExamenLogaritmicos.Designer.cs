@@ -487,11 +487,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1011, 504);
+            this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.BtnEntregarEx1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ExamenLogaritmicos";
             this.Text = "ExamenLogaritmicos";
             this.groupBox1.ResumeLayout(false);

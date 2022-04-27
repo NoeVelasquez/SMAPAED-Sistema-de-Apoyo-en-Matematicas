@@ -121,7 +121,7 @@
   <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEgAAAAkCAYAAAAq23xmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAAilJREFUaEPtmYGRwiAQRa8Ea7gSrMESrMESrgdLsAZLuBoswRquhNz/EMhusgZw
+        vgAADr4B6kKxwAAAAilJREFUaEPtmYGRwiAQRa8Ea7gSrMESrMESrgdLsAZLuBoswRquhNz/EMhusgZw
         MhNJ+DMvBwsO+rMkwH11XbcJoAO4gIfV/i5msDagU2/OD3hafd7FDNYKdG4GzdAMStAMStAMStAMStAM
         StAMStAb9Ge1vYsZrA3oCLhIfAAGrqxbfUsZCn4A3gGuSDnAQXbcK/7izYmOQ7wjv6G+Z/wF8xZ8qwYj
         tkcoZgtLakpBT7DIPK4ZijthlCcNfOBdx/G9QfHBjPKkgQbdxvEAdM+kapOpVxnEKfbSoCXh+B9MewbN
@@ -136,7 +136,7 @@
   <data name="pictureBox12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGUAAAAkCAYAAACQePQGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAAv1JREFUaEPtmoFxnDAQRV2Ca3AJrsEluAaX4B5cgmtICanBJbiGlHB5XwLCSV8C
+        vAAADrwBlbxySQAAAv1JREFUaEPtmoFxnDAQRV2Ca3AJrsEluAaX4B5cgmtICanBJbiGlHB5XwLCSV8C
         MXceIPoz78LtcgOjj1ZinYfL5dJZAXqEN/hy+Vtig51r0MtgyDt8u3NuiQ12POi1m7Izuik7pJuyQ7op
         O6SbskO6KTvkEKagRxcv0Xr+3kAy5Y/L3RIbFEgvSx/wXsgr12qKXr6eXG7PoOfh3r9AgeK43AIfjC2F
         b9DNZE8G0g0+p/E1oF8u3vmHD8ZB/wSZ85rknmDzwCIZ/eFynYgPxml6ZcYsp6m7aZaMoN8u3olcfxme
@@ -155,7 +155,7 @@
   <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwgAAAJuCAIAAACbvbKzAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAA/5RJREFUeF7snQeAHGX9v9+Z
+        vQAADr0BR/uQrQAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAA/5RJREFUeF7snQeAHGX9v9+Z
         2d2r6YEQIHSkhtBEAanCT2kJCQkJHVFBQQXEiiiIYKPbFRVUUOlVKdJDJ73cXe4u13vfvjvt+/+87zu3
         uVQ2yd5l5v7vw8ve7My7s/PO9y1PZmZnGO0IXNeVE6lUyjRNx3Hk24CC4uRAiXIz5UTQyWQy6XTatm3v
         fZCRMUJ9Q60LasVDtXLwH2Xk2yxRVWfl179VOWP/Zccc3X399TTQTk4iLZYg2wa18NYf09gxLjOIaWRo
@@ -2898,7 +2898,7 @@ Entonces, el dominio de f(x) es: “Todos los números reales excepto el -3”</
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAE8AAAAXCAYAAABK6RIcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAArhJREFUWEfNmA114zAQBguhGArhMBRCMRRCORRCMBRCMRRCMRyE3Ixq5RxnZUuy
+        vAAADrwBlbxySQAAArhJREFUWEfNmA114zAQBguhGArhMBRCMRRCORRCMBRCMRRCMRyE3Ixq5RxnZUuy
         0mTe+2JZUmx5vT9KHo7H4xDBU9RfI/gT9d+7ws5WwTN6j8ZqpPH2fP9WCjuzpof6QG/otTDnCX1GYy2C
         4j3uQfCItMXzqW8+Ya5p8t/p+G67MO8TdYfsXPCFHqOxNcE3eovG9go02GE62lFlPA2WPGpqX3gFGK4f
         y/5ewUvP9eD0gtG1jGgU2qgy3uZCwLcxNNlD8vZobEt+D2Ujeuy6TiSoM95s4mo4QhjKewQpx0ZjtQKN
@@ -2916,7 +2916,7 @@ Entonces, el dominio de f(x) es: “Todos los números reales excepto el -3”</
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADgAAAAWCAYAAACVIF9YAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAAY1JREFUWEfNlwGRwjAQRZGAhpOAhpOABiTgAQloQAIakHAaTkJ5L7S9lNnp0ZLQ
+        vAAADrwBlbxySQAAAY1JREFUWEfNlwGRwjAQRZGAhpOAhpOABiTgAQloQAIakHAaTkJ5L7S9lNnp0ZLQ
         /pk3JMs20z9JNummaZrJoC0cW66wj/LWQBj8D3TO2pq1sctz1kIYHAN9gbO2zWL2L3neWgiDYyAN/vqb
         xc5wy/PWQhicCvrRZPTf0oTBKaAdOKP9kl0K3wEu8N3H8oQ5oBssWmCQptwm/hooYxCdoIi5EuM4BpQx
         iA4OmPX7QeeArlF8CqiMQQcADVpRxYGPUe6roPoGkTcTX9y17IvnN5ZTm9Md7M+s2yByP6VKaAJYPDpT
@@ -2929,7 +2929,7 @@ Entonces, el dominio de f(x) es: “Todos los números reales excepto el -3”</
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAARRJREFUOE+dlAEVgzAMRCsBDZOABiSgYRLwgAQ0IGEakDANk8DukraUNqN0995n
+        vAAADrwBlbxySQAAARRJREFUOE+dlAEVgzAMRCsBDZOABiSgYRLwgAQ0IGEakDANk8DukraUNqN0995n
         aXqEtoS5fd+bgToweV5glHxuvAO0JDELM+gLYw3oAbiaLslxvBbmGhCLffib5BawFeZ/gN5S0JpsAeoB
         V9qZhhagjQUlzidbgOZQSMbpZAvQ81TIuaEw3UFu1GJ8s4TnNuUmdjRNK6Ap7fTZe0KT5hzFIO5fGhHi
         k3mwoQDHDOK2LPSi5iEmdVUMnn48gvgJ/UIv/kONSd0qwrO5hp3UM9usuSvspHb0ZM1dUSaO8zoddj62
@@ -2940,7 +2940,7 @@ Entonces, el dominio de f(x) es: “Todos los números reales excepto el -3”</
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH4AAAAaCAYAAABxRujEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAA0ZJREFUaEPtmoFR4zAQRSmBGiiBGiiBGiiBHighNVDC1UAJ1HAl5N4TllES2ZZt
+        vAAADrwBlbxySQAAA0ZJREFUaEPtmoFR4zAQRSmBGiiBGiiBGiiBHighNVDC1UAJ1HAl5N4TllES2ZZt
         xdbN+M+8RFkvtqW1VquEh/P5fFAJ9AjvHX/gNefXAlnjwTLQKWn7ENh4Tn1aIWs8mA96Amf5Y2Lz82fq
         1wpZ4xLQU85eAmpyVszB/sNf3xPbCb5Sv1bIGueCXuAjd6wE9Lzm71sFfUOf/lsia4wgA/IJFitvAz4h
         xeWOzQENXuN/BDl2ZoA+9e+F9wDG8aW3pQ4pnXO4cfiwPeDnOrY4zaegL9h9oGrQ9WXXJQwZbJcb3zUU
@@ -2965,7 +2965,7 @@ Entonces, el dominio de x es: “Todos los valores reales de x“</value>
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGUAAAAkCAYAAACQePQGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAAv1JREFUaEPtmoFxnDAQRV2Ca3AJrsEluAaX4B5cgmtICanBJbiGlHB5XwLCSV8C
+        vQAADr0BR/uQrQAAAv1JREFUaEPtmoFxnDAQRV2Ca3AJrsEluAaX4B5cgmtICanBJbiGlHB5XwLCSV8C
         MXceIPoz78LtcgOjj1ZinYfL5dJZAXqEN/hy+Vtig51r0MtgyDt8u3NuiQ12POi1m7Izuik7pJuyQ7op
         O6SbskO6KTvkEKagRxcv0Xr+3kAy5Y/L3RIbFEgvSx/wXsgr12qKXr6eXG7PoOfh3r9AgeK43AIfjC2F
         b9DNZE8G0g0+p/E1oF8u3vmHD8ZB/wSZ85rknmDzwCIZ/eFynYgPxml6ZcYsp6m7aZaMoN8u3olcfxme

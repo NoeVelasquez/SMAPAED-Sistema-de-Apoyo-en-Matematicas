@@ -45,7 +45,7 @@
             // ControlAgTED
             // 
             this.ControlAgTED.Enabled = true;
-            this.ControlAgTED.Location = new System.Drawing.Point(670, 136);
+            this.ControlAgTED.Location = new System.Drawing.Point(960, 12);
             this.ControlAgTED.Name = "ControlAgTED";
             this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
             this.ControlAgTED.Size = new System.Drawing.Size(32, 32);
@@ -56,7 +56,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(1022, 522);
+            this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.ControlAgTED);
             this.Controls.Add(this.webBrowser1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

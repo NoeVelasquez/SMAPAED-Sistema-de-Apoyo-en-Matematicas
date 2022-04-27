@@ -16,7 +16,7 @@ namespace SMAPAED
         {
             InitializeComponent();
         }
-
+       
         private void BtnDefinicionDer_Click(object sender, EventArgs e)
         {
             SubmenuDer.Visible = true;
@@ -25,6 +25,7 @@ namespace SMAPAED
         private void BtnIntFun_Click(object sender, EventArgs e)
         {
             AbrirMenuDefinicionDer(new DefinicionVideoDer());
+
         }
 
         private void BtnTipFun_Click(object sender, EventArgs e)

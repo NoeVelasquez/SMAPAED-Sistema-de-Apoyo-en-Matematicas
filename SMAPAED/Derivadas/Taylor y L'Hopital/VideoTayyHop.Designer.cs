@@ -28,12 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VideoTayyHop));
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.ControlAgTED = new AxDoubleAgentCtl.AxDaControl();
+            ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(12, 23);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(948, 585);
+            this.webBrowser1.TabIndex = 6;
+            // 
+            // ControlAgTED
+            // 
+            this.ControlAgTED.Enabled = true;
+            this.ControlAgTED.Location = new System.Drawing.Point(960, 23);
+            this.ControlAgTED.Name = "ControlAgTED";
+            this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
+            this.ControlAgTED.Size = new System.Drawing.Size(32, 32);
+            this.ControlAgTED.TabIndex = 5;
+            // 
+            // VideoTayyHop
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1004, 630);
+            this.Controls.Add(this.webBrowser1);
+            this.Controls.Add(this.ControlAgTED);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "VideoTayyHop";
             this.Text = "VideoTayyHop";
+            ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.WebBrowser webBrowser1;
+        private AxDoubleAgentCtl.AxDaControl ControlAgTED;
     }
 }

@@ -352,6 +352,63 @@
     <Compile Include="Derivadas\Taylor y L%27Hopital\VideoTayyHop.Designer.cs">
       <DependentUpon>VideoTayyHop.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Derivadas\Definicion\DefinicionVideoDer.resx">
+      <DependentUpon>DefinicionVideoDer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Definicion\ExamenDefDerivadas.resx">
+      <DependentUpon>ExamenDefDerivadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Definicion\TeoriaDefDerivadas.resx">
+      <DependentUpon>TeoriaDefDerivadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Derivada Implicita\Ejercicio3DerImplicita.resx">
+      <DependentUpon>Ejercicio3DerImplicita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Derivada Implicita\EjercicioDerImplicita.resx">
+      <DependentUpon>EjercicioDerImplicita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Derivada Implicita\ExamenDerImplicita.resx">
+      <DependentUpon>ExamenDerImplicita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Derivada Implicita\VidDerImplicita.resx">
+      <DependentUpon>VidDerImplicita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Orden Superior\Ejercici3OrdenSup.resx">
+      <DependentUpon>Ejercici3OrdenSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Orden Superior\EjerciciOrdenSup.resx">
+      <DependentUpon>EjerciciOrdenSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Orden Superior\ExamenOrdenSup.resx">
+      <DependentUpon>ExamenOrdenSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Orden Superior\VideOrdenSuperior.resx">
+      <DependentUpon>VideOrdenSuperior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Regla deCadena\EjercicioRegCadDer.resx">
+      <DependentUpon>EjercicioRegCadDer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Regla deCadena\Ejericicio3RegCadDer.resx">
+      <DependentUpon>Ejericicio3RegCadDer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Regla deCadena\ExamenRegCadDer.resx">
+      <DependentUpon>ExamenRegCadDer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Regla deCadena\VidReglaCadDerivadas.resx">
+      <DependentUpon>VidReglaCadDerivadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Taylor y L%27Hopital\Ejercicio3TayyHop.resx">
+      <DependentUpon>Ejercicio3TayyHop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Taylor y L%27Hopital\EjercicioTayyHop.resx">
+      <DependentUpon>EjercicioTayyHop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Taylor y L%27Hopital\ExamenTayyHop.resx">
+      <DependentUpon>ExamenTayyHop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivadas\Taylor y L%27Hopital\VideoTayyHop.resx">
+      <DependentUpon>VideoTayyHop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Funciones\Exponencial\Ejer2Expo.resx">
       <DependentUpon>Ejer2Expo.cs</DependentUpon>
     </EmbeddedResource>

@@ -30,21 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EjerExpo));
             this.SolucionEj1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BtnSolucion = new System.Windows.Forms.Button();
             this.Ejemplo1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SolucionEj2 = new System.Windows.Forms.GroupBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.BtnSolucionEj2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.SolucionEj1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SolucionEj2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // SolucionEj1
@@ -59,6 +59,15 @@
             this.SolucionEj1.TabStop = false;
             this.SolucionEj1.Text = "Respuesta";
             this.SolucionEj1.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(494, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(273, 50);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -125,6 +134,16 @@
             this.pictureBox12.TabIndex = 13;
             this.pictureBox12.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label5.Location = new System.Drawing.Point(6, 125);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(584, 24);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Entonces, la población de la región después de 10 años será 10513.\r\n";
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -159,30 +178,11 @@
             this.label4.TabIndex = 13;
             this.label4.Text = resources.GetString("label4.Text");
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(494, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(273, 50);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label5.Location = new System.Drawing.Point(6, 125);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(584, 24);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Entonces, la población de la región después de 10 años será 10513.\r\n";
-            // 
             // EjerExpo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 643);
+            this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.SolucionEj2);
             this.Controls.Add(this.BtnSolucionEj2);
             this.Controls.Add(this.label4);
@@ -196,10 +196,10 @@
             this.Load += new System.EventHandler(this.EjerExpo_Load);
             this.SolucionEj1.ResumeLayout(false);
             this.SolucionEj1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.SolucionEj2.ResumeLayout(false);
             this.SolucionEj2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

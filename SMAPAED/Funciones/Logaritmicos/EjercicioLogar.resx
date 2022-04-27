@@ -117,22 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Rango: Sin importar qué tan grande o pequeño sea x, los valores de f(x) 
-nunca serán iguales a cero. Si es que intentamos resolver
- la ecuación para 0, tenemos:
- “Todos los números reales excepto el cero”</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Dominio: La funcion                      no está definida para x = - 3 ya que 
-esto produciría una división por cero (tendríamos un 0 en el denominador). 
-Entonces, el dominio de f(x) es: “Todos los números reales excepto el -3”</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Dominio: La función                             está definida para todos 
-los valores reales de x ya que no hay restricciones en el valor de x.
-Entonces, el dominio de x es: “Todos los valores reales de x“</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1686,6 +1670,17 @@ Entonces, el dominio de x es: “Todos los valores reales de x“</value>
         UI4SJzGrkwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Rango: Sin importar qué tan grande o pequeño sea x, los valores de f(x) 
+nunca serán iguales a cero. Si es que intentamos resolver
+ la ecuación para 0, tenemos:
+ “Todos los números reales excepto el cero”</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Dominio: La funcion                      no está definida para x = - 3 ya que 
+esto produciría una división por cero (tendríamos un 0 en el denominador). 
+Entonces, el dominio de f(x) es: “Todos los números reales excepto el -3”</value>
+  </data>
   <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAqMAAAJpCAIAAAAWjqztAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -2952,5 +2947,10 @@ Entonces, el dominio de x es: “Todos los valores reales de x“</value>
         66tsvbpz3a1YOvglDnaYZbavHaZArvWrZymyeLr7unnwg3LGO+jO9kWpBVn0LK5wvS5M7iQO6pE1LsHg
         5ewlrPnbgyWcH/4BGWBC6fA81fYAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Dominio: La función                             está definida para todos 
+los valores reales de x ya que no hay restricciones en el valor de x.
+Entonces, el dominio de x es: “Todos los valores reales de x“</value>
   </data>
 </root>

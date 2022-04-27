@@ -31,21 +31,20 @@ namespace SMAPAED
 
             string html = ("<html> <head>");
             html += ("<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>");
-            html += ("<iframe width='560' height='315' src='https://www.youtube.com/embed/jBJ2ZgIcmJI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            html += ("<iframe width='920' height='565' src='https://www.youtube.com/embed/jBJ2ZgIcmJI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
             html += (" </body>  </html> ");
             string text = "https://www.youtube.com/embed/jBJ2ZgIcmJI";
             //txtLink.Text.Split('=')[1]
             this.webBrowser1.DocumentText = string.Format(html, text);
             //webBrowser1.Navigate($https://youtu.be/Ll7xfe3HoZE);,
-            Avatar.Speak("Pensad por ejemplo en la función 1 sobre x " +
-                "donde la x puede tomar cualquier valor. " +
-                "¿Se puede calcular la función cuando tomamos el valor x = 0? " +
-                " Si tienes dudas, coge la calculadora e intenta calcularlo. " +
-                "Esta regla es muy importante en matemáticas: no se puede " +
-                "dividir por cero.Se aplicarán otras, como por ejemplo, " +
-                "que no se puede calcular la raíz cuadrada de un número " +
-                "negativo(siempre que no vayamos a trabajar con números " +
-                "complejos, pero es alejarnos de nuestro objetivo). ");
+            Avatar.Speak("El dominio de una función es el conjunto de todos" +
+                " los valores de entrada que una función puede tomar. Podemos " +
+                "pensar en el dominio como el conjunto de todos los valores de " +
+                "x que hacen que la función tenga salidas reales.");
+            Avatar.Speak("El rango de una función es el conjunto de todos los " +
+                "valores de salida que una función puede producir.Podemos pensar " +
+                "en el rango como el conjunto de los valores de y que resultan " +
+                "después de usar todos los valores del dominio.");
             Avatar.Hide(50);
         }
 

@@ -84,5 +84,10 @@ namespace SMAPAED.Funciones
         {
 
         }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -475,7 +475,7 @@
             // 
             this.BtnEntregarEx1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BtnEntregarEx1.Font = new System.Drawing.Font("Lucida Fax", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEntregarEx1.Location = new System.Drawing.Point(859, 12);
+            this.BtnEntregarEx1.Location = new System.Drawing.Point(828, 12);
             this.BtnEntregarEx1.Name = "BtnEntregarEx1";
             this.BtnEntregarEx1.Size = new System.Drawing.Size(164, 48);
             this.BtnEntregarEx1.TabIndex = 10;
@@ -487,11 +487,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1035, 548);
+            this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.BtnEntregarEx1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ExamenTrigonometricas";
             this.Text = "ExamenTrigonometricas";
             this.groupBox1.ResumeLayout(false);
