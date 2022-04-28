@@ -44,12 +44,17 @@ namespace SMAPAED
             }
             if (RbVerdaderoEj1.Checked)
             {
-                correctoEj = correctoEj + 30;
+                correctoEj = correctoEj + 20;
 
             }
             if (RbVerdaderoEj2.Checked)
             {
-                correctoEj = correctoEj + 30;
+                correctoEj = correctoEj + 20;
+
+            }
+            if (RbVerdaderoEj3.Checked)
+            {
+                correctoEj = correctoEj + 20;
 
             }
             int Nota = correcto + correctoEj;
@@ -69,6 +74,41 @@ namespace SMAPAED
             {
                 MessageBox.Show("Lamentablemente tiene " + NotaFinal + "debe volver a revisar Funciones Exponenciales");
             }
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RbVerdadero4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

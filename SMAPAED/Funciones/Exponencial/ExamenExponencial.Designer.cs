@@ -30,16 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExamenExponencial));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.label8 = new System.Windows.Forms.Label();
+            this.RbVerdaderoEj3 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.RbVerdaderoEj2 = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton15 = new System.Windows.Forms.RadioButton();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.RbVerdaderoEj1 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,7 +50,6 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.RbVerdadero4 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -66,11 +68,9 @@
             this.RbVerdadero = new System.Windows.Forms.RadioButton();
             this.BtnEntregarEx1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -80,146 +80,191 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.groupBox9);
             this.groupBox2.Controls.Add(this.groupBox8);
             this.groupBox2.Controls.Add(this.groupBox7);
-            this.groupBox2.Location = new System.Drawing.Point(412, 43);
+            this.groupBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(373, 58);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(585, 411);
+            this.groupBox2.Size = new System.Drawing.Size(619, 547);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Parte Practica";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.radioButton8);
+            this.groupBox9.Controls.Add(this.label8);
+            this.groupBox9.Controls.Add(this.RbVerdaderoEj3);
+            this.groupBox9.Controls.Add(this.radioButton14);
+            this.groupBox9.Location = new System.Drawing.Point(13, 402);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(600, 139);
+            this.groupBox9.TabIndex = 1;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Pregunta 7";
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(241, 65);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(134, 58);
+            this.radioButton8.TabIndex = 11;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "1x^{8}-12x=180\r\nSimplificado\r\nX=18 y X=-1\r\n";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(17, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(327, 18);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "Cual seria el resultado de: 4^{x^{2}-6x}=16384";
+            // 
+            // RbVerdaderoEj3
+            // 
+            this.RbVerdaderoEj3.AutoSize = true;
+            this.RbVerdaderoEj3.BackColor = System.Drawing.Color.Transparent;
+            this.RbVerdaderoEj3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RbVerdaderoEj3.Location = new System.Drawing.Point(429, 54);
+            this.RbVerdaderoEj3.Name = "RbVerdaderoEj3";
+            this.RbVerdaderoEj3.Size = new System.Drawing.Size(125, 58);
+            this.RbVerdaderoEj3.TabIndex = 10;
+            this.RbVerdaderoEj3.TabStop = true;
+            this.RbVerdaderoEj3.Text = "2x^{2}-12x=14\r\nSimplificado\r\nX=7 y X=-1\r\n";
+            this.RbVerdaderoEj3.UseVisualStyleBackColor = false;
+            // 
+            // radioButton14
+            // 
+            this.radioButton14.AutoSize = true;
+            this.radioButton14.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButton14.Location = new System.Drawing.Point(21, 50);
+            this.radioButton14.Name = "radioButton14";
+            this.radioButton14.Size = new System.Drawing.Size(157, 58);
+            this.radioButton14.TabIndex = 10;
+            this.radioButton14.TabStop = true;
+            this.radioButton14.Text = "2x^{20}-102x=-140\r\nSimplificado\r\nX=20 y X=-7\r\n";
+            this.radioButton14.UseVisualStyleBackColor = false;
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.pictureBox3);
-            this.groupBox8.Controls.Add(this.pictureBox2);
             this.groupBox8.Controls.Add(this.RbVerdaderoEj2);
             this.groupBox8.Controls.Add(this.label7);
+            this.groupBox8.Controls.Add(this.radioButton6);
             this.groupBox8.Controls.Add(this.radioButton15);
-            this.groupBox8.Location = new System.Drawing.Point(7, 112);
+            this.groupBox8.Location = new System.Drawing.Point(6, 227);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(572, 293);
+            this.groupBox8.Size = new System.Drawing.Size(600, 169);
             this.groupBox8.TabIndex = 1;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "groupBox8";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(326, 76);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(240, 223);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 12;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, 76);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(275, 223);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.groupBox8.Text = "Pregunta 6";
             // 
             // RbVerdaderoEj2
             // 
             this.RbVerdaderoEj2.AutoSize = true;
-            this.RbVerdaderoEj2.Location = new System.Drawing.Point(316, 61);
+            this.RbVerdaderoEj2.Location = new System.Drawing.Point(147, 100);
             this.RbVerdaderoEj2.Name = "RbVerdaderoEj2";
-            this.RbVerdaderoEj2.Size = new System.Drawing.Size(256, 17);
+            this.RbVerdaderoEj2.Size = new System.Drawing.Size(259, 22);
             this.RbVerdaderoEj2.TabIndex = 11;
             this.RbVerdaderoEj2.TabStop = true;
-            this.RbVerdaderoEj2.Text = "Todos los números reales, que sean menores a 2";
+            this.RbVerdaderoEj2.Text = "P ≈ 100,000(2.71828) = 271.828.";
             this.RbVerdaderoEj2.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 25);
+            this.label7.Location = new System.Drawing.Point(17, 19);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(198, 13);
+            this.label7.Size = new System.Drawing.Size(540, 54);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Cual seria el grafico del ejericicio anterior";
+            this.label7.Text = "La población proyectada P de una ciudad esta dada por P = 100,000e0.05t, \r\nDonde " +
+    "t es el número de años después de 1990. Predecir la población para\r\n el año 2010" +
+    "";
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButton6.Location = new System.Drawing.Point(147, 128);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(268, 22);
+            this.radioButton6.TabIndex = 10;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "P ≈ 100,000(217.1828) = 217.828.";
+            this.radioButton6.UseVisualStyleBackColor = false;
             // 
             // radioButton15
             // 
             this.radioButton15.AutoSize = true;
             this.radioButton15.BackColor = System.Drawing.Color.Transparent;
             this.radioButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButton15.Location = new System.Drawing.Point(20, 61);
+            this.radioButton15.Location = new System.Drawing.Point(147, 72);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(258, 17);
+            this.radioButton15.Size = new System.Drawing.Size(241, 22);
             this.radioButton15.TabIndex = 10;
             this.radioButton15.TabStop = true;
-            this.radioButton15.Text = "Vemos que la función toma todos los valores de y";
+            this.radioButton15.Text = "P ≈ 100,000(2.1828) = 21.828.";
             this.radioButton15.UseVisualStyleBackColor = false;
             // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.radioButton11);
             this.groupBox7.Controls.Add(this.radioButton12);
-            this.groupBox7.Controls.Add(this.pictureBox1);
             this.groupBox7.Controls.Add(this.RbVerdaderoEj1);
             this.groupBox7.Controls.Add(this.label6);
             this.groupBox7.Location = new System.Drawing.Point(7, 20);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(572, 86);
+            this.groupBox7.Size = new System.Drawing.Size(600, 201);
             this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "groupBox7";
+            this.groupBox7.Text = "Pregunta 5";
             // 
             // radioButton11
             // 
             this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(157, 57);
+            this.radioButton11.Location = new System.Drawing.Point(161, 100);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(160, 17);
+            this.radioButton11.Size = new System.Drawing.Size(220, 22);
             this.radioButton11.TabIndex = 8;
             this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Todos los números naturales";
+            this.radioButton11.Text = "N(8) = 1000(28) = 25,6000. ";
             this.radioButton11.UseVisualStyleBackColor = true;
             // 
             // radioButton12
             // 
             this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(323, 57);
+            this.radioButton12.Location = new System.Drawing.Point(161, 134);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(237, 17);
+            this.radioButton12.Size = new System.Drawing.Size(202, 22);
             this.radioButton12.TabIndex = 7;
             this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Todos los números reales excepto el -1 y el 2";
+            this.radioButton12.Text = "N(8) = 1000(8) = 26,000. ";
             this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(235, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 26);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // RbVerdaderoEj1
             // 
             this.RbVerdaderoEj1.AutoSize = true;
-            this.RbVerdaderoEj1.Location = new System.Drawing.Point(6, 57);
+            this.RbVerdaderoEj1.Location = new System.Drawing.Point(161, 162);
             this.RbVerdaderoEj1.Name = "RbVerdaderoEj1";
-            this.RbVerdaderoEj1.Size = new System.Drawing.Size(145, 17);
+            this.RbVerdaderoEj1.Size = new System.Drawing.Size(220, 22);
             this.RbVerdaderoEj1.TabIndex = 6;
             this.RbVerdaderoEj1.TabStop = true;
-            this.RbVerdaderoEj1.Text = "Todos los números reales";
+            this.RbVerdaderoEj1.Text = "N(8) = 1000(28) = 256,000. ";
             this.RbVerdaderoEj1.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 20);
+            this.label6.Location = new System.Drawing.Point(43, 22);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(222, 13);
+            this.label6.Size = new System.Drawing.Size(546, 72);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Encuentra el dominio y el rango de la función ";
+            this.label6.Text = resources.GetString("label6.Text");
             // 
             // label1
             // 
@@ -227,11 +272,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Harlow Solid Italic", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(220, -9);
+            this.label1.Location = new System.Drawing.Point(85, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(374, 46);
+            this.label1.Size = new System.Drawing.Size(611, 46);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Examen Sobre Dominio";
+            this.label1.Text = "Examen Sobre Funciones Exponenciales\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -239,68 +285,65 @@
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox4);
+            this.groupBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 43);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(335, 420);
+            this.groupBox1.Size = new System.Drawing.Size(355, 575);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Parte Teorica";
             // 
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox6.Controls.Add(this.label5);
             this.groupBox6.Controls.Add(this.RbVerdadero4);
-            this.groupBox6.Controls.Add(this.radioButton9);
             this.groupBox6.Controls.Add(this.radioButton10);
-            this.groupBox6.Location = new System.Drawing.Point(6, 296);
+            this.groupBox6.Location = new System.Drawing.Point(6, 362);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(323, 82);
+            this.groupBox6.Size = new System.Drawing.Size(343, 200);
             this.groupBox6.TabIndex = 10;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Pregunta 2";
+            this.groupBox6.Text = "Pregunta 4";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 26);
+            this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(6, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(290, 13);
+            this.label5.Size = new System.Drawing.Size(327, 16);
             this.label5.TabIndex = 5;
-            this.label5.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label5.Text = "¿Por que se caracterizan las funciones exponenciales?";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // RbVerdadero4
             // 
             this.RbVerdadero4.AutoSize = true;
-            this.RbVerdadero4.Location = new System.Drawing.Point(71, 54);
+            this.RbVerdadero4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RbVerdadero4.Location = new System.Drawing.Point(9, 58);
             this.RbVerdadero4.Name = "RbVerdadero4";
-            this.RbVerdadero4.Size = new System.Drawing.Size(43, 17);
+            this.RbVerdadero4.Size = new System.Drawing.Size(328, 52);
             this.RbVerdadero4.TabIndex = 4;
             this.RbVerdadero4.TabStop = true;
-            this.RbVerdadero4.Text = "125";
+            this.RbVerdadero4.Text = "por el hecho de que la tasa de crecimiento de dicha \r\nfunción (es decir, su deriv" +
+    "ada ) es directamente \r\nproporcional al valor de la función.\r\n";
             this.RbVerdadero4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(205, 54);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(43, 17);
-            this.radioButton9.TabIndex = 1;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "150";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.RbVerdadero4.CheckedChanged += new System.EventHandler(this.RbVerdadero4_CheckedChanged);
             // 
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(131, 54);
+            this.radioButton10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.Location = new System.Drawing.Point(11, 126);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(43, 17);
+            this.radioButton10.Size = new System.Drawing.Size(342, 52);
             this.radioButton10.TabIndex = 0;
             this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "120";
+            this.radioButton10.Text = "por el hecho de que la tasa de decrecimiento de dicha \r\nfunción (es decir, su inv" +
+    "ersa) es directamente \r\nproporcional al valor de la función.\r\n";
             this.radioButton10.UseVisualStyleBackColor = true;
+            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
             // 
             // groupBox5
             // 
@@ -309,53 +352,55 @@
             this.groupBox5.Controls.Add(this.radioButton5);
             this.groupBox5.Controls.Add(this.RbVerdadero3);
             this.groupBox5.Controls.Add(this.radioButton7);
+            this.groupBox5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(6, 197);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(323, 82);
+            this.groupBox5.Size = new System.Drawing.Size(343, 159);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Pregunta 2";
+            this.groupBox5.Text = "Pregunta 3";
+            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(22, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(290, 13);
+            this.label4.Size = new System.Drawing.Size(238, 16);
             this.label4.TabIndex = 5;
-            this.label4.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label4.Text = "¿Por que se llama funcion exponencial?";
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(71, 54);
+            this.radioButton5.Location = new System.Drawing.Point(25, 60);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(43, 17);
+            this.radioButton5.Size = new System.Drawing.Size(173, 20);
             this.radioButton5.TabIndex = 4;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "125";
+            this.radioButton5.Text = "Incognita en el exponente";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // RbVerdadero3
             // 
             this.RbVerdadero3.AutoSize = true;
-            this.RbVerdadero3.Location = new System.Drawing.Point(205, 54);
+            this.RbVerdadero3.Location = new System.Drawing.Point(25, 129);
             this.RbVerdadero3.Name = "RbVerdadero3";
-            this.RbVerdadero3.Size = new System.Drawing.Size(43, 17);
+            this.RbVerdadero3.Size = new System.Drawing.Size(141, 20);
             this.RbVerdadero3.TabIndex = 1;
             this.RbVerdadero3.TabStop = true;
-            this.RbVerdadero3.Text = "150";
+            this.RbVerdadero3.Text = "Incognita en la base";
             this.RbVerdadero3.UseVisualStyleBackColor = true;
             // 
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(131, 54);
+            this.radioButton7.Location = new System.Drawing.Point(25, 95);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(43, 17);
+            this.radioButton7.Size = new System.Drawing.Size(245, 20);
             this.radioButton7.TabIndex = 0;
             this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "120";
+            this.radioButton7.Text = "Incognita en ambos base y exponente";
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -365,9 +410,10 @@
             this.groupBox3.Controls.Add(this.radioButton3);
             this.groupBox3.Controls.Add(this.radioButton4);
             this.groupBox3.Controls.Add(this.RbVerdadero2);
+            this.groupBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(6, 109);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(323, 82);
+            this.groupBox3.Size = new System.Drawing.Size(343, 82);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Pregunta 2";
@@ -375,21 +421,23 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(22, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(290, 13);
+            this.label3.Size = new System.Drawing.Size(196, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label3.Text = "¿Cual seria el valor de F(x)=e^x?";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(71, 54);
+            this.radioButton3.Location = new System.Drawing.Point(39, 54);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(43, 17);
+            this.radioButton3.Size = new System.Drawing.Size(83, 20);
             this.radioButton3.TabIndex = 4;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "125";
+            this.radioButton3.Text = "23,7182...";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -397,10 +445,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(205, 54);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(43, 17);
+            this.radioButton4.Size = new System.Drawing.Size(89, 20);
             this.radioButton4.TabIndex = 1;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "150";
+            this.radioButton4.Text = "2,701182...";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // RbVerdadero2
@@ -408,10 +456,10 @@
             this.RbVerdadero2.AutoSize = true;
             this.RbVerdadero2.Location = new System.Drawing.Point(131, 54);
             this.RbVerdadero2.Name = "RbVerdadero2";
-            this.RbVerdadero2.Size = new System.Drawing.Size(43, 17);
+            this.RbVerdadero2.Size = new System.Drawing.Size(76, 20);
             this.RbVerdadero2.TabIndex = 0;
             this.RbVerdadero2.TabStop = true;
-            this.RbVerdadero2.Text = "120";
+            this.RbVerdadero2.Text = "2,7182...";
             this.RbVerdadero2.UseVisualStyleBackColor = true;
             // 
             // groupBox4
@@ -424,7 +472,7 @@
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox4.Location = new System.Drawing.Point(6, 19);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(323, 84);
+            this.groupBox4.Size = new System.Drawing.Size(343, 84);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Pregunta 1";
@@ -434,41 +482,42 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(277, 13);
+            this.label2.Size = new System.Drawing.Size(298, 16);
             this.label2.TabIndex = 5;
-            this.label2.Text = "¿Cuál es la suma de los diez primeros números naturales?";
+            this.label2.Text = "¿Cual seria la propiedad cuando exista un valor 0?";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(131, 55);
+            this.radioButton1.Location = new System.Drawing.Point(114, 55);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(37, 17);
+            this.radioButton1.Size = new System.Drawing.Size(104, 20);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "45";
+            this.radioButton1.Text = "f (1) = a1 = a.";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(205, 55);
+            this.radioButton2.Location = new System.Drawing.Point(216, 55);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(37, 17);
+            this.radioButton2.Size = new System.Drawing.Size(104, 20);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "60";
+            this.radioButton2.Text = "f (1) = 01 = 1.";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // RbVerdadero
             // 
             this.RbVerdadero.AutoSize = true;
-            this.RbVerdadero.Location = new System.Drawing.Point(71, 55);
+            this.RbVerdadero.Location = new System.Drawing.Point(6, 55);
             this.RbVerdadero.Name = "RbVerdadero";
-            this.RbVerdadero.Size = new System.Drawing.Size(37, 17);
+            this.RbVerdadero.Size = new System.Drawing.Size(100, 20);
             this.RbVerdadero.TabIndex = 0;
             this.RbVerdadero.TabStop = true;
-            this.RbVerdadero.Text = "55";
+            this.RbVerdadero.Text = "f (0) = a0 = 1";
             this.RbVerdadero.UseVisualStyleBackColor = true;
             // 
             // BtnEntregarEx1
@@ -496,13 +545,12 @@
             this.Name = "ExamenExponencial";
             this.Text = "ExamenExponencial";
             this.groupBox2.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
@@ -521,15 +569,12 @@
 
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.RadioButton RbVerdaderoEj2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RadioButton radioButton15;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RadioButton RbVerdaderoEj1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
@@ -537,7 +582,6 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton RbVerdadero4;
-        private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.RadioButton radioButton10;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label4;
@@ -555,5 +599,11 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton RbVerdadero;
         private System.Windows.Forms.Button BtnEntregarEx1;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.RadioButton RbVerdaderoEj3;
+        private System.Windows.Forms.RadioButton radioButton14;
+        private System.Windows.Forms.RadioButton radioButton6;
     }
 }

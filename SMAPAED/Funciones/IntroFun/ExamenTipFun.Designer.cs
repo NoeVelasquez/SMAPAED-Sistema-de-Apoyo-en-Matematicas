@@ -165,7 +165,7 @@
             this.groupBox1.Size = new System.Drawing.Size(335, 542);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Primera Parte";
             // 
             // groupBox16
             // 
@@ -186,9 +186,9 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(22, 26);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(290, 13);
+            this.label14.Size = new System.Drawing.Size(135, 13);
             this.label14.TabIndex = 5;
-            this.label14.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label14.Text = "¿Que hace la funcion afin?";
             // 
             // radioButton33
             // 
@@ -242,9 +242,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(22, 26);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(290, 13);
+            this.label5.Size = new System.Drawing.Size(253, 13);
             this.label5.TabIndex = 5;
-            this.label5.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label5.Text = "¿Cual es la caracteristica de funciones polinomicas?";
             // 
             // RbVerdadero4
             // 
@@ -298,9 +298,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(22, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(290, 13);
+            this.label4.Size = new System.Drawing.Size(198, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label4.Text = "¿Como serian las funciones Constantes?";
             // 
             // radioButton5
             // 
@@ -354,9 +354,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(22, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(290, 13);
+            this.label3.Size = new System.Drawing.Size(150, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label3.Text = "Que hace la funcion Implicita?";
             // 
             // radioButton3
             // 
@@ -411,9 +411,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(22, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(277, 13);
+            this.label2.Size = new System.Drawing.Size(156, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "¿Cuál es la suma de los diez primeros números naturales?";
+            this.label2.Text = "¿Que hace la funcion explicita?";
             // 
             // radioButton1
             // 
@@ -460,7 +460,7 @@
             this.groupBox2.Size = new System.Drawing.Size(335, 542);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Segunda Parte";
             // 
             // groupBox17
             // 
@@ -481,9 +481,9 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(22, 26);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(290, 13);
+            this.label15.Size = new System.Drawing.Size(231, 13);
             this.label15.TabIndex = 5;
-            this.label15.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label15.Text = "¿Cual sera la definicion de funciones radicales?";
             // 
             // radioButton36
             // 
@@ -537,9 +537,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(22, 26);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(290, 13);
+            this.label6.Size = new System.Drawing.Size(237, 13);
             this.label6.TabIndex = 5;
-            this.label6.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label6.Text = "¿Cual sera la definicion de funciones racionales?";
             // 
             // radioButton6
             // 
@@ -593,9 +593,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(22, 26);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(290, 13);
+            this.label7.Size = new System.Drawing.Size(171, 13);
             this.label7.TabIndex = 5;
-            this.label7.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label7.Text = "¿Que hace una funcion identidad?";
             // 
             // RbVerdadero8
             // 
@@ -649,9 +649,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(22, 26);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(290, 13);
+            this.label8.Size = new System.Drawing.Size(237, 13);
             this.label8.TabIndex = 5;
-            this.label8.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label8.Text = "¿Cual es la caracteristica de funcion cuadratica?";
             // 
             // radioButton15
             // 
@@ -706,9 +706,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(22, 26);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(277, 13);
+            this.label9.Size = new System.Drawing.Size(142, 13);
             this.label9.TabIndex = 5;
-            this.label9.Text = "¿Cuál es la suma de los diez primeros números naturales?";
+            this.label9.Text = "¿Que hace la funcion lineal?";
             // 
             // radioButton18
             // 
@@ -755,7 +755,7 @@
             this.groupBox11.Size = new System.Drawing.Size(304, 542);
             this.groupBox11.TabIndex = 10;
             this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "groupBox11";
+            this.groupBox11.Text = "Tercera Parte";
             // 
             // groupBox18
             // 
@@ -776,9 +776,9 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(0, 16);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(290, 13);
+            this.label16.Size = new System.Drawing.Size(130, 13);
             this.label16.TabIndex = 5;
-            this.label16.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label16.Text = "¿Que es la funcion signo?";
             // 
             // radioButton39
             // 
@@ -832,9 +832,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(0, 16);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(290, 13);
+            this.label10.Size = new System.Drawing.Size(201, 13);
             this.label10.TabIndex = 5;
-            this.label10.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label10.Text = "¿Cuales son la funciones trascendentes?";
             // 
             // radioButton21
             // 
@@ -888,9 +888,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(0, 16);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(290, 13);
+            this.label11.Size = new System.Drawing.Size(142, 13);
             this.label11.TabIndex = 5;
-            this.label11.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label11.Text = "¿Que es la funcion Mantisa?";
             // 
             // RbVerdadero13
             // 
@@ -944,9 +944,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(6, 26);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(290, 13);
+            this.label12.Size = new System.Drawing.Size(271, 13);
             this.label12.TabIndex = 5;
-            this.label12.Text = "¿Cuál es la suma de los quince primeros números naturales?";
+            this.label12.Text = "¿Cuál es caracteristica de funcion de parte entera de x?";
             // 
             // radioButton27
             // 
@@ -1001,9 +1001,9 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(6, 26);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(277, 13);
+            this.label13.Size = new System.Drawing.Size(250, 13);
             this.label13.TabIndex = 5;
-            this.label13.Text = "¿Cuál es la suma de los diez primeros números naturales?";
+            this.label13.Text = "¿Cuál es la definicion de funcion de valor absoluto?";
             // 
             // RbVerdadero11
             // 
