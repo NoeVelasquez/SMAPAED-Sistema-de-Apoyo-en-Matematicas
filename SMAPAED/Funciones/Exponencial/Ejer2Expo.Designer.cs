@@ -58,7 +58,7 @@
             this.SolucionEj2.Controls.Add(this.pictureBox9);
             this.SolucionEj2.Controls.Add(this.label5);
             this.SolucionEj2.Controls.Add(this.label6);
-            this.SolucionEj2.Location = new System.Drawing.Point(97, 374);
+            this.SolucionEj2.Location = new System.Drawing.Point(66, 393);
             this.SolucionEj2.Name = "SolucionEj2";
             this.SolucionEj2.Size = new System.Drawing.Size(853, 183);
             this.SolucionEj2.TabIndex = 27;

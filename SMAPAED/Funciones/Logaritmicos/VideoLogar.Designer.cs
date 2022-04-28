@@ -36,7 +36,7 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(17, 55);
+            this.webBrowser1.Location = new System.Drawing.Point(87, 34);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(847, 529);
@@ -45,7 +45,7 @@
             // ControlAgTED
             // 
             this.ControlAgTED.Enabled = true;
-            this.ControlAgTED.Location = new System.Drawing.Point(752, 110);
+            this.ControlAgTED.Location = new System.Drawing.Point(960, 12);
             this.ControlAgTED.Name = "ControlAgTED";
             this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
             this.ControlAgTED.Size = new System.Drawing.Size(32, 32);

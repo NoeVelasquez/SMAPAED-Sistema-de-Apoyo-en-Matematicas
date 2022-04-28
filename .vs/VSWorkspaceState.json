@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SMAPAED"
+    "\\SMAPAED",
+    "\\SMAPAED\\Funciones",
+    "\\SMAPAED\\Funciones\\Logaritmicos"
   ],
-  "SelectedNode": "\\SMAPAED\\Inicio.cs",
+  "SelectedNode": "\\SMAPAED\\Funciones\\Logaritmicos\\Ejercicio2Logar.cs",
   "PreviewInSolutionExplorer": false
 }
