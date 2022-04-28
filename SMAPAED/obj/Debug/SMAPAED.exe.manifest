@@ -109,7 +109,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZaZDszkGd9bnCwv9hVBc7UY3Y6Ob3I4idswLmn2YPrE=</dsig:DigestValue>
+        <dsig:DigestValue>N58WqPXqzhfEiPtQ/b+esgclHYe/WH0Lzf/YLcZXF5U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -162,14 +162,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMAPAED.exe" size="4493224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMAPAED.exe" size="3749800">
       <assemblyIdentity name="SMAPAED" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Dq8DzMDm15gwUcvDY9h2PzTv1A4dTD6o3z1DatDFLgY=</dsig:DigestValue>
+        <dsig:DigestValue>gKZUYjFdpiPc0Vax+HSV7iHQ2Vk1Cfw8xVx1VgG3ass=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

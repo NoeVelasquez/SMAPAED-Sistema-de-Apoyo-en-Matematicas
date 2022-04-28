@@ -55,12 +55,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.ControlAgTED);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DefinicionVideoDer";
             this.Text = "DefinicionVideoDer";
+            this.Load += new System.EventHandler(this.DefinicionVideoDer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).EndInit();
             this.ResumeLayout(false);
 

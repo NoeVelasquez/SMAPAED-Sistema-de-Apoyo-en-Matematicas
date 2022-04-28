@@ -70,5 +70,10 @@ namespace SMAPAED
                 MessageBox.Show("Lamentablemente tiene " + NotaFinal + "debe volver a revisar Funciones Trigonometricas");
             }
         }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

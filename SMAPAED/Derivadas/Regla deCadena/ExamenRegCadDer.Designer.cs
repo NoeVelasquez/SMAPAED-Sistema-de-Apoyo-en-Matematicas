@@ -65,6 +65,10 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.RbVerdadero = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -76,6 +80,10 @@
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnEntregarEx1
@@ -91,11 +99,12 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.groupBox6);
             this.groupBox2.Controls.Add(this.groupBox8);
             this.groupBox2.Controls.Add(this.groupBox7);
-            this.groupBox2.Location = new System.Drawing.Point(382, 67);
+            this.groupBox2.Location = new System.Drawing.Point(462, 67);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(585, 411);
+            this.groupBox2.Size = new System.Drawing.Size(505, 551);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
@@ -107,7 +116,7 @@
             this.groupBox8.Controls.Add(this.RbVerdaderoEj2);
             this.groupBox8.Controls.Add(this.label7);
             this.groupBox8.Controls.Add(this.radioButton15);
-            this.groupBox8.Location = new System.Drawing.Point(7, 112);
+            this.groupBox8.Location = new System.Drawing.Point(6, 252);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(572, 293);
             this.groupBox8.TabIndex = 1;
@@ -174,7 +183,7 @@
             this.groupBox7.Controls.Add(this.pictureBox1);
             this.groupBox7.Controls.Add(this.RbVerdaderoEj1);
             this.groupBox7.Controls.Add(this.label6);
-            this.groupBox7.Location = new System.Drawing.Point(7, 20);
+            this.groupBox7.Location = new System.Drawing.Point(6, 160);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(572, 86);
             this.groupBox7.TabIndex = 0;
@@ -234,13 +243,12 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.groupBox6);
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Location = new System.Drawing.Point(22, 58);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(335, 420);
+            this.groupBox1.Size = new System.Drawing.Size(434, 560);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -252,7 +260,7 @@
             this.groupBox6.Controls.Add(this.RbVerdadero4);
             this.groupBox6.Controls.Add(this.radioButton9);
             this.groupBox6.Controls.Add(this.radioButton10);
-            this.groupBox6.Location = new System.Drawing.Point(6, 296);
+            this.groupBox6.Location = new System.Drawing.Point(26, 27);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(323, 82);
             this.groupBox6.TabIndex = 10;
@@ -308,7 +316,7 @@
             this.groupBox5.Controls.Add(this.radioButton5);
             this.groupBox5.Controls.Add(this.RbVerdadero3);
             this.groupBox5.Controls.Add(this.radioButton7);
-            this.groupBox5.Location = new System.Drawing.Point(6, 197);
+            this.groupBox5.Location = new System.Drawing.Point(11, 332);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(323, 82);
             this.groupBox5.TabIndex = 9;
@@ -364,7 +372,7 @@
             this.groupBox3.Controls.Add(this.radioButton3);
             this.groupBox3.Controls.Add(this.radioButton4);
             this.groupBox3.Controls.Add(this.RbVerdadero2);
-            this.groupBox3.Location = new System.Drawing.Point(6, 109);
+            this.groupBox3.Location = new System.Drawing.Point(6, 244);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(323, 82);
             this.groupBox3.TabIndex = 8;
@@ -418,12 +426,16 @@
             this.groupBox4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox4.Controls.Add(this.label2);
             this.groupBox4.Controls.Add(this.radioButton1);
+            this.groupBox4.Controls.Add(this.pictureBox7);
+            this.groupBox4.Controls.Add(this.pictureBox6);
+            this.groupBox4.Controls.Add(this.pictureBox5);
+            this.groupBox4.Controls.Add(this.pictureBox4);
             this.groupBox4.Controls.Add(this.radioButton2);
             this.groupBox4.Controls.Add(this.RbVerdadero);
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox4.Location = new System.Drawing.Point(6, 19);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(323, 84);
+            this.groupBox4.Size = new System.Drawing.Size(422, 200);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Pregunta 1";
@@ -431,43 +443,41 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(22, 26);
+            this.label2.Location = new System.Drawing.Point(2, 17);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(277, 13);
+            this.label2.Size = new System.Drawing.Size(420, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "¿Cuál es la suma de los diez primeros números naturales?";
+            this.label2.Text = "Calcula la derivada de la siguiente composición de funciones con la regla de la c" +
+    "adena:";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(131, 55);
+            this.radioButton1.Location = new System.Drawing.Point(25, 130);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(37, 17);
+            this.radioButton1.Size = new System.Drawing.Size(14, 13);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "45";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(205, 55);
+            this.radioButton2.Location = new System.Drawing.Point(25, 163);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(37, 17);
+            this.radioButton2.Size = new System.Drawing.Size(14, 13);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "60";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // RbVerdadero
             // 
             this.RbVerdadero.AutoSize = true;
-            this.RbVerdadero.Location = new System.Drawing.Point(71, 55);
+            this.RbVerdadero.Location = new System.Drawing.Point(25, 86);
             this.RbVerdadero.Name = "RbVerdadero";
-            this.RbVerdadero.Size = new System.Drawing.Size(37, 17);
+            this.RbVerdadero.Size = new System.Drawing.Size(14, 13);
             this.RbVerdadero.TabIndex = 0;
             this.RbVerdadero.TabStop = true;
-            this.RbVerdadero.Text = "55";
             this.RbVerdadero.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -481,6 +491,45 @@
             this.label1.Size = new System.Drawing.Size(374, 46);
             this.label1.TabIndex = 5;
             this.label1.Text = "Examen Sobre Dominio";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(299, 33);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(123, 39);
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(45, 84);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(208, 32);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(45, 125);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(356, 32);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(45, 163);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(292, 32);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox7.TabIndex = 3;
+            this.pictureBox7.TabStop = false;
             // 
             // ExamenRegCadDer
             // 
@@ -511,6 +560,10 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -554,5 +607,9 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton RbVerdadero;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

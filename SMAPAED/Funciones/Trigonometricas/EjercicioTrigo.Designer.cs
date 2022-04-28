@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EjercicioTrigo));
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.SolucionEj1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.SolucionEj2 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.SolucionEj1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox2.SuspendLayout();
+            this.SolucionEj2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,18 +56,18 @@
             this.label1.Text = "Ejemplos de Dominio y Rango";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // groupBox1
+            // SolucionEj1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.DarkGray;
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Location = new System.Drawing.Point(19, 89);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(853, 192);
-            this.groupBox1.TabIndex = 29;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Respuesta";
-            this.groupBox1.Visible = false;
+            this.SolucionEj1.BackColor = System.Drawing.Color.DarkGray;
+            this.SolucionEj1.Controls.Add(this.pictureBox1);
+            this.SolucionEj1.Controls.Add(this.label7);
+            this.SolucionEj1.Location = new System.Drawing.Point(19, 89);
+            this.SolucionEj1.Name = "SolucionEj1";
+            this.SolucionEj1.Size = new System.Drawing.Size(853, 192);
+            this.SolucionEj1.TabIndex = 29;
+            this.SolucionEj1.TabStop = false;
+            this.SolucionEj1.Text = "Respuesta";
+            this.SolucionEj1.Visible = false;
             // 
             // pictureBox1
             // 
@@ -101,6 +101,7 @@
             this.button1.TabIndex = 28;
             this.button1.Text = "SOLUCION";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label8
             // 
@@ -112,18 +113,18 @@
             this.label8.TabIndex = 27;
             this.label8.Text = "Cual seria el resultado de f(x) = sen x. ";
             // 
-            // groupBox2
+            // SolucionEj2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.LightGray;
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(19, 364);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(853, 205);
-            this.groupBox2.TabIndex = 32;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Respuesta";
-            this.groupBox2.Visible = false;
+            this.SolucionEj2.BackColor = System.Drawing.Color.LightGray;
+            this.SolucionEj2.Controls.Add(this.pictureBox2);
+            this.SolucionEj2.Controls.Add(this.label2);
+            this.SolucionEj2.Location = new System.Drawing.Point(19, 364);
+            this.SolucionEj2.Name = "SolucionEj2";
+            this.SolucionEj2.Size = new System.Drawing.Size(853, 205);
+            this.SolucionEj2.TabIndex = 32;
+            this.SolucionEj2.TabStop = false;
+            this.SolucionEj2.Text = "Respuesta";
+            this.SolucionEj2.Visible = false;
             // 
             // pictureBox2
             // 
@@ -155,6 +156,7 @@
             this.button2.TabIndex = 31;
             this.button2.Text = "SOLUCION";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -171,21 +173,21 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 630);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.SolucionEj2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.SolucionEj1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EjercicioTrigo";
             this.Text = "EjercicioTrigo";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.SolucionEj1.ResumeLayout(false);
+            this.SolucionEj1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.SolucionEj2.ResumeLayout(false);
+            this.SolucionEj2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,12 +196,12 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox SolucionEj1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox SolucionEj2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;

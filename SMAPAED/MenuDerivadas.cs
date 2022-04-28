@@ -24,6 +24,7 @@ namespace SMAPAED
 
         private void BtnIntFun_Click(object sender, EventArgs e)
         {
+            SubSubmenuVide2.Visible = true;
             AbrirMenuDefinicionDer(new DefinicionVideoDer());
 
         }
@@ -220,6 +221,27 @@ namespace SMAPAED
             this.PanelContenedor.Tag = fh;
             fh.Show();
 
+        }
+
+        private void PanelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+            string html = ("<html> <head>");
+            html += ("<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>");
+            html += ("<<iframe width='920' height='565' src='https://www.youtube.com/embed/AzTGmJGIpI8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            html += (" </body>  </html> ");
+            string text = "https://www.youtube.com/embed/4G_A74UkDPs";
+            //txtLink.Text.Split('=')[1]
+            this.webBrowser1.DocumentText = string.Format(html, text);
+        }
+
+        private void SubSubmenuEj34_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AbrirMenuDefinicionDer(new DefVid2Dervcs());
         }
     }
 }

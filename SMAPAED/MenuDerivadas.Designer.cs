@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuDerivadas));
             this.PanelContenedor = new System.Windows.Forms.Panel();
-            this.Video1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.BarraLateral = new System.Windows.Forms.Panel();
             this.SubMenuEj3TayHop = new System.Windows.Forms.Panel();
             this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
@@ -87,6 +86,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.BtnTayloryHopital = new System.Windows.Forms.Button();
             this.BtnDerivImplicita = new System.Windows.Forms.Button();
             this.BtnTrigonometrica = new System.Windows.Forms.Button();
@@ -94,8 +94,10 @@
             this.BtnDefinicionDer = new System.Windows.Forms.Button();
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SubSubmenuVide2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel26 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.PanelContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Video1)).BeginInit();
             this.BarraLateral.SuspendLayout();
             this.SubMenuEj3TayHop.SuspendLayout();
             this.SubSubmenuEj3OrdSup.SuspendLayout();
@@ -109,30 +111,24 @@
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SubSubmenuVide2.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelContenedor
             // 
             this.PanelContenedor.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.PanelContenedor.Controls.Add(this.Video1);
+            this.PanelContenedor.Controls.Add(this.webBrowser1);
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenedor.Location = new System.Drawing.Point(182, 48);
             this.PanelContenedor.Name = "PanelContenedor";
             this.PanelContenedor.Size = new System.Drawing.Size(1002, 627);
             this.PanelContenedor.TabIndex = 5;
-            // 
-            // Video1
-            // 
-            this.Video1.Enabled = true;
-            this.Video1.Location = new System.Drawing.Point(23, 12);
-            this.Video1.Name = "Video1";
-            this.Video1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Video1.OcxState")));
-            this.Video1.Size = new System.Drawing.Size(935, 501);
-            this.Video1.TabIndex = 0;
+            this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
             // 
             // BarraLateral
             // 
             this.BarraLateral.BackColor = System.Drawing.Color.LightGreen;
+            this.BarraLateral.Controls.Add(this.SubSubmenuVide2);
             this.BarraLateral.Controls.Add(this.SubMenuEj3TayHop);
             this.BarraLateral.Controls.Add(this.SubSubmenuEj3OrdSup);
             this.BarraLateral.Controls.Add(this.SubSubmenuEj3DerImp);
@@ -378,9 +374,9 @@
             this.SubmenuDer.Controls.Add(this.BtnIntFun);
             this.SubmenuDer.Controls.Add(this.flowLayoutPanel19);
             this.SubmenuDer.Controls.Add(this.BtnTipFun);
-            this.SubmenuDer.Location = new System.Drawing.Point(13, 39);
+            this.SubmenuDer.Location = new System.Drawing.Point(5, 42);
             this.SubmenuDer.Name = "SubmenuDer";
-            this.SubmenuDer.Size = new System.Drawing.Size(171, 92);
+            this.SubmenuDer.Size = new System.Drawing.Size(130, 92);
             this.SubmenuDer.TabIndex = 18;
             this.SubmenuDer.Visible = false;
             // 
@@ -431,9 +427,9 @@
             this.BtnIntFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnIntFun.Location = new System.Drawing.Point(1, 3);
             this.BtnIntFun.Name = "BtnIntFun";
-            this.BtnIntFun.Size = new System.Drawing.Size(164, 32);
+            this.BtnIntFun.Size = new System.Drawing.Size(136, 32);
             this.BtnIntFun.TabIndex = 20;
-            this.BtnIntFun.Text = "Que son Funciones";
+            this.BtnIntFun.Text = "Que son Derivadas";
             this.BtnIntFun.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.BtnIntFun.UseVisualStyleBackColor = false;
             this.BtnIntFun.Click += new System.EventHandler(this.BtnIntFun_Click);
@@ -458,9 +454,9 @@
             this.BtnTipFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnTipFun.Location = new System.Drawing.Point(0, 33);
             this.BtnTipFun.Name = "BtnTipFun";
-            this.BtnTipFun.Size = new System.Drawing.Size(165, 24);
+            this.BtnTipFun.Size = new System.Drawing.Size(141, 24);
             this.BtnTipFun.TabIndex = 12;
-            this.BtnTipFun.Text = "Tipos de Funciones";
+            this.BtnTipFun.Text = "Tipos de Derivadas";
             this.BtnTipFun.UseVisualStyleBackColor = false;
             this.BtnTipFun.Click += new System.EventHandler(this.BtnTipFun_Click);
             // 
@@ -473,6 +469,7 @@
             this.SubSubmenuEj34.Size = new System.Drawing.Size(54, 34);
             this.SubSubmenuEj34.TabIndex = 18;
             this.SubSubmenuEj34.Visible = false;
+            this.SubSubmenuEj34.Paint += new System.Windows.Forms.PaintEventHandler(this.SubSubmenuEj34_Paint);
             // 
             // flowLayoutPanel18
             // 
@@ -841,6 +838,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Sistema de Apoyo en Matematicas Area de Funciones\r\n";
             // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(18, 23);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(948, 585);
+            this.webBrowser1.TabIndex = 5;
+            // 
             // BtnTayloryHopital
             // 
             this.BtnTayloryHopital.BackColor = System.Drawing.Color.LightGreen;
@@ -962,6 +967,43 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // SubSubmenuVide2
+            // 
+            this.SubSubmenuVide2.Controls.Add(this.flowLayoutPanel26);
+            this.SubSubmenuVide2.Controls.Add(this.button1);
+            this.SubSubmenuVide2.Location = new System.Drawing.Point(140, 42);
+            this.SubSubmenuVide2.Name = "SubSubmenuVide2";
+            this.SubSubmenuVide2.Size = new System.Drawing.Size(54, 34);
+            this.SubSubmenuVide2.TabIndex = 19;
+            this.SubSubmenuVide2.Visible = false;
+            // 
+            // flowLayoutPanel26
+            // 
+            this.flowLayoutPanel26.BackColor = System.Drawing.Color.LightCoral;
+            this.flowLayoutPanel26.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel26.Name = "flowLayoutPanel26";
+            this.flowLayoutPanel26.Size = new System.Drawing.Size(5, 24);
+            this.flowLayoutPanel26.TabIndex = 13;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightGreen;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(51, 24);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Vid 2";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MenuDerivadas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -974,7 +1016,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuDerivadas";
             this.PanelContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Video1)).EndInit();
             this.BarraLateral.ResumeLayout(false);
             this.SubMenuEj3TayHop.ResumeLayout(false);
             this.SubSubmenuEj3OrdSup.ResumeLayout(false);
@@ -989,6 +1030,7 @@
             this.BarraTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.SubSubmenuVide2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -996,7 +1038,6 @@
         #endregion
 
         private System.Windows.Forms.Panel PanelContenedor;
-        private AxWMPLib.AxWindowsMediaPlayer Video1;
         private System.Windows.Forms.Panel BarraLateral;
         private System.Windows.Forms.Panel SubMenuEj3TayHop;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel25;
@@ -1060,5 +1101,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox BtnCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Panel SubSubmenuVide2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel26;
+        private System.Windows.Forms.Button button1;
     }
 }

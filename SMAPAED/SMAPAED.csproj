@@ -120,6 +120,12 @@
   <ItemGroup>
     <Compile Include="ConexionMySQL.cs" />
     <Compile Include="ConexionMySQLyForm.cs" />
+    <Compile Include="Derivadas\Definicion\DefVid2Dervcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivadas\Definicion\DefVid2Dervcs.Designer.cs">
+      <DependentUpon>DefVid2Dervcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Derivadas\Definicion\DefinicionVideoDer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -380,6 +386,9 @@
     <Compile Include="Derivadas\Taylor y L%27Hopital\VideoTayyHop.Designer.cs">
       <DependentUpon>VideoTayyHop.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Derivadas\Definicion\DefVid2Dervcs.resx">
+      <DependentUpon>DefVid2Dervcs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Derivadas\Definicion\DefinicionVideoDer.resx">
       <DependentUpon>DefinicionVideoDer.cs</DependentUpon>
     </EmbeddedResource>
@@ -529,7 +538,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SMAPAED_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

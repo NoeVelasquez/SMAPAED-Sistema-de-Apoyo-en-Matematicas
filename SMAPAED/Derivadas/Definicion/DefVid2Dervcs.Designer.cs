@@ -1,6 +1,6 @@
 ﻿namespace SMAPAED
 {
-    partial class VidReglaCadDerivadas
+    partial class DefVid2Dervcs
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VidReglaCadDerivadas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DefVid2Dervcs));
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.ControlAgTED = new AxDoubleAgentCtl.AxDaControl();
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).BeginInit();
@@ -40,7 +40,7 @@
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(948, 585);
-            this.webBrowser1.TabIndex = 8;
+            this.webBrowser1.TabIndex = 4;
             // 
             // ControlAgTED
             // 
@@ -49,9 +49,9 @@
             this.ControlAgTED.Name = "ControlAgTED";
             this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
             this.ControlAgTED.Size = new System.Drawing.Size(32, 32);
-            this.ControlAgTED.TabIndex = 7;
+            this.ControlAgTED.TabIndex = 3;
             // 
-            // VidReglaCadDerivadas
+            // DefVid2Dervcs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -59,9 +59,9 @@
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.ControlAgTED);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "VidReglaCadDerivadas";
-            this.Text = "VidReglaCadDerivadas";
-            this.Load += new System.EventHandler(this.VidReglaCadDerivadas_Load);
+            this.Name = "DefVid2Dervcs";
+            this.Text = "DefVid2Dervcs";
+            this.Load += new System.EventHandler(this.DefVid2Dervcs_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).EndInit();
             this.ResumeLayout(false);
 

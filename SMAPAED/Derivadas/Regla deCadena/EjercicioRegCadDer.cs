@@ -16,5 +16,15 @@ namespace SMAPAED
         {
             InitializeComponent();
         }
+
+        private void BtnSolucion_Click(object sender, EventArgs e)
+        {
+            SolucionEjDer1.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SolucionEjDer2.Visible = true;
+        }
     }
 }
