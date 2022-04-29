@@ -121,7 +121,7 @@
   <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgsAAAAbCAYAAADyFsx8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAACgBJREFUeF7tnI214zQQRimBGiiBGiiBGiiBHiiBGiiBGiiBGihhudfIRtaPrSSO
+        wAAADsABataJCQAACgBJREFUeF7tnI214zQQRimBGiiBGiiBGiiBHiiBGiiBGiiBGihhudfIRtaPrSSO
         45fMd871i0eyZcsz0ljJ7nffvn0LgiAIgiDo0jQGwatBfzRsv2afv4ef4c+izo/waypb6qey3/L9IAiC
         YIymMQheiZM8/NWwfZ/tmwxIWW9JHtAvku2bYKwSiCAIgmCfpjEIXgX6AVZJAHKS/z2vl+zWzev9BMuK
         BHKVoVx5+B2WpCMIPhlUxktzVS4ImsbgvRkdFHr10J/wQ1432Z2Iresk7ueqzh7I1QCTgzwJ0PZzXi/Z
@@ -196,7 +196,7 @@ es compuesto al año y t es el tiempo en años.Usando los datos dados, tenemos:
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAALIAAAAaCAYAAAATxQbrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAABOdJREFUeF7tmo1V5SAQhS3BGrYEa7CErWFLsAdLsAZLsAZLsAZLeHs/AjiEgSTv
+        wAAADsABataJCQAABOdJREFUeF7tmo1V5SAQhS3BGrYEa7CErWFLsAdLsAZLsAZLsAZLeHs/AjiEgSTv
         Hc2PuefcFxgmP8BlmETvLpfLyQNTeBL/pqPnk9jzFe6j/Z/4wtG2Wwp/xGdT55yHaM+059xK13jyGBQQ
         3KOpv4oP1se0dX1jPYtP4Cf7Wwpv4oupf4gUxrTXQ9xvqb6UrvHkMSjoUNRDNLU206ZDUS98hXdspv4p
         PqW6sT+KLAp7buEnINoiolMX3WebQ9d4cnsUFm3FAoL6HNkQy4e1Rfts39hGmkGhiu4C55GCWCEXzy7k
@@ -223,7 +223,7 @@ es compuesto al año y t es el tiempo en años.Usando los datos dados, tenemos:
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlEAAABdCAYAAACFITOMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAGBJJREFUeF7tnQm17DYWRQMhGAIhGBpCYwiEcAiEYGgIwdAQGkMg/D7bT3I8XNny
+        wAAADsABataJCQAAGBJJREFUeF7tnQm17DYWRQMhGAIhGBpCYwiEcAiEYGgIwdAQGkMg/D7bT3I8XNny
         LNc7Z63tUl3LLg8arga7fvrx44cxxhhzCOln8Yf4U/yV+HcUF6TfBfH5ZJt/RfEgxXk0rjERodEYY4yp
         RcKB+nNi+5cgMLKndf8Rv09sodMlPR7XmBKh0RhjjKlFojfn54KdQN/DQxhb/j6x/x3YFHwurjFLhEZj
         jDGmFul/ENg7Z0X8MbAxbPbfYbzBOhZDh+vxuMYsERqNMcaYWiSGwSIn6ldBoB/Sk/4W/xnGG6xjMXS4
@@ -332,5 +332,14 @@ es compuesto al año y t es el tiempo en años.Usando los datos dados, tenemos:
   <data name="Ejemplo1.Text" xml:space="preserve">
     <value>En el año 1950, la población de una ciudad era 10000. Veinte años después, se encontró que la población era 20000.
  Encuentra la función exponencial que modela a la población P después de que t años han pasado.</value>
+  </data>
+  <data name="axDaControl1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAUQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAADwAAAAACgAAAQFPAwAATwMAAAsA//8SACAACwAAABMABQAAgBMACAAAgAMA
+        AAAAAAsA//8DAAEAAAATAAAAAAAL
+</value>
   </data>
 </root>

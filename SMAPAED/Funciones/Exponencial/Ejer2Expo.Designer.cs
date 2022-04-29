@@ -44,12 +44,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BtnSolucion = new System.Windows.Forms.Button();
             this.Ejemplo1 = new System.Windows.Forms.Label();
+            this.axDaControl1 = new AxDoubleAgentCtl.AxDaControl();
             this.SolucionEj2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.SolucionEj1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axDaControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // SolucionEj2
@@ -216,11 +218,21 @@
             this.Ejemplo1.TabIndex = 22;
             this.Ejemplo1.Text = resources.GetString("Ejemplo1.Text");
             // 
+            // axDaControl1
+            // 
+            this.axDaControl1.Enabled = true;
+            this.axDaControl1.Location = new System.Drawing.Point(967, 9);
+            this.axDaControl1.Name = "axDaControl1";
+            this.axDaControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axDaControl1.OcxState")));
+            this.axDaControl1.Size = new System.Drawing.Size(32, 32);
+            this.axDaControl1.TabIndex = 28;
+            // 
             // Ejer2Expo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 630);
+            this.Controls.Add(this.axDaControl1);
             this.Controls.Add(this.SolucionEj2);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.BtnSolucionEj2);
@@ -239,6 +251,7 @@
             this.SolucionEj1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axDaControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,5 +274,6 @@
         private System.Windows.Forms.Label Ejemplo1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
+        private AxDoubleAgentCtl.AxDaControl axDaControl1;
     }
 }

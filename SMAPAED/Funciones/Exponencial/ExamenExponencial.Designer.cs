@@ -67,6 +67,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.RbVerdadero = new System.Windows.Forms.RadioButton();
             this.BtnEntregarEx1 = new System.Windows.Forms.Button();
+            this.axDaControl1 = new AxDoubleAgentCtl.AxDaControl();
             this.groupBox2.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -76,6 +77,7 @@
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axDaControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -532,11 +534,21 @@
             this.BtnEntregarEx1.UseVisualStyleBackColor = false;
             this.BtnEntregarEx1.Click += new System.EventHandler(this.BtnEntregarEx1_Click);
             // 
+            // axDaControl1
+            // 
+            this.axDaControl1.Enabled = true;
+            this.axDaControl1.Location = new System.Drawing.Point(18, 13);
+            this.axDaControl1.Name = "axDaControl1";
+            this.axDaControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axDaControl1.OcxState")));
+            this.axDaControl1.Size = new System.Drawing.Size(32, 32);
+            this.axDaControl1.TabIndex = 8;
+            // 
             // ExamenExponencial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1004, 630);
+            this.Controls.Add(this.axDaControl1);
             this.Controls.Add(this.BtnEntregarEx1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
@@ -560,6 +572,7 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axDaControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -605,5 +618,6 @@
         private System.Windows.Forms.RadioButton RbVerdaderoEj3;
         private System.Windows.Forms.RadioButton radioButton14;
         private System.Windows.Forms.RadioButton radioButton6;
+        private AxDoubleAgentCtl.AxDaControl axDaControl1;
     }
 }
