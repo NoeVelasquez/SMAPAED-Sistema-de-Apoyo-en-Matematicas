@@ -99,17 +99,17 @@ namespace SMAPAED
 
         private void BtnDerivImplicita_Click(object sender, EventArgs e)
         {
-            SubmenuDerImp.Visible = true;
+            //SubmenuDerImp.Visible = true;
         }
 
         private void BtnVideoExpo_Click(object sender, EventArgs e)
         {
-            AbrirMenuDerImplicita(new VidDerImplicita());
+            //AbrirMenuDerImplicita(new VidDerImplicita());
         }
 
         private void BtnEjExpo_Click(object sender, EventArgs e)
         {
-            SubSubmenuEj3DerImp.Visible = true;
+            //SubSubmenuEj3DerImp.Visible = true;
             AbrirMenuDerImplicita(new EjercicioDerImplicita());
         }
 
@@ -141,17 +141,17 @@ namespace SMAPAED
 
         private void BtnTrigonometrica_Click(object sender, EventArgs e)
         {
-            SubMenuOrdSup.Visible = true;
+            //SubMenuOrdSup.Visible = true;
         }
 
         private void BtnVidTrigo_Click(object sender, EventArgs e)
         {
-            AbrirMenuOrdenSup(new VideOrdenSuperior());
+            //AbrirMenuOrdenSup(new VideOrdenSuperior());
         }
 
         private void BtnEjTrigo_Click(object sender, EventArgs e)
         {
-            SubSubmenuEj3OrdSup.Visible = true;
+            //SubSubmenuEj3OrdSup.Visible = true;
             AbrirMenuOrdenSup(new EjerciciOrdenSup());
         }
 
@@ -183,17 +183,17 @@ namespace SMAPAED
 
         private void BtnTayloryHopital_Click(object sender, EventArgs e)
         {
-            SubMenuTayHop.Visible = true;
+            //SubMenuTayHop.Visible = true;
         }
 
         private void BtnVidLoga_Click(object sender, EventArgs e)
         {
-            AbrirMenuTayHop(new VideoTayyHop());
+            //AbrirMenuTayHop(new VideoTayyHop());
         }
 
         private void BtnEjLoga_Click(object sender, EventArgs e)
         {
-            SubMenuEj3TayHop.Visible = true;
+            //SubMenuEj3TayHop.Visible = true;
             AbrirMenuTayHop(new EjercicioTayyHop());
         }
 
@@ -227,7 +227,7 @@ namespace SMAPAED
         {
             string html = ("<html> <head>");
             html += ("<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>");
-            html += ("<<iframe width='920' height='565' src='https://www.youtube.com/embed/AzTGmJGIpI8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            html += ("<iframe width='920' height='565' src='https://www.youtube.com/embed/AzTGmJGIpI8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
             html += (" </body>  </html> ");
             string text = "https://www.youtube.com/embed/4G_A74UkDPs";
             //txtLink.Text.Split('=')[1]

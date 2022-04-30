@@ -35,9 +35,6 @@
             this.SubSubmenuVide2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel26 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
-            this.SubSubmenuEj3OrdSup = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel24 = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnEj3Trigo = new System.Windows.Forms.Button();
             this.SubmenuDer = new System.Windows.Forms.Panel();
             this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnExamFun = new System.Windows.Forms.Button();
@@ -48,13 +45,6 @@
             this.SubSubmenuEj34 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnEj3Dom = new System.Windows.Forms.Button();
-            this.SubMenuOrdSup = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnExaTrigo = new System.Windows.Forms.Button();
-            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnEjTrigo = new System.Windows.Forms.Button();
-            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnVidTrigo = new System.Windows.Forms.Button();
             this.SubmenuRegCad = new System.Windows.Forms.Panel();
             this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
@@ -63,8 +53,6 @@
             this.BtnEjDom = new System.Windows.Forms.Button();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnViDom = new System.Windows.Forms.Button();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnTrigonometrica = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnReglaCadena = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -76,10 +64,8 @@
             this.PanelContenedor.SuspendLayout();
             this.BarraLateral.SuspendLayout();
             this.SubSubmenuVide2.SuspendLayout();
-            this.SubSubmenuEj3OrdSup.SuspendLayout();
             this.SubmenuDer.SuspendLayout();
             this.SubSubmenuEj34.SuspendLayout();
-            this.SubMenuOrdSup.SuspendLayout();
             this.SubmenuRegCad.SuspendLayout();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -109,10 +95,6 @@
             // 
             this.BarraLateral.BackColor = System.Drawing.Color.LightGreen;
             this.BarraLateral.Controls.Add(this.SubSubmenuVide2);
-            this.BarraLateral.Controls.Add(this.SubMenuOrdSup);
-            this.BarraLateral.Controls.Add(this.SubSubmenuEj3OrdSup);
-            this.BarraLateral.Controls.Add(this.BtnTrigonometrica);
-            this.BarraLateral.Controls.Add(this.flowLayoutPanel4);
             this.BarraLateral.Controls.Add(this.SubmenuDer);
             this.BarraLateral.Controls.Add(this.SubSubmenuEj34);
             this.BarraLateral.Controls.Add(this.SubmenuRegCad);
@@ -131,7 +113,7 @@
             // 
             this.SubSubmenuVide2.Controls.Add(this.flowLayoutPanel26);
             this.SubSubmenuVide2.Controls.Add(this.button1);
-            this.SubSubmenuVide2.Location = new System.Drawing.Point(140, 42);
+            this.SubSubmenuVide2.Location = new System.Drawing.Point(139, 73);
             this.SubSubmenuVide2.Name = "SubSubmenuVide2";
             this.SubSubmenuVide2.Size = new System.Drawing.Size(54, 34);
             this.SubSubmenuVide2.TabIndex = 19;
@@ -164,43 +146,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // SubSubmenuEj3OrdSup
-            // 
-            this.SubSubmenuEj3OrdSup.Controls.Add(this.flowLayoutPanel24);
-            this.SubSubmenuEj3OrdSup.Controls.Add(this.BtnEj3Trigo);
-            this.SubSubmenuEj3OrdSup.Location = new System.Drawing.Point(122, 328);
-            this.SubSubmenuEj3OrdSup.Name = "SubSubmenuEj3OrdSup";
-            this.SubSubmenuEj3OrdSup.Size = new System.Drawing.Size(54, 34);
-            this.SubSubmenuEj3OrdSup.TabIndex = 20;
-            this.SubSubmenuEj3OrdSup.Visible = false;
-            // 
-            // flowLayoutPanel24
-            // 
-            this.flowLayoutPanel24.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel24.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel24.Name = "flowLayoutPanel24";
-            this.flowLayoutPanel24.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel24.TabIndex = 13;
-            // 
-            // BtnEj3Trigo
-            // 
-            this.BtnEj3Trigo.BackColor = System.Drawing.Color.LightGreen;
-            this.BtnEj3Trigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BtnEj3Trigo.FlatAppearance.BorderSize = 0;
-            this.BtnEj3Trigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.BtnEj3Trigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Trigo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEj3Trigo.ForeColor = System.Drawing.Color.Black;
-            this.BtnEj3Trigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEj3Trigo.Location = new System.Drawing.Point(0, 0);
-            this.BtnEj3Trigo.Name = "BtnEj3Trigo";
-            this.BtnEj3Trigo.Size = new System.Drawing.Size(71, 24);
-            this.BtnEj3Trigo.TabIndex = 12;
-            this.BtnEj3Trigo.Text = "Ej 3-4";
-            this.BtnEj3Trigo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEj3Trigo.UseVisualStyleBackColor = false;
-            this.BtnEj3Trigo.Click += new System.EventHandler(this.BtnEj3Trigo_Click);
-            // 
             // SubmenuDer
             // 
             this.SubmenuDer.Controls.Add(this.flowLayoutPanel16);
@@ -209,7 +154,7 @@
             this.SubmenuDer.Controls.Add(this.BtnIntFun);
             this.SubmenuDer.Controls.Add(this.flowLayoutPanel19);
             this.SubmenuDer.Controls.Add(this.BtnTipFun);
-            this.SubmenuDer.Location = new System.Drawing.Point(5, 42);
+            this.SubmenuDer.Location = new System.Drawing.Point(4, 73);
             this.SubmenuDer.Name = "SubmenuDer";
             this.SubmenuDer.Size = new System.Drawing.Size(130, 92);
             this.SubmenuDer.TabIndex = 18;
@@ -299,7 +244,7 @@
             // 
             this.SubSubmenuEj34.Controls.Add(this.flowLayoutPanel18);
             this.SubSubmenuEj34.Controls.Add(this.BtnEj3Dom);
-            this.SubSubmenuEj34.Location = new System.Drawing.Point(129, 202);
+            this.SubSubmenuEj34.Location = new System.Drawing.Point(128, 293);
             this.SubSubmenuEj34.Name = "SubSubmenuEj34";
             this.SubSubmenuEj34.Size = new System.Drawing.Size(54, 34);
             this.SubSubmenuEj34.TabIndex = 18;
@@ -333,98 +278,6 @@
             this.BtnEj3Dom.UseVisualStyleBackColor = false;
             this.BtnEj3Dom.Click += new System.EventHandler(this.BtnEj3Dom_Click);
             // 
-            // SubMenuOrdSup
-            // 
-            this.SubMenuOrdSup.Controls.Add(this.flowLayoutPanel12);
-            this.SubMenuOrdSup.Controls.Add(this.BtnExaTrigo);
-            this.SubMenuOrdSup.Controls.Add(this.flowLayoutPanel13);
-            this.SubMenuOrdSup.Controls.Add(this.BtnEjTrigo);
-            this.SubMenuOrdSup.Controls.Add(this.flowLayoutPanel14);
-            this.SubMenuOrdSup.Controls.Add(this.BtnVidTrigo);
-            this.SubMenuOrdSup.Location = new System.Drawing.Point(12, 298);
-            this.SubMenuOrdSup.Name = "SubMenuOrdSup";
-            this.SubMenuOrdSup.Size = new System.Drawing.Size(110, 88);
-            this.SubMenuOrdSup.TabIndex = 19;
-            this.SubMenuOrdSup.Visible = false;
-            // 
-            // flowLayoutPanel12
-            // 
-            this.flowLayoutPanel12.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(0, 60);
-            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel12.TabIndex = 17;
-            // 
-            // BtnExaTrigo
-            // 
-            this.BtnExaTrigo.BackColor = System.Drawing.Color.LightGreen;
-            this.BtnExaTrigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BtnExaTrigo.FlatAppearance.BorderSize = 0;
-            this.BtnExaTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.BtnExaTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaTrigo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnExaTrigo.ForeColor = System.Drawing.Color.Black;
-            this.BtnExaTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnExaTrigo.Location = new System.Drawing.Point(0, 60);
-            this.BtnExaTrigo.Name = "BtnExaTrigo";
-            this.BtnExaTrigo.Size = new System.Drawing.Size(110, 24);
-            this.BtnExaTrigo.TabIndex = 16;
-            this.BtnExaTrigo.Text = "Examen";
-            this.BtnExaTrigo.UseVisualStyleBackColor = false;
-            this.BtnExaTrigo.Click += new System.EventHandler(this.BtnExaTrigo_Click);
-            // 
-            // flowLayoutPanel13
-            // 
-            this.flowLayoutPanel13.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel13.Location = new System.Drawing.Point(0, 30);
-            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
-            this.flowLayoutPanel13.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel13.TabIndex = 15;
-            // 
-            // BtnEjTrigo
-            // 
-            this.BtnEjTrigo.BackColor = System.Drawing.Color.LightGreen;
-            this.BtnEjTrigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BtnEjTrigo.FlatAppearance.BorderSize = 0;
-            this.BtnEjTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.BtnEjTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjTrigo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEjTrigo.ForeColor = System.Drawing.Color.Black;
-            this.BtnEjTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEjTrigo.Location = new System.Drawing.Point(0, 30);
-            this.BtnEjTrigo.Name = "BtnEjTrigo";
-            this.BtnEjTrigo.Size = new System.Drawing.Size(110, 24);
-            this.BtnEjTrigo.TabIndex = 14;
-            this.BtnEjTrigo.Text = "Ejercicios";
-            this.BtnEjTrigo.UseVisualStyleBackColor = false;
-            this.BtnEjTrigo.Click += new System.EventHandler(this.BtnEjTrigo_Click);
-            // 
-            // flowLayoutPanel14
-            // 
-            this.flowLayoutPanel14.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel14.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
-            this.flowLayoutPanel14.Size = new System.Drawing.Size(5, 24);
-            this.flowLayoutPanel14.TabIndex = 13;
-            // 
-            // BtnVidTrigo
-            // 
-            this.BtnVidTrigo.BackColor = System.Drawing.Color.LightGreen;
-            this.BtnVidTrigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BtnVidTrigo.FlatAppearance.BorderSize = 0;
-            this.BtnVidTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.BtnVidTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVidTrigo.Font = new System.Drawing.Font("Arial Narrow", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnVidTrigo.ForeColor = System.Drawing.Color.Black;
-            this.BtnVidTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnVidTrigo.Location = new System.Drawing.Point(0, 0);
-            this.BtnVidTrigo.Name = "BtnVidTrigo";
-            this.BtnVidTrigo.Size = new System.Drawing.Size(110, 24);
-            this.BtnVidTrigo.TabIndex = 12;
-            this.BtnVidTrigo.Text = "Video";
-            this.BtnVidTrigo.UseVisualStyleBackColor = false;
-            this.BtnVidTrigo.Click += new System.EventHandler(this.BtnVidTrigo_Click);
-            // 
             // SubmenuRegCad
             // 
             this.SubmenuRegCad.Controls.Add(this.flowLayoutPanel15);
@@ -434,7 +287,7 @@
             this.SubmenuRegCad.Controls.Add(this.BtnEjDom);
             this.SubmenuRegCad.Controls.Add(this.flowLayoutPanel6);
             this.SubmenuRegCad.Controls.Add(this.BtnViDom);
-            this.SubmenuRegCad.Location = new System.Drawing.Point(13, 172);
+            this.SubmenuRegCad.Location = new System.Drawing.Point(12, 263);
             this.SubmenuRegCad.Name = "SubmenuRegCad";
             this.SubmenuRegCad.Size = new System.Drawing.Size(110, 88);
             this.SubmenuRegCad.TabIndex = 11;
@@ -526,37 +379,10 @@
             this.BtnViDom.UseVisualStyleBackColor = false;
             this.BtnViDom.Click += new System.EventHandler(this.BtnViDom_Click);
             // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 260);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(5, 32);
-            this.flowLayoutPanel4.TabIndex = 8;
-            // 
-            // BtnTrigonometrica
-            // 
-            this.BtnTrigonometrica.BackColor = System.Drawing.Color.LightGreen;
-            this.BtnTrigonometrica.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnTrigonometrica.BackgroundImage")));
-            this.BtnTrigonometrica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BtnTrigonometrica.FlatAppearance.BorderSize = 0;
-            this.BtnTrigonometrica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
-            this.BtnTrigonometrica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTrigonometrica.Font = new System.Drawing.Font("Arial Narrow", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTrigonometrica.ForeColor = System.Drawing.Color.Black;
-            this.BtnTrigonometrica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnTrigonometrica.Location = new System.Drawing.Point(3, 260);
-            this.BtnTrigonometrica.Name = "BtnTrigonometrica";
-            this.BtnTrigonometrica.Size = new System.Drawing.Size(182, 32);
-            this.BtnTrigonometrica.TabIndex = 7;
-            this.BtnTrigonometrica.Text = "Derivada de Orden Superior\r\n";
-            this.BtnTrigonometrica.UseVisualStyleBackColor = false;
-            this.BtnTrigonometrica.Click += new System.EventHandler(this.BtnTrigonometrica_Click);
-            // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(1, 134);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(0, 225);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(5, 32);
             this.flowLayoutPanel3.TabIndex = 6;
@@ -572,7 +398,7 @@
             this.BtnReglaCadena.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnReglaCadena.ForeColor = System.Drawing.Color.Black;
             this.BtnReglaCadena.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnReglaCadena.Location = new System.Drawing.Point(1, 134);
+            this.BtnReglaCadena.Location = new System.Drawing.Point(0, 225);
             this.BtnReglaCadena.Name = "BtnReglaCadena";
             this.BtnReglaCadena.Size = new System.Drawing.Size(182, 32);
             this.BtnReglaCadena.TabIndex = 5;
@@ -584,7 +410,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightCoral;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(1, 10);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(-2, 41);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(5, 32);
             this.flowLayoutPanel1.TabIndex = 2;
@@ -601,7 +427,7 @@
             this.BtnDefinicionDer.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDefinicionDer.ForeColor = System.Drawing.Color.Black;
             this.BtnDefinicionDer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnDefinicionDer.Location = new System.Drawing.Point(1, 10);
+            this.BtnDefinicionDer.Location = new System.Drawing.Point(0, 41);
             this.BtnDefinicionDer.Name = "BtnDefinicionDer";
             this.BtnDefinicionDer.Size = new System.Drawing.Size(182, 32);
             this.BtnDefinicionDer.TabIndex = 1;
@@ -668,10 +494,8 @@
             this.PanelContenedor.ResumeLayout(false);
             this.BarraLateral.ResumeLayout(false);
             this.SubSubmenuVide2.ResumeLayout(false);
-            this.SubSubmenuEj3OrdSup.ResumeLayout(false);
             this.SubmenuDer.ResumeLayout(false);
             this.SubSubmenuEj34.ResumeLayout(false);
-            this.SubMenuOrdSup.ResumeLayout(false);
             this.SubmenuRegCad.ResumeLayout(false);
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
@@ -685,9 +509,6 @@
 
         private System.Windows.Forms.Panel PanelContenedor;
         private System.Windows.Forms.Panel BarraLateral;
-        private System.Windows.Forms.Panel SubSubmenuEj3OrdSup;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel24;
-        private System.Windows.Forms.Button BtnEj3Trigo;
         private System.Windows.Forms.Panel SubmenuDer;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
         private System.Windows.Forms.Button BtnExamFun;
@@ -698,13 +519,6 @@
         private System.Windows.Forms.Panel SubSubmenuEj34;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel18;
         private System.Windows.Forms.Button BtnEj3Dom;
-        private System.Windows.Forms.Panel SubMenuOrdSup;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.Button BtnExaTrigo;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
-        private System.Windows.Forms.Button BtnEjTrigo;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
-        private System.Windows.Forms.Button BtnVidTrigo;
         private System.Windows.Forms.Panel SubmenuRegCad;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
@@ -713,8 +527,6 @@
         private System.Windows.Forms.Button BtnEjDom;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
         private System.Windows.Forms.Button BtnViDom;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Button BtnTrigonometrica;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button BtnReglaCadena;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
