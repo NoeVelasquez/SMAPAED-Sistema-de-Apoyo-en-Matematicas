@@ -39,36 +39,36 @@ namespace SMAPAED
             //int incorrecto = 0;
             if (RbVerdaderoD1.Checked)
             {
-                correctod = correctod + 1;
+                correctod = correctod + 5;
 
             }
             if (RbVerdaderoD2.Checked)
             {
-                correctod = correctod + 1;
+                correctod = correctod + 5;
 
             }
             if (RbVerdaderoD3.Checked)
             {
-                correctod = correctod + 1;
+                correctod = correctod + 5;
 
             }
             if (RbVerdaderoD4.Checked)
             {
-                correctod = correctod + 1;
+                correctod = correctod + 5;
 
             }
             if (RbVerdaderoD5.Checked)
             {
-                correctod = correctod + 1;
+                correctod = correctod + 5;
 
             }
             if (RbVerdaderoD6.Checked)
             {
-                correctod = correctod + 1;
+                correctod = correctod + 5;
 
             }
             MessageBox.Show("Su puntaje es:" + correctod + "/30");
-            if (correctod <= 3)
+            if (correctod <= 15)
             {
                 MessageBox.Show("Pasas a Derivadas");
                 this.Hide();

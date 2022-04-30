@@ -112,11 +112,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 20.25F);
+            this.label2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(12, 177);
+            this.label2.Location = new System.Drawing.Point(41, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(177, 36);
+            this.label2.Size = new System.Drawing.Size(155, 32);
             this.label2.TabIndex = 9;
             this.label2.Text = "Contraseña";
             // 
@@ -124,11 +124,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(58, 105);
+            this.label1.Location = new System.Drawing.Point(87, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 36);
+            this.label1.Size = new System.Drawing.Size(107, 32);
             this.label1.TabIndex = 8;
             this.label1.Text = "Usuario";
             // 
@@ -136,10 +136,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Lucida Handwriting", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(35, 9);
+            this.label3.Font = new System.Drawing.Font("Arial", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(95, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(418, 96);
+            this.label3.Size = new System.Drawing.Size(325, 80);
             this.label3.TabIndex = 16;
             this.label3.Text = "Sistema de Apoyo \r\npara Matematicas";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

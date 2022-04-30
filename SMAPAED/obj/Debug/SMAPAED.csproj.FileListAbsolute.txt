@@ -219,3 +219,4 @@ C:\Users\ROSIO\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas
 C:\Users\ROSIO\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.application
 C:\Users\ROSIO\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.csproj.CopyComplete
 C:\Users\ROSIO\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.DefVid2Dervcs.resources
+C:\Users\noemi\Source\Repos\NoeVelasquez\SMAPAED-Sistema-de-Apoyo-en-Matematicas\SMAPAED\obj\Debug\SMAPAED.DefVid2Dervcs.resources

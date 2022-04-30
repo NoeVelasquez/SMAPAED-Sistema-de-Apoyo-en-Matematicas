@@ -40,35 +40,35 @@ namespace SMAPAED
             //int incorrecto = 0;
             if (RbVerdadero.Checked)
             {
-                correcto = correcto + 1;
+                correcto = correcto + 4;
 
             }
             if (RbVerdadero2.Checked)
             {
-                correcto = correcto + 1;
+                correcto = correcto + 4;
 
             }
             if (RbVerdadero3.Checked)
             {
-                correcto = correcto + 1;
+                correcto = correcto + 4;
 
             }
             if (RbVerdadero4.Checked)
             {
-                correcto = correcto + 1;
+                correcto = correcto + 4;
 
             }
             if (RbVerdadero5.Checked)
             {
-                correcto = correcto + 1;
+                correcto = correcto + 4;
 
             }
            
-            MessageBox.Show("Su puntaje es:" + correcto + "/30");
+            MessageBox.Show("Su puntaje es:" + correcto + "/20");
             
             Datos info;
             info.datoFuncion = correcto;
-            if (correcto > 4)
+            if (correcto > 1022)
             {
                 MessageBox.Show("Pasas al examen de derivadas");
                 this.Hide();

@@ -38,6 +38,11 @@
             this.RbVerdaderoEj2 = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.radioButton15 = new System.Windows.Forms.RadioButton();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.RbVerdaderoEj3 = new System.Windows.Forms.RadioButton();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
@@ -64,23 +69,18 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.RbVerdadero = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.RbVerdaderoEj3 = new System.Windows.Forms.RadioButton();
-            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.groupBox9.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // ControlAgTED
@@ -106,6 +106,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.groupBox8);
             this.groupBox2.Controls.Add(this.groupBox9);
             this.groupBox2.Controls.Add(this.groupBox7);
@@ -119,6 +120,7 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.BackColor = System.Drawing.Color.Gainsboro;
             this.groupBox8.Controls.Add(this.pictureBox3);
             this.groupBox8.Controls.Add(this.pictureBox2);
             this.groupBox8.Controls.Add(this.RbVerdaderoEj2);
@@ -184,8 +186,65 @@
             this.radioButton15.Text = "\r\n";
             this.radioButton15.UseVisualStyleBackColor = false;
             // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.Color.Gainsboro;
+            this.groupBox9.Controls.Add(this.radioButton6);
+            this.groupBox9.Controls.Add(this.radioButton8);
+            this.groupBox9.Controls.Add(this.RbVerdaderoEj3);
+            this.groupBox9.Controls.Add(this.label8);
+            this.groupBox9.Location = new System.Drawing.Point(6, 134);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(572, 112);
+            this.groupBox9.TabIndex = 0;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Pregunta 6";
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(233, 69);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(91, 22);
+            this.radioButton6.TabIndex = 8;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "f\'(x)=2x^3";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(394, 69);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(82, 22);
+            this.radioButton8.TabIndex = 7;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "f\'(x)=x^2";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // RbVerdaderoEj3
+            // 
+            this.RbVerdaderoEj3.AutoSize = true;
+            this.RbVerdaderoEj3.Location = new System.Drawing.Point(88, 69);
+            this.RbVerdaderoEj3.Name = "RbVerdaderoEj3";
+            this.RbVerdaderoEj3.Size = new System.Drawing.Size(91, 22);
+            this.RbVerdaderoEj3.TabIndex = 6;
+            this.RbVerdaderoEj3.TabStop = true;
+            this.RbVerdaderoEj3.Text = "f\'(x)=3x^2";
+            this.RbVerdaderoEj3.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(17, 36);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(483, 54);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Teniendo en cuenta las fórmulas vistas, ¿Cuál es la derivada dex^3 ?\r\n\r\n\r\n";
+            // 
             // groupBox7
             // 
+            this.groupBox7.BackColor = System.Drawing.Color.Gainsboro;
             this.groupBox7.Controls.Add(this.radioButton11);
             this.groupBox7.Controls.Add(this.radioButton12);
             this.groupBox7.Controls.Add(this.RbVerdaderoEj1);
@@ -241,6 +300,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.groupBox6);
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox3);
@@ -477,73 +537,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Harlow Solid Italic", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(81, 9);
+            this.label1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(32, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(602, 46);
+            this.label1.Size = new System.Drawing.Size(654, 42);
             this.label1.TabIndex = 14;
             this.label1.Text = "Examen Sobre Definicion de Derivadas";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.radioButton6);
-            this.groupBox9.Controls.Add(this.radioButton8);
-            this.groupBox9.Controls.Add(this.RbVerdaderoEj3);
-            this.groupBox9.Controls.Add(this.label8);
-            this.groupBox9.Location = new System.Drawing.Point(6, 134);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(572, 112);
-            this.groupBox9.TabIndex = 0;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Pregunta 6";
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(233, 69);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(91, 22);
-            this.radioButton6.TabIndex = 8;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "f\'(x)=2x^3";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(394, 69);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(82, 22);
-            this.radioButton8.TabIndex = 7;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "f\'(x)=x^2";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // RbVerdaderoEj3
-            // 
-            this.RbVerdaderoEj3.AutoSize = true;
-            this.RbVerdaderoEj3.Location = new System.Drawing.Point(88, 69);
-            this.RbVerdaderoEj3.Name = "RbVerdaderoEj3";
-            this.RbVerdaderoEj3.Size = new System.Drawing.Size(91, 22);
-            this.RbVerdaderoEj3.TabIndex = 6;
-            this.RbVerdaderoEj3.TabStop = true;
-            this.RbVerdaderoEj3.Text = "f\'(x)=3x^2";
-            this.RbVerdaderoEj3.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(17, 36);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(483, 54);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Teniendo en cuenta las fórmulas vistas, ¿Cuál es la derivada dex^3 ?\r\n\r\n\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ExamenDefDerivadas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.BtnEntregarEx1);
             this.Controls.Add(this.groupBox2);
@@ -559,6 +566,8 @@
             this.groupBox8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -570,8 +579,6 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

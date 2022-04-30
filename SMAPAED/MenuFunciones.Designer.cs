@@ -93,7 +93,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnFunciones = new System.Windows.Forms.Button();
             this.PanelContenedor = new System.Windows.Forms.Panel();
-            this.Video1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -108,7 +108,6 @@
             this.SubmenuExpo.SuspendLayout();
             this.SubmenuDominio.SuspendLayout();
             this.PanelContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Video1)).BeginInit();
             this.SuspendLayout();
             // 
             // BarraTitulo
@@ -118,6 +117,7 @@
             this.BarraTitulo.Controls.Add(this.BtnCerrar);
             this.BarraTitulo.Controls.Add(this.pictureBox1);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BarraTitulo.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
             this.BarraTitulo.Name = "BarraTitulo";
             this.BarraTitulo.Size = new System.Drawing.Size(1184, 48);
@@ -127,10 +127,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 8);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(184, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(842, 36);
+            this.label1.Size = new System.Drawing.Size(629, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sistema de Apoyo en Matematicas Area de Funciones\r\n";
             // 
@@ -180,6 +180,7 @@
             this.BarraLateral.Controls.Add(this.flowLayoutPanel1);
             this.BarraLateral.Controls.Add(this.BtnFunciones);
             this.BarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BarraLateral.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BarraLateral.Location = new System.Drawing.Point(0, 48);
             this.BarraLateral.Name = "BarraLateral";
             this.BarraLateral.Size = new System.Drawing.Size(182, 627);
@@ -211,7 +212,7 @@
             this.BtnEj3Loga.FlatAppearance.BorderSize = 0;
             this.BtnEj3Loga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEj3Loga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Loga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Loga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEj3Loga.ForeColor = System.Drawing.Color.White;
             this.BtnEj3Loga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEj3Loga.Location = new System.Drawing.Point(0, 0);
@@ -227,11 +228,13 @@
             // 
             this.SubSubmenuEj3Trigo.Controls.Add(this.flowLayoutPanel24);
             this.SubSubmenuEj3Trigo.Controls.Add(this.BtnEj3Trigo);
+            this.SubSubmenuEj3Trigo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubSubmenuEj3Trigo.Location = new System.Drawing.Point(123, 449);
             this.SubSubmenuEj3Trigo.Name = "SubSubmenuEj3Trigo";
             this.SubSubmenuEj3Trigo.Size = new System.Drawing.Size(54, 34);
             this.SubSubmenuEj3Trigo.TabIndex = 20;
             this.SubSubmenuEj3Trigo.Visible = false;
+            this.SubSubmenuEj3Trigo.Paint += new System.Windows.Forms.PaintEventHandler(this.SubSubmenuEj3Trigo_Paint);
             // 
             // flowLayoutPanel24
             // 
@@ -264,6 +267,7 @@
             // 
             this.SubSubmenuEj3Expo.Controls.Add(this.flowLayoutPanel23);
             this.SubSubmenuEj3Expo.Controls.Add(this.BtnEje3Expo);
+            this.SubSubmenuEj3Expo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubSubmenuEj3Expo.Location = new System.Drawing.Point(130, 317);
             this.SubSubmenuEj3Expo.Name = "SubSubmenuEj3Expo";
             this.SubSubmenuEj3Expo.Size = new System.Drawing.Size(54, 34);
@@ -327,7 +331,7 @@
             this.BtnExaLoga.FlatAppearance.BorderSize = 0;
             this.BtnExaLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExaLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaLoga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaLoga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExaLoga.ForeColor = System.Drawing.Color.White;
             this.BtnExaLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExaLoga.Location = new System.Drawing.Point(0, 60);
@@ -353,7 +357,7 @@
             this.BtnEjLoga.FlatAppearance.BorderSize = 0;
             this.BtnEjLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEjLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjLoga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjLoga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEjLoga.ForeColor = System.Drawing.Color.White;
             this.BtnEjLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEjLoga.Location = new System.Drawing.Point(0, 30);
@@ -379,7 +383,7 @@
             this.BtnVidLoga.FlatAppearance.BorderSize = 0;
             this.BtnVidLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnVidLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVidLoga.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVidLoga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVidLoga.ForeColor = System.Drawing.Color.White;
             this.BtnVidLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVidLoga.Location = new System.Drawing.Point(0, 0);
@@ -406,7 +410,7 @@
             this.BtnLogaritmico.FlatAppearance.BorderSize = 0;
             this.BtnLogaritmico.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnLogaritmico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLogaritmico.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLogaritmico.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnLogaritmico.ForeColor = System.Drawing.Color.White;
             this.BtnLogaritmico.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnLogaritmico.Location = new System.Drawing.Point(0, 506);
@@ -426,11 +430,13 @@
             this.SubmenuFunc.Controls.Add(this.BtnIntFun);
             this.SubmenuFunc.Controls.Add(this.flowLayoutPanel19);
             this.SubmenuFunc.Controls.Add(this.BtnTipFun);
+            this.SubmenuFunc.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmenuFunc.Location = new System.Drawing.Point(13, 39);
             this.SubmenuFunc.Name = "SubmenuFunc";
             this.SubmenuFunc.Size = new System.Drawing.Size(171, 92);
             this.SubmenuFunc.TabIndex = 18;
             this.SubmenuFunc.Visible = false;
+            this.SubmenuFunc.Paint += new System.Windows.Forms.PaintEventHandler(this.SubmenuFunc_Paint);
             // 
             // flowLayoutPanel16
             // 
@@ -516,11 +522,13 @@
             // 
             this.SubSubmenuEj34.Controls.Add(this.flowLayoutPanel18);
             this.SubSubmenuEj34.Controls.Add(this.BtnEj3Dom);
+            this.SubSubmenuEj34.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubSubmenuEj34.Location = new System.Drawing.Point(129, 202);
             this.SubSubmenuEj34.Name = "SubSubmenuEj34";
             this.SubSubmenuEj34.Size = new System.Drawing.Size(54, 34);
             this.SubSubmenuEj34.TabIndex = 18;
             this.SubSubmenuEj34.Visible = false;
+            this.SubSubmenuEj34.Paint += new System.Windows.Forms.PaintEventHandler(this.SubSubmenuEj34_Paint);
             // 
             // flowLayoutPanel18
             // 
@@ -557,6 +565,7 @@
             this.SubMenuTrigo.Controls.Add(this.BtnEjTrigo);
             this.SubMenuTrigo.Controls.Add(this.flowLayoutPanel14);
             this.SubMenuTrigo.Controls.Add(this.BtnVidTrigo);
+            this.SubMenuTrigo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubMenuTrigo.Location = new System.Drawing.Point(13, 419);
             this.SubMenuTrigo.Name = "SubMenuTrigo";
             this.SubMenuTrigo.Size = new System.Drawing.Size(110, 88);
@@ -650,11 +659,13 @@
             this.SubmenuExpo.Controls.Add(this.BtnEjExpo);
             this.SubmenuExpo.Controls.Add(this.flowLayoutPanel11);
             this.SubmenuExpo.Controls.Add(this.BtnVideoExpo);
+            this.SubmenuExpo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmenuExpo.Location = new System.Drawing.Point(14, 287);
             this.SubmenuExpo.Name = "SubmenuExpo";
             this.SubmenuExpo.Size = new System.Drawing.Size(110, 88);
             this.SubmenuExpo.TabIndex = 18;
             this.SubmenuExpo.Visible = false;
+            this.SubmenuExpo.Paint += new System.Windows.Forms.PaintEventHandler(this.SubmenuExpo_Paint);
             // 
             // flowLayoutPanel9
             // 
@@ -743,11 +754,13 @@
             this.SubmenuDominio.Controls.Add(this.BtnEjDom);
             this.SubmenuDominio.Controls.Add(this.flowLayoutPanel6);
             this.SubmenuDominio.Controls.Add(this.BtnViDom);
+            this.SubmenuDominio.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmenuDominio.Location = new System.Drawing.Point(13, 172);
             this.SubmenuDominio.Name = "SubmenuDominio";
             this.SubmenuDominio.Size = new System.Drawing.Size(110, 88);
             this.SubmenuDominio.TabIndex = 11;
             this.SubmenuDominio.Visible = false;
+            this.SubmenuDominio.Paint += new System.Windows.Forms.PaintEventHandler(this.SubmenuDominio_Paint);
             // 
             // flowLayoutPanel15
             // 
@@ -851,7 +864,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(4, 262);
@@ -879,7 +892,7 @@
             this.BtnTrigonometrica.FlatAppearance.BorderSize = 0;
             this.BtnTrigonometrica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnTrigonometrica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTrigonometrica.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTrigonometrica.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTrigonometrica.ForeColor = System.Drawing.Color.White;
             this.BtnTrigonometrica.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnTrigonometrica.Location = new System.Drawing.Point(1, 381);
@@ -907,7 +920,7 @@
             this.BtnDominio.FlatAppearance.BorderSize = 0;
             this.BtnDominio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnDominio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnDominio.Font = new System.Drawing.Font("Lucida Calligraphy", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDominio.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDominio.ForeColor = System.Drawing.Color.White;
             this.BtnDominio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnDominio.Location = new System.Drawing.Point(1, 134);
@@ -936,7 +949,7 @@
             this.BtnFunciones.FlatAppearance.BorderSize = 0;
             this.BtnFunciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnFunciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnFunciones.Font = new System.Drawing.Font("Lucida Calligraphy", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFunciones.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnFunciones.ForeColor = System.Drawing.Color.White;
             this.BtnFunciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnFunciones.Location = new System.Drawing.Point(1, 10);
@@ -951,7 +964,7 @@
             // PanelContenedor
             // 
             this.PanelContenedor.BackColor = System.Drawing.Color.RosyBrown;
-            this.PanelContenedor.Controls.Add(this.Video1);
+            this.PanelContenedor.Controls.Add(this.webBrowser1);
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenedor.Location = new System.Drawing.Point(182, 48);
             this.PanelContenedor.Name = "PanelContenedor";
@@ -959,14 +972,13 @@
             this.PanelContenedor.TabIndex = 2;
             this.PanelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContenedor_Paint);
             // 
-            // Video1
+            // webBrowser1
             // 
-            this.Video1.Enabled = true;
-            this.Video1.Location = new System.Drawing.Point(23, 12);
-            this.Video1.Name = "Video1";
-            this.Video1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Video1.OcxState")));
-            this.Video1.Size = new System.Drawing.Size(967, 603);
-            this.Video1.TabIndex = 0;
+            this.webBrowser1.Location = new System.Drawing.Point(8, 13);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(948, 585);
+            this.webBrowser1.TabIndex = 6;
             // 
             // MenuFunciones
             // 
@@ -995,7 +1007,6 @@
             this.SubmenuExpo.ResumeLayout(false);
             this.SubmenuDominio.ResumeLayout(false);
             this.PanelContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Video1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1034,7 +1045,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
         private System.Windows.Forms.Button BtnVideoExpo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
-        private AxWMPLib.AxWindowsMediaPlayer Video1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
         private System.Windows.Forms.Button BtnViDom;
@@ -1067,5 +1077,6 @@
         private System.Windows.Forms.Panel SubSubmenuEj3Expo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel23;
         private System.Windows.Forms.Button BtnEje3Expo;
+        private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }

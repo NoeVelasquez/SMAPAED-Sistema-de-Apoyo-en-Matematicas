@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AgentObjects;
+using DoubleAgentCtl;
 
 namespace SMAPAED
 {
     public partial class ExamenRegCadDer : Form
     {
+        private AgentObjects.IAgentCtlCharacter Avatar;
         public ExamenRegCadDer()
         {
             InitializeComponent();
@@ -62,6 +65,25 @@ namespace SMAPAED
             {
                 MessageBox.Show("Lamentablemente tiene " + NotaFinal + "debe volver a revisar Dominios");
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExamenRegCadDer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnAren_Click(object sender, EventArgs e)
+        {
+            AgenteAren.Characters.Load("Athena", "Athena.acs");
+            Avatar = (IAgentCtlCharacter)AgenteAren.Characters["Athena"];
+            Avatar.Show(0);
+            Avatar.MoveTo(690, 7, 1);
+            Avatar.Speak("recuerda lo que te mostro el video la regla de la cadena tiene unas partes importantes");
         }
     }
 }

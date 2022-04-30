@@ -113,6 +113,7 @@
             // 
             this.SubSubmenuVide2.Controls.Add(this.flowLayoutPanel26);
             this.SubSubmenuVide2.Controls.Add(this.button1);
+            this.SubSubmenuVide2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubSubmenuVide2.Location = new System.Drawing.Point(139, 73);
             this.SubSubmenuVide2.Name = "SubSubmenuVide2";
             this.SubSubmenuVide2.Size = new System.Drawing.Size(54, 34);
@@ -134,7 +135,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 0);
@@ -154,6 +155,7 @@
             this.SubmenuDer.Controls.Add(this.BtnIntFun);
             this.SubmenuDer.Controls.Add(this.flowLayoutPanel19);
             this.SubmenuDer.Controls.Add(this.BtnTipFun);
+            this.SubmenuDer.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmenuDer.Location = new System.Drawing.Point(4, 73);
             this.SubmenuDer.Name = "SubmenuDer";
             this.SubmenuDer.Size = new System.Drawing.Size(130, 92);
@@ -175,12 +177,12 @@
             this.BtnExamFun.FlatAppearance.BorderSize = 0;
             this.BtnExamFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExamFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExamFun.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExamFun.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExamFun.ForeColor = System.Drawing.Color.Black;
             this.BtnExamFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExamFun.Location = new System.Drawing.Point(-1, 63);
             this.BtnExamFun.Name = "BtnExamFun";
-            this.BtnExamFun.Size = new System.Drawing.Size(165, 24);
+            this.BtnExamFun.Size = new System.Drawing.Size(131, 24);
             this.BtnExamFun.TabIndex = 22;
             this.BtnExamFun.Text = "Examen";
             this.BtnExamFun.UseVisualStyleBackColor = false;
@@ -202,7 +204,7 @@
             this.BtnIntFun.FlatAppearance.BorderSize = 0;
             this.BtnIntFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnIntFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnIntFun.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIntFun.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIntFun.ForeColor = System.Drawing.Color.Black;
             this.BtnIntFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnIntFun.Location = new System.Drawing.Point(1, 3);
@@ -229,7 +231,7 @@
             this.BtnTipFun.FlatAppearance.BorderSize = 0;
             this.BtnTipFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnTipFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTipFun.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTipFun.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTipFun.ForeColor = System.Drawing.Color.Black;
             this.BtnTipFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnTipFun.Location = new System.Drawing.Point(0, 33);
@@ -266,7 +268,7 @@
             this.BtnEj3Dom.FlatAppearance.BorderSize = 0;
             this.BtnEj3Dom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEj3Dom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Dom.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Dom.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEj3Dom.ForeColor = System.Drawing.Color.Black;
             this.BtnEj3Dom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEj3Dom.Location = new System.Drawing.Point(0, 0);
@@ -287,6 +289,7 @@
             this.SubmenuRegCad.Controls.Add(this.BtnEjDom);
             this.SubmenuRegCad.Controls.Add(this.flowLayoutPanel6);
             this.SubmenuRegCad.Controls.Add(this.BtnViDom);
+            this.SubmenuRegCad.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubmenuRegCad.Location = new System.Drawing.Point(12, 263);
             this.SubmenuRegCad.Name = "SubmenuRegCad";
             this.SubmenuRegCad.Size = new System.Drawing.Size(110, 88);
@@ -316,7 +319,7 @@
             this.BtnExaDom.FlatAppearance.BorderSize = 0;
             this.BtnExaDom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExaDom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaDom.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaDom.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExaDom.ForeColor = System.Drawing.Color.Black;
             this.BtnExaDom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExaDom.Location = new System.Drawing.Point(0, 60);
@@ -342,7 +345,7 @@
             this.BtnEjDom.FlatAppearance.BorderSize = 0;
             this.BtnEjDom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEjDom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjDom.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjDom.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEjDom.ForeColor = System.Drawing.Color.Black;
             this.BtnEjDom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEjDom.Location = new System.Drawing.Point(0, 30);
@@ -368,7 +371,7 @@
             this.BtnViDom.FlatAppearance.BorderSize = 0;
             this.BtnViDom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnViDom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnViDom.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnViDom.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnViDom.ForeColor = System.Drawing.Color.Black;
             this.BtnViDom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnViDom.Location = new System.Drawing.Point(0, 0);
@@ -395,7 +398,7 @@
             this.BtnReglaCadena.FlatAppearance.BorderSize = 0;
             this.BtnReglaCadena.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnReglaCadena.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnReglaCadena.Font = new System.Drawing.Font("Arial Narrow", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnReglaCadena.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnReglaCadena.ForeColor = System.Drawing.Color.Black;
             this.BtnReglaCadena.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnReglaCadena.Location = new System.Drawing.Point(0, 225);
@@ -424,7 +427,7 @@
             this.BtnDefinicionDer.FlatAppearance.BorderSize = 0;
             this.BtnDefinicionDer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnDefinicionDer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnDefinicionDer.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDefinicionDer.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDefinicionDer.ForeColor = System.Drawing.Color.Black;
             this.BtnDefinicionDer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnDefinicionDer.Location = new System.Drawing.Point(0, 41);
@@ -452,10 +455,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(176, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(842, 36);
+            this.label1.Size = new System.Drawing.Size(755, 34);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sistema de Apoyo en Matematicas Area de Funciones\r\n";
             // 

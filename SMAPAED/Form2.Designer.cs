@@ -90,6 +90,7 @@
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.RbVerdadero);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox1.Location = new System.Drawing.Point(34, 58);
             this.groupBox1.Name = "groupBox1";
@@ -113,7 +114,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(25, 80);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(37, 17);
+            this.radioButton1.Size = new System.Drawing.Size(39, 20);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "45";
@@ -124,7 +125,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(25, 103);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(37, 17);
+            this.radioButton2.Size = new System.Drawing.Size(39, 20);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "60";
@@ -135,7 +136,7 @@
             this.RbVerdadero.AutoSize = true;
             this.RbVerdadero.Location = new System.Drawing.Point(25, 59);
             this.RbVerdadero.Name = "RbVerdadero";
-            this.RbVerdadero.Size = new System.Drawing.Size(37, 17);
+            this.RbVerdadero.Size = new System.Drawing.Size(39, 20);
             this.RbVerdadero.TabIndex = 0;
             this.RbVerdadero.TabStop = true;
             this.RbVerdadero.Text = "55";
@@ -145,18 +146,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(136, 7);
+            this.label1.Location = new System.Drawing.Point(201, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(450, 48);
+            this.label1.Size = new System.Drawing.Size(351, 36);
             this.label1.TabIndex = 2;
             this.label1.Text = "Test Sobre Funciones";
             // 
             // BtnVerificar1
             // 
             this.BtnVerificar1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.BtnVerificar1.Font = new System.Drawing.Font("Lucida Fax", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVerificar1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVerificar1.Location = new System.Drawing.Point(558, 390);
             this.BtnVerificar1.Name = "BtnVerificar1";
             this.BtnVerificar1.Size = new System.Drawing.Size(164, 48);
@@ -172,9 +173,10 @@
             this.groupBox2.Controls.Add(this.radioButton3);
             this.groupBox2.Controls.Add(this.radioButton4);
             this.groupBox2.Controls.Add(this.RbVerdadero2);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(278, 58);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(245, 126);
+            this.groupBox2.Size = new System.Drawing.Size(257, 138);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pregunta 2";
@@ -194,7 +196,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(25, 59);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(43, 17);
+            this.radioButton3.Size = new System.Drawing.Size(46, 20);
             this.radioButton3.TabIndex = 4;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "125";
@@ -205,7 +207,7 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(25, 103);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(43, 17);
+            this.radioButton4.Size = new System.Drawing.Size(46, 20);
             this.radioButton4.TabIndex = 1;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "150";
@@ -216,7 +218,7 @@
             this.RbVerdadero2.AutoSize = true;
             this.RbVerdadero2.Location = new System.Drawing.Point(25, 82);
             this.RbVerdadero2.Name = "RbVerdadero2";
-            this.RbVerdadero2.Size = new System.Drawing.Size(43, 17);
+            this.RbVerdadero2.Size = new System.Drawing.Size(46, 20);
             this.RbVerdadero2.TabIndex = 0;
             this.RbVerdadero2.TabStop = true;
             this.RbVerdadero2.Text = "120";
@@ -231,6 +233,7 @@
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.radioButton6);
             this.groupBox3.Controls.Add(this.radioButton7);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(558, 58);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(392, 167);
@@ -243,7 +246,7 @@
             this.radioButton8.AutoSize = true;
             this.radioButton8.Location = new System.Drawing.Point(25, 135);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(49, 17);
+            this.radioButton8.Size = new System.Drawing.Size(54, 20);
             this.radioButton8.TabIndex = 8;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "]-1,1[";
@@ -264,7 +267,7 @@
             this.RbVerdadero3.AutoSize = true;
             this.RbVerdadero3.Location = new System.Drawing.Point(25, 112);
             this.RbVerdadero3.Name = "RbVerdadero3";
-            this.RbVerdadero3.Size = new System.Drawing.Size(50, 17);
+            this.RbVerdadero3.Size = new System.Drawing.Size(56, 20);
             this.RbVerdadero3.TabIndex = 6;
             this.RbVerdadero3.TabStop = true;
             this.RbVerdadero3.Text = "R-{0}";
@@ -286,7 +289,7 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(25, 89);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(39, 17);
+            this.radioButton6.Size = new System.Drawing.Size(42, 20);
             this.radioButton6.TabIndex = 1;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "{0}";
@@ -297,7 +300,7 @@
             this.radioButton7.AutoSize = true;
             this.radioButton7.Location = new System.Drawing.Point(25, 68);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(33, 17);
+            this.radioButton7.Size = new System.Drawing.Size(35, 20);
             this.radioButton7.TabIndex = 0;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "R";
@@ -312,9 +315,10 @@
             this.groupBox4.Controls.Add(this.radioButton5);
             this.groupBox4.Controls.Add(this.radioButton9);
             this.groupBox4.Controls.Add(this.RbVerdadero4);
-            this.groupBox4.Location = new System.Drawing.Point(34, 193);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(34, 241);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(230, 143);
+            this.groupBox4.Size = new System.Drawing.Size(238, 164);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Pregunta 4";
@@ -333,7 +337,7 @@
             this.radioButton11.AutoSize = true;
             this.radioButton11.Location = new System.Drawing.Point(9, 110);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(145, 17);
+            this.radioButton11.Size = new System.Drawing.Size(178, 20);
             this.radioButton11.TabIndex = 6;
             this.radioButton11.TabStop = true;
             this.radioButton11.Text = "Ninguna de las anteriores";
@@ -354,7 +358,7 @@
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(9, 64);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(93, 17);
+            this.radioButton5.Size = new System.Drawing.Size(113, 20);
             this.radioButton5.TabIndex = 4;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Una Hiperbola";
@@ -365,7 +369,7 @@
             this.radioButton9.AutoSize = true;
             this.radioButton9.Location = new System.Drawing.Point(9, 87);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(77, 17);
+            this.radioButton9.Size = new System.Drawing.Size(89, 20);
             this.radioButton9.TabIndex = 1;
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Una Recta";
@@ -376,7 +380,7 @@
             this.RbVerdadero4.AutoSize = true;
             this.RbVerdadero4.Location = new System.Drawing.Point(9, 43);
             this.RbVerdadero4.Name = "RbVerdadero4";
-            this.RbVerdadero4.Size = new System.Drawing.Size(90, 17);
+            this.RbVerdadero4.Size = new System.Drawing.Size(109, 20);
             this.RbVerdadero4.TabIndex = 0;
             this.RbVerdadero4.TabStop = true;
             this.RbVerdadero4.Text = "Una Parabola";
@@ -391,9 +395,10 @@
             this.groupBox5.Controls.Add(this.radioButton12);
             this.groupBox5.Controls.Add(this.RbVerdadero5);
             this.groupBox5.Controls.Add(this.radioButton14);
-            this.groupBox5.Location = new System.Drawing.Point(278, 193);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Location = new System.Drawing.Point(297, 241);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(274, 143);
+            this.groupBox5.Size = new System.Drawing.Size(340, 143);
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Pregunta 5";
@@ -403,7 +408,7 @@
             this.radioButton10.AutoSize = true;
             this.radioButton10.Location = new System.Drawing.Point(6, 119);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(263, 17);
+            this.radioButton10.Size = new System.Drawing.Size(321, 20);
             this.radioButton10.TabIndex = 7;
             this.radioButton10.TabStop = true;
             this.radioButton10.Text = "Una semicircunferencia centrada en (1,0) y radio 2";
@@ -433,7 +438,7 @@
             this.radioButton12.AutoSize = true;
             this.radioButton12.Location = new System.Drawing.Point(9, 44);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(139, 30);
+            this.radioButton12.Size = new System.Drawing.Size(168, 36);
             this.radioButton12.TabIndex = 4;
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "Una semicircunferencia \r\nde radio 4";
@@ -444,7 +449,7 @@
             this.RbVerdadero5.AutoSize = true;
             this.RbVerdadero5.Location = new System.Drawing.Point(6, 96);
             this.RbVerdadero5.Name = "RbVerdadero5";
-            this.RbVerdadero5.Size = new System.Drawing.Size(263, 17);
+            this.RbVerdadero5.Size = new System.Drawing.Size(321, 20);
             this.RbVerdadero5.TabIndex = 1;
             this.RbVerdadero5.TabStop = true;
             this.RbVerdadero5.Text = "Una semicircunferencia centrada en (0,0) y radio 2";
@@ -456,7 +461,7 @@
             this.radioButton14.AutoSize = true;
             this.radioButton14.Location = new System.Drawing.Point(9, 80);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(203, 17);
+            this.radioButton14.Size = new System.Drawing.Size(250, 20);
             this.radioButton14.TabIndex = 0;
             this.radioButton14.TabStop = true;
             this.radioButton14.Text = "Una semicircunferencia de diametro 4";

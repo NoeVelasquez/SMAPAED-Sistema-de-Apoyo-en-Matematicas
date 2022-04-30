@@ -162,14 +162,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMAPAED.exe" size="3583400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMAPAED.exe" size="3970984">
       <assemblyIdentity name="SMAPAED" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eMaZGrqIpC6/rrjxV7TlEbDvSbJHtPGWlbpjLuQhNv8=</dsig:DigestValue>
+        <dsig:DigestValue>/RJllcEmnWH42+32Mq1xdBE6wJm0GroX52uiQTgelw8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

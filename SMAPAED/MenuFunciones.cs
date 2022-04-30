@@ -151,12 +151,14 @@ namespace SMAPAED
         }
 
         public void PanelContenedor_Paint(object sender, PaintEventArgs e)
-        {   
-            string Text = ("C:/Users/noemi/Source/Repos/NoeVelasquez/SMAPAED-Sistema-de-Apoyo-en-Matematicas/SMAPAED/Videos/Funciones_ La MEJOR EXPLICACIÓN INFORMAL - Por Lic. María Inés Baragatti - UNLP.mp4");
-            
-            Video1.URL = Text;
-            Video1.Ctlcontrols.play();
-            Video1.Ctlcontrols.stop();
+        {
+            string html = ("<html> <head>");
+            html += ("<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>");
+            html += ("<iframe width='920' height='565' src='https://www.youtube.com/embed/m6KfQ1L7Cs0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            html += (" </body>  </html> ");
+            string text = "https://www.youtube.com/embed/m6KfQ1L7Cs0";
+            //txtLink.Text.Split('=')[1]
+            this.webBrowser1.DocumentText = string.Format(html, text);
         }
 
         private void Menu_Load(object sender, EventArgs e)
@@ -365,6 +367,31 @@ namespace SMAPAED
             this.PanelContenedor.Controls.Add(fh);
             this.PanelContenedor.Tag = fh;
             fh.Show();
+
+        }
+
+        private void SubmenuFunc_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SubmenuDominio_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SubSubmenuEj34_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SubmenuExpo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void SubSubmenuEj3Trigo_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

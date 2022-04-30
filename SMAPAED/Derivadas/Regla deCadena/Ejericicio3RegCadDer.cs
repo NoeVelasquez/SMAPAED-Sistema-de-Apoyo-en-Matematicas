@@ -31,5 +31,15 @@ namespace SMAPAED
         {
             SolucionEj2.Visible = true;
         }
+
+        private void Ejemplo1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ControlAgTED_ActivateInput(object sender, AxDoubleAgentCtl._DaCtlEvents2_ActivateInputEvent e)
+        {
+
+        }
     }
 }

@@ -93,5 +93,10 @@ namespace SMAPAED
                 MessageBox.Show("Lamentablemente tiene " + NotaFinal + "debe volver a revisar Dominios");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
