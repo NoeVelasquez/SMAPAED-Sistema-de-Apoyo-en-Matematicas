@@ -30,27 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EjercicioRegCadDer));
             this.SolucionEjDer2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.ControlAgTED = new AxDoubleAgentCtl.AxDaControl();
             this.SolucionEjDer1 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BtnSolucion = new System.Windows.Forms.Button();
             this.Ejemplo1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SolucionEjDer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).BeginInit();
             this.SolucionEjDer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -72,16 +72,6 @@
             this.SolucionEjDer2.Text = "Respuesta";
             this.SolucionEjDer2.Visible = false;
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(251, 465);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(186, 26);
-            this.pictureBox8.TabIndex = 4;
-            this.pictureBox8.TabStop = false;
-            // 
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
@@ -102,6 +92,16 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Aplicando la regla de suma sera:\r\n";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(251, 465);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(186, 26);
+            this.pictureBox8.TabIndex = 4;
+            this.pictureBox8.TabStop = false;
             // 
             // button1
             // 
@@ -151,6 +151,16 @@
             this.SolucionEjDer1.Text = "Respuesta";
             this.SolucionEjDer1.Visible = false;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label7.Location = new System.Drawing.Point(341, 58);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(299, 24);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "entonces f\'(x)=ln(x) ==> f\'(x)=1/x^2";
+            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
@@ -170,6 +180,18 @@
             this.pictureBox3.Size = new System.Drawing.Size(292, 41);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label8.Location = new System.Drawing.Point(19, 142);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(736, 72);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Finalmente, calculamos la derivada de toda la función aplicando la regla de la ca" +
+    "dena. \r\nLa derivada de la función compuesta será el producto de las dos derivada" +
+    "s que \r\nacabamos de encontrar:";
             // 
             // label3
             // 
@@ -235,28 +257,6 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Ejemplos de la Regla de la Cadena\r\n";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label7.Location = new System.Drawing.Point(341, 58);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(299, 24);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "entonces f\'(x)=ln(x) ==> f\'(x)=1/x^2";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label8.Location = new System.Drawing.Point(19, 142);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(736, 72);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Finalmente, calculamos la derivada de toda la función aplicando la regla de la ca" +
-    "dena. \r\nLa derivada de la función compuesta será el producto de las dos derivada" +
-    "s que \r\nacabamos de encontrar:";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -270,6 +270,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SolucionEjDer2);
@@ -286,8 +287,8 @@
             this.Text = "EjercicioRegCadDer";
             this.SolucionEjDer2.ResumeLayout(false);
             this.SolucionEjDer2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).EndInit();
             this.SolucionEjDer1.ResumeLayout(false);
             this.SolucionEjDer1.PerformLayout();

@@ -94,7 +94,7 @@ namespace SMAPAED
             }
             else
             {
-                MessageBox.Show("Lamentablemente tiene " + NotaFinal + "debe volver a revisar Dominios");
+                MessageBox.Show("Oh por poco te convierte en un Dios super saiyayin pero tu ki llego hasta " + NotaFinal + "debe volver a entrenar");
             }
         }
 

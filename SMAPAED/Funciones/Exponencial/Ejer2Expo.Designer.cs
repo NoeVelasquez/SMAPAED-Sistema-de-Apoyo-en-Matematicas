@@ -137,6 +137,7 @@
             this.SolucionEj1.Controls.Add(this.pictureBox4);
             this.SolucionEj1.Controls.Add(this.label3);
             this.SolucionEj1.Controls.Add(this.label2);
+            this.SolucionEj1.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.SolucionEj1.Location = new System.Drawing.Point(100, 52);
             this.SolucionEj1.Name = "SolucionEj1";
             this.SolucionEj1.Size = new System.Drawing.Size(853, 250);
@@ -231,6 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.axDaControl1);
             this.Controls.Add(this.SolucionEj2);

@@ -212,7 +212,7 @@
             this.BtnEj3Loga.FlatAppearance.BorderSize = 0;
             this.BtnEj3Loga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEj3Loga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Loga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Loga.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEj3Loga.ForeColor = System.Drawing.Color.White;
             this.BtnEj3Loga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEj3Loga.Location = new System.Drawing.Point(0, 0);
@@ -251,7 +251,7 @@
             this.BtnEj3Trigo.FlatAppearance.BorderSize = 0;
             this.BtnEj3Trigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEj3Trigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Trigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Trigo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEj3Trigo.ForeColor = System.Drawing.Color.White;
             this.BtnEj3Trigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEj3Trigo.Location = new System.Drawing.Point(0, 0);
@@ -290,7 +290,7 @@
             this.BtnEje3Expo.FlatAppearance.BorderSize = 0;
             this.BtnEje3Expo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEje3Expo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEje3Expo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEje3Expo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEje3Expo.ForeColor = System.Drawing.Color.White;
             this.BtnEje3Expo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEje3Expo.Location = new System.Drawing.Point(0, 0);
@@ -331,7 +331,7 @@
             this.BtnExaLoga.FlatAppearance.BorderSize = 0;
             this.BtnExaLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExaLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaLoga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaLoga.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExaLoga.ForeColor = System.Drawing.Color.White;
             this.BtnExaLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExaLoga.Location = new System.Drawing.Point(0, 60);
@@ -357,7 +357,7 @@
             this.BtnEjLoga.FlatAppearance.BorderSize = 0;
             this.BtnEjLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEjLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjLoga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjLoga.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEjLoga.ForeColor = System.Drawing.Color.White;
             this.BtnEjLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEjLoga.Location = new System.Drawing.Point(0, 30);
@@ -383,7 +383,7 @@
             this.BtnVidLoga.FlatAppearance.BorderSize = 0;
             this.BtnVidLoga.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnVidLoga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVidLoga.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVidLoga.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVidLoga.ForeColor = System.Drawing.Color.White;
             this.BtnVidLoga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVidLoga.Location = new System.Drawing.Point(0, 0);
@@ -453,7 +453,7 @@
             this.BtnExamFun.FlatAppearance.BorderSize = 0;
             this.BtnExamFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExamFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExamFun.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExamFun.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExamFun.ForeColor = System.Drawing.Color.White;
             this.BtnExamFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExamFun.Location = new System.Drawing.Point(-1, 63);
@@ -480,7 +480,7 @@
             this.BtnIntFun.FlatAppearance.BorderSize = 0;
             this.BtnIntFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnIntFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnIntFun.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIntFun.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIntFun.ForeColor = System.Drawing.Color.White;
             this.BtnIntFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnIntFun.Location = new System.Drawing.Point(1, 3);
@@ -507,7 +507,7 @@
             this.BtnTipFun.FlatAppearance.BorderSize = 0;
             this.BtnTipFun.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnTipFun.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTipFun.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTipFun.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTipFun.ForeColor = System.Drawing.Color.White;
             this.BtnTipFun.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnTipFun.Location = new System.Drawing.Point(0, 33);
@@ -545,7 +545,7 @@
             this.BtnEj3Dom.FlatAppearance.BorderSize = 0;
             this.BtnEj3Dom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEj3Dom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEj3Dom.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEj3Dom.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEj3Dom.ForeColor = System.Drawing.Color.White;
             this.BtnEj3Dom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEj3Dom.Location = new System.Drawing.Point(0, 0);
@@ -588,7 +588,7 @@
             this.BtnExaTrigo.FlatAppearance.BorderSize = 0;
             this.BtnExaTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExaTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaTrigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaTrigo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExaTrigo.ForeColor = System.Drawing.Color.White;
             this.BtnExaTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExaTrigo.Location = new System.Drawing.Point(0, 60);
@@ -614,7 +614,7 @@
             this.BtnEjTrigo.FlatAppearance.BorderSize = 0;
             this.BtnEjTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEjTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjTrigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjTrigo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEjTrigo.ForeColor = System.Drawing.Color.White;
             this.BtnEjTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEjTrigo.Location = new System.Drawing.Point(0, 30);
@@ -640,7 +640,7 @@
             this.BtnVidTrigo.FlatAppearance.BorderSize = 0;
             this.BtnVidTrigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnVidTrigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVidTrigo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVidTrigo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVidTrigo.ForeColor = System.Drawing.Color.White;
             this.BtnVidTrigo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVidTrigo.Location = new System.Drawing.Point(0, 0);
@@ -682,7 +682,7 @@
             this.BtnExaExpo.FlatAppearance.BorderSize = 0;
             this.BtnExaExpo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExaExpo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaExpo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaExpo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExaExpo.ForeColor = System.Drawing.Color.White;
             this.BtnExaExpo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExaExpo.Location = new System.Drawing.Point(0, 60);
@@ -708,7 +708,7 @@
             this.BtnEjExpo.FlatAppearance.BorderSize = 0;
             this.BtnEjExpo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEjExpo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjExpo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjExpo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEjExpo.ForeColor = System.Drawing.Color.White;
             this.BtnEjExpo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEjExpo.Location = new System.Drawing.Point(0, 30);
@@ -734,7 +734,7 @@
             this.BtnVideoExpo.FlatAppearance.BorderSize = 0;
             this.BtnVideoExpo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnVideoExpo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVideoExpo.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVideoExpo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVideoExpo.ForeColor = System.Drawing.Color.White;
             this.BtnVideoExpo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnVideoExpo.Location = new System.Drawing.Point(0, 0);
@@ -785,7 +785,7 @@
             this.BtnExaDom.FlatAppearance.BorderSize = 0;
             this.BtnExaDom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnExaDom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnExaDom.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExaDom.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnExaDom.ForeColor = System.Drawing.Color.White;
             this.BtnExaDom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnExaDom.Location = new System.Drawing.Point(0, 60);
@@ -811,7 +811,7 @@
             this.BtnEjDom.FlatAppearance.BorderSize = 0;
             this.BtnEjDom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnEjDom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEjDom.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEjDom.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEjDom.ForeColor = System.Drawing.Color.White;
             this.BtnEjDom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEjDom.Location = new System.Drawing.Point(0, 30);
@@ -837,7 +837,7 @@
             this.BtnViDom.FlatAppearance.BorderSize = 0;
             this.BtnViDom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.BtnViDom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnViDom.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnViDom.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnViDom.ForeColor = System.Drawing.Color.White;
             this.BtnViDom.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnViDom.Location = new System.Drawing.Point(0, 0);
@@ -864,7 +864,7 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(4, 262);

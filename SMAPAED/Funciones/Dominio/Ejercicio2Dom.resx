@@ -121,7 +121,7 @@
   <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEgAAAAkCAYAAAAq23xmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAAilJREFUaEPtmYGRwiAQRa8Ea7gSrMESrMESrgdLsAZLuBoswRquhNz/EMhusgZw
+        vQAADr0BR/uQrQAAAilJREFUaEPtmYGRwiAQRa8Ea7gSrMESrMESrgdLsAZLuBoswRquhNz/EMhusgZw
         MhNJ+DMvBwsO+rMkwH11XbcJoAO4gIfV/i5msDagU2/OD3hafd7FDNYKdG4GzdAMStAMStAMStAMStAM
         StAMStAb9Ge1vYsZrA3oCLhIfAAGrqxbfUsZCn4A3gGuSDnAQXbcK/7izYmOQ7wjv6G+Z/wF8xZ8qwYj
         tkcoZgtLakpBT7DIPK4ZijthlCcNfOBdx/G9QfHBjPKkgQbdxvEAdM+kapOpVxnEKfbSoCXh+B9MewbN
@@ -155,7 +155,7 @@
   <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwgAAAJuCAIAAACbvbKzAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAA/5RJREFUeF7snQeAHGX9v9+Z
+        vAAADrwBlbxySQAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAA/5RJREFUeF7snQeAHGX9v9+Z
         2d2r6YEQIHSkhtBEAanCT2kJCQkJHVFBQQXEiiiIYKPbFRVUUOlVKdJDJ73cXe4u13vfvjvt+/+87zu3
         uVQ2yd5l5v7vw8ve7My7s/PO9y1PZmZnGO0IXNeVE6lUyjRNx3Hk24CC4uRAiXIz5UTQyWQy6XTatm3v
         fZCRMUJ9Q60LasVDtXLwH2Xk2yxRVWfl179VOWP/Zccc3X399TTQTk4iLZYg2wa18NYf09gxLjOIaWRo
@@ -2965,7 +2965,7 @@ Entonces, el dominio de x es: “Todos los valores reales de x“</value>
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGUAAAAkCAYAAACQePQGAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAAv1JREFUaEPtmoFxnDAQRV2Ca3AJrsEluAaX4B5cgmtICanBJbiGlHB5XwLCSV8C
+        vAAADrwBlbxySQAAAv1JREFUaEPtmoFxnDAQRV2Ca3AJrsEluAaX4B5cgmtICanBJbiGlHB5XwLCSV8C
         MXceIPoz78LtcgOjj1ZinYfL5dJZAXqEN/hy+Vtig51r0MtgyDt8u3NuiQ12POi1m7Izuik7pJuyQ7op
         O6SbskO6KTvkEKagRxcv0Xr+3kAy5Y/L3RIbFEgvSx/wXsgr12qKXr6eXG7PoOfh3r9AgeK43AIfjC2F
         b9DNZE8G0g0+p/E1oF8u3vmHD8ZB/wSZ85rknmDzwCIZ/eFynYgPxml6ZcYsp6m7aZaMoN8u3olcfxme

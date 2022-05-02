@@ -38,28 +38,28 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ControlAgTED = new AxDoubleAgentCtl.AxDaControl();
             this.label4 = new System.Windows.Forms.Label();
-            this.SolucionEj2 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.BtnSolucionEj2 = new System.Windows.Forms.Button();
-            this.BtnSiguientEj = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.SolucionEj2 = new System.Windows.Forms.GroupBox();
             this.SolucionEj1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).BeginInit();
-            this.SolucionEj2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.SolucionEj2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(296, 13);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(568, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 13);
+            this.label1.Size = new System.Drawing.Size(266, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ejemplos de Dominio y Rango";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -139,7 +139,7 @@
             // ControlAgTED
             // 
             this.ControlAgTED.Enabled = true;
-            this.ControlAgTED.Location = new System.Drawing.Point(699, 13);
+            this.ControlAgTED.Location = new System.Drawing.Point(840, 13);
             this.ControlAgTED.Name = "ControlAgTED";
             this.ControlAgTED.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ControlAgTED.OcxState")));
             this.ControlAgTED.Size = new System.Drawing.Size(32, 32);
@@ -156,31 +156,6 @@
             this.label4.Text = "Calcular el dominio de las funciones radicales:\r\n";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // SolucionEj2
-            // 
-            this.SolucionEj2.BackColor = System.Drawing.Color.LightGray;
-            this.SolucionEj2.Controls.Add(this.pictureBox9);
-            this.SolucionEj2.Controls.Add(this.label6);
-            this.SolucionEj2.Location = new System.Drawing.Point(90, 367);
-            this.SolucionEj2.Name = "SolucionEj2";
-            this.SolucionEj2.Size = new System.Drawing.Size(414, 110);
-            this.SolucionEj2.TabIndex = 12;
-            this.SolucionEj2.TabStop = false;
-            this.SolucionEj2.Text = "Respuesta";
-            this.SolucionEj2.Visible = false;
-            this.SolucionEj2.Enter += new System.EventHandler(this.SolucionEj2_Enter);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(7, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(388, 24);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Las raíces de x² – 5x + 6 = 0 son x = 2 y x = 3.";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // BtnSolucionEj2
             // 
             this.BtnSolucionEj2.AutoEllipsis = true;
@@ -191,16 +166,6 @@
             this.BtnSolucionEj2.Text = "SOLUCION";
             this.BtnSolucionEj2.UseVisualStyleBackColor = true;
             this.BtnSolucionEj2.Click += new System.EventHandler(this.BtnSolucionEj2_Click);
-            // 
-            // BtnSiguientEj
-            // 
-            this.BtnSiguientEj.Location = new System.Drawing.Point(894, 21);
-            this.BtnSiguientEj.Name = "BtnSiguientEj";
-            this.BtnSiguientEj.Size = new System.Drawing.Size(75, 34);
-            this.BtnSiguientEj.TabIndex = 13;
-            this.BtnSiguientEj.Text = "Siguientes Ejemplos";
-            this.BtnSiguientEj.UseVisualStyleBackColor = true;
-            this.BtnSiguientEj.Click += new System.EventHandler(this.BtnSiguientEj_Click);
             // 
             // pictureBox7
             // 
@@ -220,6 +185,17 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(7, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(388, 24);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Las raíces de x² – 5x + 6 = 0 son x = 2 y x = 3.";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
@@ -229,13 +205,26 @@
             this.pictureBox9.TabIndex = 14;
             this.pictureBox9.TabStop = false;
             // 
+            // SolucionEj2
+            // 
+            this.SolucionEj2.BackColor = System.Drawing.Color.LightGray;
+            this.SolucionEj2.Controls.Add(this.pictureBox9);
+            this.SolucionEj2.Controls.Add(this.label6);
+            this.SolucionEj2.Location = new System.Drawing.Point(90, 367);
+            this.SolucionEj2.Name = "SolucionEj2";
+            this.SolucionEj2.Size = new System.Drawing.Size(414, 110);
+            this.SolucionEj2.TabIndex = 12;
+            this.SolucionEj2.TabStop = false;
+            this.SolucionEj2.Text = "Respuesta";
+            this.SolucionEj2.Visible = false;
+            this.SolucionEj2.Enter += new System.EventHandler(this.SolucionEj2_Enter);
+            // 
             // EjercicioDom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(1004, 630);
-            this.Controls.Add(this.BtnSiguientEj);
             this.Controls.Add(this.SolucionEj2);
             this.Controls.Add(this.BtnSolucionEj2);
             this.Controls.Add(this.pictureBox7);
@@ -254,11 +243,11 @@
             this.SolucionEj1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ControlAgTED)).EndInit();
-            this.SolucionEj2.ResumeLayout(false);
-            this.SolucionEj2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.SolucionEj2.ResumeLayout(false);
+            this.SolucionEj2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,10 +266,9 @@
         private AxDoubleAgentCtl.AxDaControl ControlAgTED;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.GroupBox SolucionEj2;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button BtnSolucionEj2;
-        private System.Windows.Forms.Button BtnSiguientEj;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.GroupBox SolucionEj2;
     }
 }

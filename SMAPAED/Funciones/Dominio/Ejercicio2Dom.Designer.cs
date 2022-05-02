@@ -73,7 +73,7 @@
             this.SolucionEj2.Controls.Add(this.pictureBox8);
             this.SolucionEj2.Controls.Add(this.label5);
             this.SolucionEj2.Controls.Add(this.label6);
-            this.SolucionEj2.Location = new System.Drawing.Point(96, 276);
+            this.SolucionEj2.Location = new System.Drawing.Point(96, 382);
             this.SolucionEj2.Name = "SolucionEj2";
             this.SolucionEj2.Size = new System.Drawing.Size(853, 205);
             this.SolucionEj2.TabIndex = 21;
@@ -134,7 +134,7 @@
             // BtnSolucionEj2
             // 
             this.BtnSolucionEj2.AutoEllipsis = true;
-            this.BtnSolucionEj2.Location = new System.Drawing.Point(15, 266);
+            this.BtnSolucionEj2.Location = new System.Drawing.Point(15, 372);
             this.BtnSolucionEj2.Name = "BtnSolucionEj2";
             this.BtnSolucionEj2.Size = new System.Drawing.Size(75, 23);
             this.BtnSolucionEj2.TabIndex = 20;
@@ -146,7 +146,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(11, 243);
+            this.label4.Location = new System.Drawing.Point(11, 349);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(324, 20);
             this.label4.TabIndex = 18;
@@ -172,7 +172,7 @@
             this.SolucionEj1.Controls.Add(this.label3);
             this.SolucionEj1.Controls.Add(this.pictureBox2);
             this.SolucionEj1.Controls.Add(this.label2);
-            this.SolucionEj1.Location = new System.Drawing.Point(96, 36);
+            this.SolucionEj1.Location = new System.Drawing.Point(96, 106);
             this.SolucionEj1.Name = "SolucionEj1";
             this.SolucionEj1.Size = new System.Drawing.Size(853, 192);
             this.SolucionEj1.TabIndex = 16;
@@ -256,7 +256,7 @@
             // BtnSolucion
             // 
             this.BtnSolucion.AutoEllipsis = true;
-            this.BtnSolucion.Location = new System.Drawing.Point(15, 36);
+            this.BtnSolucion.Location = new System.Drawing.Point(15, 106);
             this.BtnSolucion.Name = "BtnSolucion";
             this.BtnSolucion.Size = new System.Drawing.Size(75, 23);
             this.BtnSolucion.TabIndex = 15;
@@ -268,7 +268,7 @@
             // 
             this.Ejemplo1.AutoSize = true;
             this.Ejemplo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejemplo1.Location = new System.Drawing.Point(11, 13);
+            this.Ejemplo1.Location = new System.Drawing.Point(11, 83);
             this.Ejemplo1.Name = "Ejemplo1";
             this.Ejemplo1.Size = new System.Drawing.Size(324, 20);
             this.Ejemplo1.TabIndex = 13;
@@ -278,7 +278,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(342, 234);
+            this.pictureBox7.Location = new System.Drawing.Point(342, 340);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 40);
             this.pictureBox7.TabIndex = 19;
@@ -287,7 +287,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(341, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(341, 83);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 31);
             this.pictureBox1.TabIndex = 14;
@@ -297,6 +297,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(1004, 630);
             this.Controls.Add(this.SolucionEj2);
             this.Controls.Add(this.BtnSolucionEj2);

@@ -121,7 +121,7 @@
   <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgsAAAAbCAYAAADyFsx8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAACgBJREFUeF7tnI214zQQRimBGiiBGiiBGiiBHiiBGiiBGiiBGihhudfIRtaPrSSO
+        vwAADr8BOAVTJAAACgBJREFUeF7tnI214zQQRimBGiiBGiiBGiiBHiiBGiiBGiiBGihhudfIRtaPrSSO
         45fMd871i0eyZcsz0ljJ7nffvn0LgiAIgiDo0jQGwatBfzRsv2afv4ef4c+izo/waypb6qey3/L9IAiC
         YIymMQheiZM8/NWwfZ/tmwxIWW9JHtAvku2bYKwSiCAIgmCfpjEIXgX6AVZJAHKS/z2vl+zWzev9BMuK
         BHKVoVx5+B2WpCMIPhlUxktzVS4ImsbgvRkdFHr10J/wQ1432Z2Iresk7ueqzh7I1QCTgzwJ0PZzXi/Z
@@ -196,7 +196,7 @@ es compuesto al año y t es el tiempo en años.Usando los datos dados, tenemos:
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAALIAAAAaCAYAAAATxQbrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAABOdJREFUeF7tmo1V5SAQhS3BGrYEa7CErWFLsAdLsAZLsAZLsAZLeHs/AjiEgSTv
+        vwAADr8BOAVTJAAABOdJREFUeF7tmo1V5SAQhS3BGrYEa7CErWFLsAdLsAZLsAZLsAZLeHs/AjiEgSTv
         Hc2PuefcFxgmP8BlmETvLpfLyQNTeBL/pqPnk9jzFe6j/Z/4wtG2Wwp/xGdT55yHaM+059xK13jyGBQQ
         3KOpv4oP1se0dX1jPYtP4Cf7Wwpv4oupf4gUxrTXQ9xvqb6UrvHkMSjoUNRDNLU206ZDUS98hXdspv4p
         PqW6sT+KLAp7buEnINoiolMX3WebQ9d4cnsUFm3FAoL6HNkQy4e1Rfts39hGmkGhiu4C55GCWCEXzy7k
@@ -223,7 +223,7 @@ es compuesto al año y t es el tiempo en años.Usando los datos dados, tenemos:
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlEAAABdCAYAAACFITOMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAGBJJREFUeF7tnQm17DYWRQMhGAIhGBpCYwiEcAiEYGgIwdAQGkMg/D7bT3I8XNny
+        vwAADr8BOAVTJAAAGBJJREFUeF7tnQm17DYWRQMhGAIhGBpCYwiEcAiEYGgIwdAQGkMg/D7bT3I8XNny
         LNc7Z63tUl3LLg8arga7fvrx44cxxhhzCOln8Yf4U/yV+HcUF6TfBfH5ZJt/RfEgxXk0rjERodEYY4yp
         RcKB+nNi+5cgMLKndf8Rv09sodMlPR7XmBKh0RhjjKlFojfn54KdQN/DQxhb/j6x/x3YFHwurjFLhEZj
         jDGmFul/ENg7Z0X8MbAxbPbfYbzBOhZDh+vxuMYsERqNMcaYWiSGwSIn6ldBoB/Sk/4W/xnGG6xjMXS4

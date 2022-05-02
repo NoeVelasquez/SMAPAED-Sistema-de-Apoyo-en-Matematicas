@@ -35,12 +35,7 @@ namespace SMAPAED.Funciones
             Avatar.MoveTo(690, 7, 1);
             Avatar.Speak("Podemos ver el primer ejercicio de dominios");
 
-            Avatar.MoveTo(680, 7, 1);
-            Avatar.Speak("Dominio: La función f de X igual a x elevado al cuadrado mas uno está definida para todos " + "" +
-                "los valores reales de x ya que no hay restricciones en el valor de x." +
-                "Entonces, el dominio de x es: Todos los valores reales de x");
-            Avatar.Speak("Rango: Dado que x elevado al cuadrado nunca es negativo, x elevado al cuadrado mas uno nunca es menor que 1. " +
-                "Entonces, el rango de f(x) es:");
+            
         }
 
         private void pictureBox12_Click(object sende)
